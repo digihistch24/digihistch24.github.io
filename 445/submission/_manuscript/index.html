@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.46">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Laura Bitterli">
+<meta name="author" content="Lorenz Dändliker">
+<meta name="dcterms.date" content="2024-07-26">
+<meta name="keywords" content="ATR, Online Learning, Digital Literacy, Ad fontes, Paleography">
+
+<title>Teaching the use of Automated Text Recognition online. Ad fontes goes ATR</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+
+
+<meta name="citation_title" content="Teaching the use of Automated Text Recognition online. Ad fontes goes ATR">
+<meta name="citation_abstract" content="Ad fontes, a popular e-learning platform for handling archival sources provided by the University of Zurich, is currently being expanded to include Automated Text Recognition (ATR) modules, enhancing its wealth of already available exercises, resources, and introductions. At the conference, we will present our ideas for this ATR teaching module. Working with automatically recognized text is complex and requires much effort from interested researchers, who often must familiarise themselves with the subject on their own. To reduce this initial workload, the DIZH-funded project PATT is now developing a new Ad fontes module to train students, researchers, and other interested parties (e.g., citizen scientists) in the use of ATR, looking at this new set of tools in combination with conventional qualitative methods of source processing. ATR has significantly improved in recent years. However, many non-standardised fonts and layouts still result in high error rates, which is why it is essential to clean up the data by hand and reflect on how and when to use ATR, as well as to get an idea of where to look for potential errors. The transcription practice and, more general, the work with archival sources today occurs at the intersection of analogue and digital skills. An ATR teaching module, therefore, must not only explain how and when to use automated recognition the most effectively but also teach techniques on how to proceed with the ATR output and how to reflect on data produced and the process used.">
+<meta name="citation_keywords" content="ATR,Online Learning,Digital Literacy,Ad fontes,Paleography">
+<meta name="citation_author" content="Laura Bitterli">
+<meta name="citation_author" content="Lorenz Dändliker">
+<meta name="citation_publication_date" content="2024-07-26">
+<meta name="citation_cover_date" content="2024-07-26">
+<meta name="citation_year" content="2024">
+<meta name="citation_online_date" content="2024-07-26">
+<meta name="citation_language" content="en">
+<meta name="citation_reference" content="citation_title=Grundlagen der mediävistik digital vermitteln: ‚Ad fontes‘, aber wie?;,citation_author=Tobias Hodel;,citation_author=Michael Nadig;,citation_publication_date=2019;,citation_cover_date=2019;,citation_year=2019;,citation_fulltext_html_url=https://doi.org/10.1515/mial-2019-0010;,citation_issue=1;,citation_doi=doi:10.1515/mial-2019-0010;,citation_volume=24;,citation_journal_title=Das Mittelalter;">
+<meta name="citation_reference" content="citation_title=General models for handwritten text recognition: Feasibility and state-of-the art. German kurrent as an example;,citation_abstract=Existing text recognition engines enables to train general models to recognize not only one specific hand but a multitude of historical hands within a particular script, and from a rather large time period (more than 100 years). This paper compares different text recognition engines and their performance on a test set independent of the training and validation sets. We argue that both, test set and ground truth, should be made available by researchers as part of a shared task to allow for the comparison of engines. This will give insight into the range of possible options for institutions in need of recognition models. As a test set, we provide a data set consisting of 2,426 lines which have been randomly selected from meeting minutes of the Swiss Federal Council from 1848 to 1903. To our knowledge, neither the aforementioned text lines, which we take as ground truth, nor the multitude of different hands within this corpus have ever been used to train handwritten text recognition models. In addition, the data set used is perfect for making comparisons involving recognition engines and large training sets due to its variability and the time frame it spans. Consequently, this paper argues that both the tested engines, HTR+ and PyLaia, can handle large training sets. The resulting models have yielded very good results on a test set consisting of unknown but stylistically similar hands.;,citation_author=Tobias Hodel;,citation_author=David Schoch;,citation_author=Christa Schneider;,citation_author=Jake Purcell;,citation_publication_date=2021-07;,citation_cover_date=2021-07;,citation_year=2021;,citation_doi=10.5334/johd.46;,citation_journal_title=Journal of Open Humanities Data;">
+<meta name="citation_reference" content="citation_title=Ad fontes. Zu konzept, realisierung und nutzung eines e-learning-angebots. zürich;,citation_author=Andreas Kränzle;,citation_author=Gerold Ritter;,citation_publication_date=2004;,citation_cover_date=2004;,citation_year=2004;,citation_fulltext_html_url=https://www.zora.uzh.ch/id/eprint/163194/1/20050043.pdf;,citation_dissertation_institution=Universität Zürich;">
+<meta name="citation_reference" content="citation_title=TrOCR: Transformer-based optical character recognition with pre-trained models;,citation_author=Minghao Li;,citation_author=Tengchao Lv;,citation_author=Jingye Chen;,citation_author=Lei Cui;,citation_author=Yijuan Lu;,citation_author=Dinei Florencio;,citation_author=Cha Zhang;,citation_author=Zhoujun Li;,citation_author=Furu Wei;,citation_publication_date=2022;,citation_cover_date=2022;,citation_year=2022;,citation_fulltext_html_url=https://arxiv.org/abs/2109.10282;">
+<meta name="citation_reference" content="citation_title=Transforming scholarship in the archives through handwritten text recognition;,citation_abstract=Purpose An overview of the current use of handwritten text recognition (HTR) on archival manuscript material, as provided by the EU H2020 funded Transkribus platform. It explains HTR, demonstrates Transkribus, gives examples of use cases, highlights the affect HTR may have on scholarship, and evidences this turning point of the advanced use of digitised heritage content. The paper aims to discuss these issues. Design/methodology/approach This paper adopts a case study approach, using the development and delivery of the one openly available HTR platform for manuscript material. Findings Transkribus has demonstrated that HTR is now a useable technology that can be employed in conjunction with mass digitisation to generate accurate transcripts of archival material. Use cases are demonstrated, and a cooperative model is suggested as a way to ensure sustainability and scaling of the platform. However, funding and resourcing issues are identified. Research limitations/implications The paper presents results from projects: further user studies could be undertaken involving interviews, surveys, etc. Practical implications Only HTR provided via Transkribus is covered: however, this is the only publicly available platform for HTR on individual collections of historical documents at time of writing and it represents the current state-of-the-art in this field. Social implications The increased access to information contained within historical texts has the potential to be transformational for both institutions and individuals. Originality/value This is the first published overview of how HTR is used by a wide archival studies community, reporting and showcasing current application of handwriting technology in the cultural heritage sector.;,citation_author=Guenter Muehlberger;,citation_author=Louise Seaward;,citation_author=Melissa Terras;,citation_author=Sofia Ares Oliveira;,citation_author=Vicente Bosch;,citation_author=Maximilian Bryan;,citation_author=Sebastian Colutto;,citation_author=Hervé Déjean;,citation_author=Markus Diem;,citation_author=Stefan Fiel;,citation_author=Basilis Gatos;,citation_author=Albert Greinoecker;,citation_author=Tobias Grüning;,citation_author=Guenter Hackl;,citation_author=Vili Haukkovaara;,citation_author=Gerhard Heyer;,citation_author=Lauri Hirvonen;,citation_author=Tobias Hodel;,citation_author=Matti Jokinen;,citation_author=Philip Kahle;,citation_author=Mario Kallio;,citation_author=Frederic Kaplan;,citation_author=Florian Kleber;,citation_author=Roger Labahn;,citation_author=Eva Maria Lang;,citation_author=Sören Laube;,citation_author=Gundram Leifert;,citation_author=Georgios Louloudis;,citation_author=Rory McNicholl;,citation_author=Jean-Luc Meunier;,citation_author=Johannes Michael;,citation_author=Elena Mühlbauer;,citation_author=Nathanael Philipp;,citation_author=Ioannis Pratikakis;,citation_author=Joan Puigcerver Pérez;,citation_author=Hannelore Putz;,citation_author=George Retsinas;,citation_author=Verónica Romero;,citation_author=Robert Sablatnig;,citation_author=Joan Andreu Sánchez;,citation_author=Philip Schofield;,citation_author=Giorgos Sfikas;,citation_author=Christian Sieber;,citation_author=Nikolaos Stamatopoulos;,citation_author=Tobias Strauß;,citation_author=Tamara Terbul;,citation_author=Alejandro Héctor Toselli;,citation_author=Berthold Ulreich;,citation_author=Mauricio Villegas;,citation_author=Enrique Vidal;,citation_author=Johanna Walcher;,citation_author=Max Weidemann;,citation_author=Herbert Wurster;,citation_author=Konstantinos Zagoris;,citation_publication_date=2019-01-01;,citation_cover_date=2019-01-01;,citation_year=2019;,citation_fulltext_html_url=https://doi.org/10.1108/JD-07-2018-0114;,citation_issue=5;,citation_doi=10.1108/JD-07-2018-0114;,citation_issn=0022-0418;,citation_volume=75;,citation_journal_title=Journal of Documentation;">
+<meta name="citation_reference" content="citation_title=The adaptability of a transformer-based OCR model for historical documents;,citation_abstract=We tested the capabilities of Transformer-based text recognition technology when dealing with (multilingual) real-world datasets. This is a crucial aspect for libraries and archives that must digitise various sources. The digitisation process cannot rely solely on manual transcription due to the complexity and diversity of historical materials. Therefore, text recognition models must be able to adapt to various printed texts and manuscripts, especially regarding different handwriting styles. Our findings demonstrate that Transformer-based models can recognise text from printed and handwritten documents, even in multilingual environments. These models require minimal training data and are a suitable solution for digitising libraries and archives. However, it is essential to note that the quality of the recognised text can be affected by the handwriting style.;,citation_author=Phillip Benjamin Ströbel;,citation_author=Tobias Hodel;,citation_author=Walter Boente;,citation_author=Martin Volk;,citation_editor=Mickael Coustaty;,citation_editor=Alicia Fornés;,citation_publication_date=2023;,citation_cover_date=2023;,citation_year=2023;,citation_isbn=978-3-031-41498-5;,citation_conference_title=Document analysis and recognition – ICDAR 2023 workshops;,citation_conference=Springer Nature Switzerland;">
+<meta name="citation_reference" content="citation_title=Ad fontes. Eine einführung in den umgang mit quellen im archiv;,citation_author=Ad Fontes;,citation_publication_date=2018;,citation_cover_date=2018;,citation_year=2018;,citation_fulltext_html_url=https://www.adfontes.uzh.ch;">
+<meta name="citation_reference" content="citation_title=Potentials of advanced text technologies: Machine learning-based text recognition (PATT);,citation_author=undefined UZH;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://www.hist.uzh.ch/de/fachbereiche/mittelalter/lehrstuehle/teuscher/forschung/projekte/PATT.html;">
+</head>
+
+<body>
+
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Teaching the use of Automated Text Recognition online. Ad fontes goes ATR</h1>
+          </div>
+
+    
+    <div class="quarto-title-meta-container">
+      <div class="quarto-title-meta-column-start">
+            <div class="quarto-title-meta-author">
+          <div class="quarto-title-meta-heading">Authors</div>
+          <div class="quarto-title-meta-heading">Affiliation</div>
+          
+                <div class="quarto-title-meta-contents">
+            <p class="author">Laura Bitterli <a href="mailto:laura.bitterli@hist.uzh.ch" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        University of Zurich
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Lorenz Dändliker <a href="mailto:lorenz.daendliker@uzh.ch" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        University of Zurich
+                      </p>
+                  </div>
+                    </div>
+        
+        <div class="quarto-title-meta">
+
+                      
+                <div>
+            <div class="quarto-title-meta-heading">Published</div>
+            <div class="quarto-title-meta-contents">
+              <p class="date">July 26, 2024</p>
+            </div>
+          </div>
+          
+                
+              </div>
+      </div>
+      <div class="quarto-title-meta-column-end quarto-other-formats-target">
+      </div>
+    </div>
+
+    <div>
+      <div class="abstract">
+        <div class="block-title">Abstract</div>
+        Ad fontes, a popular e-learning platform for handling archival sources provided by the University of Zurich, is currently being expanded to include Automated Text Recognition (ATR) modules, enhancing its wealth of already available exercises, resources, and introductions. At the conference, we will present our ideas for this ATR teaching module. Working with automatically recognized text is complex and requires much effort from interested researchers, who often must familiarise themselves with the subject on their own. To reduce this initial workload, the DIZH-funded project PATT is now developing a new Ad fontes module to train students, researchers, and other interested parties (e.g., citizen scientists) in the use of ATR, looking at this new set of tools in combination with conventional qualitative methods of source processing. ATR has significantly improved in recent years. However, many non-standardised fonts and layouts still result in high error rates, which is why it is essential to clean up the data by hand and reflect on how and when to use ATR, as well as to get an idea of where to look for potential errors. The transcription practice and, more general, the work with archival sources today occurs at the intersection of analogue and digital skills. An ATR teaching module, therefore, must not only explain how and when to use automated recognition the most effectively but also teach techniques on how to proceed with the ATR output and how to reflect on data produced and the process used.
+      </div>
+    </div>
+
+    <div>
+      <div class="keywords">
+        <div class="block-title">Keywords</div>
+        <p>ATR, Online Learning, Digital Literacy, Ad fontes, Paleography</p>
+      </div>
+    </div>
+
+    <div class="quarto-other-links-text-target">
+    </div>  </div>
+</header><div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#teaching-atr-online-the-setting" id="toc-teaching-atr-online-the-setting" class="nav-link" data-scroll-target="#teaching-atr-online-the-setting">Teaching ATR online – the setting</a></li>
+  <li><a href="#when-and-how-to-use-atr-for-a-specific-project" id="toc-when-and-how-to-use-atr-for-a-specific-project" class="nav-link" data-scroll-target="#when-and-how-to-use-atr-for-a-specific-project">When and how to use ATR for a specific project</a></li>
+  <li><a href="#our-difficulties" id="toc-our-difficulties" class="nav-link" data-scroll-target="#our-difficulties">Our difficulties</a></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+  
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Scholars and interested laypeople who want to adequately deal with historical topics or generally extract information from differently structured historical documents need both knowledge of old scripts and methods for analysing complex layouts. Studies of written artefacts are only possible if they can be read at all – written in unfamiliar scripts such as Gothic Cursive, Humanist Minuscule or German Kurrent and sometimes with rather unconventional layouts. Until now, the relevant skills have been developed, for example, by the highly specialised field of palaeography. In the last few years, a shift in practice has taken place. With digital transcription tools based on deep learning models trained to read these old scripts and accompanying layouts on the rise, working with old documents or unusual layouts is becoming easier and quicker. However, using the corresponding software and platforms can still be intimidating. Users need to have a particular understanding of how to approach working with Automated Text Recognition (ATR) depending on their projects aims. This is why the Ad fontes platform <span class="citation" data-cites="noauthor_ad_2018">(<a href="#ref-noauthor_ad_2018" role="doc-biblioref">Ad Fontes 2018</a>)</span> is currently developing an e-learning module that introduces students, researchers, and other interested users (e.g.&nbsp;citizen scientists) to ATR, its use cases, and best practices in general and more specifically into how exactly they can use ATR for their papers and projects.</p>
+</section>
+<section id="teaching-atr-online-the-setting" class="level2">
+<h2 class="anchored" data-anchor-id="teaching-atr-online-the-setting">Teaching ATR online – the setting</h2>
+<p>Digital methods allow a more comprehensive range of users to assign, analyse and interpret sources digitally. This increased availability of data (mainly in the form of digitized images) also protects the original documents. Recognising handwriting with the help of machine learning, known as ATR, has been greatly improved and is becoming increasingly important in various disciplines. Machine learning methods, especially deep learning, have been used for complex evaluation decisions for a number of years.<span class="citation" data-cites="muehlberger_transforming_2019">(<a href="#ref-muehlberger_transforming_2019" role="doc-biblioref">Muehlberger et al. 2019</a>)</span> For text recognition, especially for recognising handwriting, ATR can achieve far better results than conventional Optical Character Recognition (OCR). However, many non-standardised fonts and layouts will lead to high error rates in the recognition processes, which is why it is essential to clean up data manually. The reading order of individual lines or blocks of text, in particular, poses major challenges for machine transcription tools.</p>
+<p>Even ATR itself presents several hurdles; the existing tools are often only intuitive to use to a limited extent. Due to the error rates described above, cleaning up the automatically recognized texts by hand is essential. New users must familiarise themselves with these processes, whether this is on their own at home or in a mentored university or non-academic course. In addition, text recognition itself is only part of the learning curve: to work independently with ATR, it is also necessary to recognise when which form of text and layout recognition makes sense, where it is worth investing time to save more time later on and how to proceed with the output. For these reasons, the ongoing DIZH project PATT (Potentials of Advanced Text Technologies: Machine Learning-based Text Recognition)<span class="citation" data-cites="noauthor_potentials_2024">(<a href="#ref-noauthor_potentials_2024" role="doc-biblioref">UZH 2024</a>)</span> at the University of Zurich and the Zurich University of Applied Sciences is currently developing an open-source e-learning module teaching students, young researchers, and the interested public (in the sense of citizen science) how to use ATR.</p>
+<p>Developing an exhaustive learning module is a desideratum, as many researchers working in history or linguistics today want to work with automated text and layout recognition. This complex digital skill set involves the critical categorisation of the machine’s feedback. Although the steps involved in manuscript reading are becoming more efficient, they also require new skills: the work no longer centres on direct engagement with handwriting or print, but on the efficient and task-appropriate correction of the results of automated text and layout recognition, often bringing in the original sources later in for a combined distant and close reading.</p>
+<p>The learning module will be published on Ad fontes. This e-learning tool has been helping researchers to prepare for their work in the archive for around 20 years.<span class="citation" data-cites="kranzle_ad_2004">(<a href="#ref-kranzle_ad_2004" role="doc-biblioref">Kränzle and Ritter 2004</a>)</span> It consists of exercises and tutorials that introduce researchers to different types of sources and techniques used to transcribe and analyse them. The platform was completely revised in autumn 2018, meets current standards, and is designed to be interactive to provide a good learning experience.<span class="citation" data-cites="hodel_grundlagen_2019">(<a href="#ref-hodel_grundlagen_2019" role="doc-biblioref">Hodel and Nadig 2019</a>)</span> The platform has attracted a great deal of attention, both within Switzerland and internationally. Ad fontes’ open access policy (modules are published under a Creative Commons license) ensures that the new module will not be hidden behind a paywall or disappear from the WWW after a short time. The Ad fontes e-learning project is based at the Chair of Medieval History of Prof.&nbsp;Dr.&nbsp;Simon Teuscher.</p>
+</section>
+<section id="when-and-how-to-use-atr-for-a-specific-project" class="level2">
+<h2 class="anchored" data-anchor-id="when-and-how-to-use-atr-for-a-specific-project">When and how to use ATR for a specific project</h2>
+<p>Clear target groups and precise learning objectives have been defined for the learning module. As a first step in this direction, we involved experts in the PATT project, defining the following two target groups: First, people with no experience with ATR and the corresponding software and platforms; second, scholars who are already informed about the principles but would like to expand their knowledge systematically and targeted. Our general learning objective is to convey how ATR can be used in a time-efficient, project-specific manner without the recognition process becoming a time waster.</p>
+<p>The new e-learning module will consist of three parts: (1) What and why ATR?, (2) When is ATR useful? (3) How do I use ATR precisely for my work? The first chapter leads new users into the topic of ATR, OCR and HTR (Handwritten Text Recognition), deep learning, and the most prominent platforms and software. The second chapter draws up various application scenarios a student could find themselves in by showing best practices. This chapter speaks on the research aims as well as the ‘quality’ and quantity of sources. The third chapter is based on these application scenarios and shows signposts for each of the identified applications.</p>
+<p>Chapters 2 and 3 will contain the project’s greatest contributions: The aim is to show, from the perspective of historical scholarship, how the prerequisites of the corpora used and the project’s own objective influence how we can use ATR sensibly. From a research perspective, the usefulness of using ATR in this way can be determined primarily by whether it saves time when cataloguing and reading documents. For example, if there are many different manuscripts in a corpus, it is more or less time-efficient, depending on the number of documents, to find a suitable HTR model with a low error rate or to, alternatively, train a model independently. Correction and production of ground truths is a factor to be considered. The amount of text to be transcribed plays a decisive role at this stage: If only a few pages need to be transcribed (depending on the size of the project, “a few” could be 5 or 100), a manual transcription often makes more sense. What constitutes a “good” transcription also varies depending on the research requirements of the corpus: If only individual sections (e.g., certain persons or concepts) in a larger corpus are of interest for the research question, a transcription with a character error rate (CER) of up to 10% may be sufficient to identify those text passages (e.g., with keyword spotting or full text search). Being able to quickly filter out relevant text passages from imperfectly transcribed text volumes promises a relevant expansion of the source base that can potentially be considered, even for smaller research projects. If your own research question is interested in the entire text – a close-reading – a significantly lower CER is necessary to be able to read the text. Both, when it comes to identifying relevant text passages and when analysing smaller text parts for close reading, the reading skills of ATR users are still indispensable, as specific parts of a digitized image need to be consulted. However, also here ATR can be very useful as a first step in a larger process.</p>
+<p>We use a spider diagram model to communicate the various influences on the benefits of ATR for your own project. This provides a visual representation of various factors that influence work with ATR. The four factors we identified are: (1) the heterogeneity of hands, i.e.&nbsp;the variety of handwriting in the texts; (2) the amount of text; (3) the method, this refers to the types of analysis distant reading and close reading on a sliding scale; (4) the research question; respectively its narrowness or breadth.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/SpiderDiagrammATR.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Our model showing identified factors for the use of ATR in historical projects"><img src="images/SpiderDiagrammATR.png" class="img-fluid figure-img" alt="Our model showing identified factors for the use of ATR in historical projects"></a></p>
+<figcaption>Our model showing identified factors for the use of ATR in historical projects</figcaption>
+</figure>
+</div>
+<p>A high heterogeneity of handwriting could affect the accuracy of ATR as the recognition software might have difficulties to recognize the text consistently. A higher degree of heterogeneity requires a broader model based on larger amount of training data.<span class="citation" data-cites="hodel_general_2021">(<a href="#ref-hodel_general_2021" role="doc-biblioref">Hodel et al. 2021</a>)</span> Large amounts of text often mean that ATR needs to be able to work efficiently and scalable to process large amounts of data. For small amounts of text, the focus could be on the level of detail of the recognition or more manual correction. A close reading would require a more precise and detailed analysis of the texts, which means that the ATR models must be accurate and able to recognize fine details, while distant reading focuses more on the recognition of patterns and trends. A broad research question might require a general analysis of many texts, which means that the ATR models should be versatile and robust (e.g.&nbsp;based on TrOCR models)<span class="citation" data-cites="li_trocr_2022">(<a href="#ref-li_trocr_2022" role="doc-biblioref">Li et al. 2022</a>)</span>. A specific research question might mean the ATR must focus on specific details and accurate detections. In summary, working with ATR requires a careful balance between the quantity and type of texts, the desired accuracy and detail of the analysis, and the heterogeneity of the manuscripts to be analysed. The diagram helps to organise these factors visually and to understand their interactions.</p>
+</section>
+<section id="our-difficulties" class="level2">
+<h2 class="anchored" data-anchor-id="our-difficulties">Our difficulties</h2>
+<p>We have already recognised some difficulties for our module and would like to address them briefly: The fast-moving nature of tools and products prevents us from providing precise instructions and means that we can only provide a general introduction to the technology rather than the software(-suites) themselves. Some of this software requires licence or operates on a pay-per-use basis and is therefore not a viable option for everyone. When referring to these products, our open-source teaching module also provides free advertising for paid tools. On the other hand, free tools have disadvantages, which means they are not helpful in all cases. We, therefore, must find a good balance between these two poles. In the technical realisation of our teaching module, we are limited by the options developed during the relaunch. We, therefore, must develop our teaching module within the structures of the existing options. We would furthermore like to set up a FAQ page on ATR, but this requires us to be able to collect and identify these problems and questions systematically.</p>
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-noauthor_ad_2018" class="csl-entry" role="listitem">
+Ad Fontes. 2018. <span>“Ad <span class="nocase">f</span>ontes. Eine Einführung <span class="nocase">i</span>n <span class="nocase">d</span>en Umgang <span class="nocase">m</span>it Quellen <span class="nocase">i</span>m Archiv.”</span> 2018. <a href="https://www.adfontes.uzh.ch">https://www.adfontes.uzh.ch</a>.
+</div>
+<div id="ref-hodel_grundlagen_2019" class="csl-entry" role="listitem">
+Hodel, Tobias, and Michael Nadig. 2019. <span>“Grundlagen <span class="nocase">d</span>er Mediävistik <span class="nocase">d</span>igital <span class="nocase">v</span>ermitteln: ‚Ad <span class="nocase">f</span>ontes‘, <span class="nocase">a</span>ber <span class="nocase">w</span>ie?”</span> <em>Das Mittelalter</em> 24 (1): 142–56. <a href="https://doi.org/doi:10.1515/mial-2019-0010">https://doi.org/doi:10.1515/mial-2019-0010</a>.
+</div>
+<div id="ref-hodel_general_2021" class="csl-entry" role="listitem">
+Hodel, Tobias, David Schoch, Christa Schneider, and Jake Purcell. 2021. <span>“General Models for Handwritten Text Recognition: Feasibility and State-of-the Art. German Kurrent as an Example.”</span> <em>Journal of Open Humanities Data</em>, July. <a href="https://doi.org/10.5334/johd.46">https://doi.org/10.5334/johd.46</a>.
+</div>
+<div id="ref-kranzle_ad_2004" class="csl-entry" role="listitem">
+Kränzle, Andreas, and Gerold Ritter. 2004. <span>“Ad <span class="nocase">f</span>ontes. Zu Konzept, Realisierung <span class="nocase">u</span>nd Nutzung <span class="nocase">e</span>ines e-Learning-Angebots. Zürich.”</span> Dissertation, Zürich: Universität Zürich. <a href="https://www.zora.uzh.ch/id/eprint/163194/1/20050043.pdf">https://www.zora.uzh.ch/id/eprint/163194/1/20050043.pdf</a>.
+</div>
+<div id="ref-li_trocr_2022" class="csl-entry" role="listitem">
+Li, Minghao, Tengchao Lv, Jingye Chen, Lei Cui, Yijuan Lu, Dinei Florencio, Cha Zhang, Zhoujun Li, and Furu Wei. 2022. <span>“<span>TrOCR</span>: Transformer-Based Optical Character Recognition with Pre-Trained Models.”</span> <a href="https://arxiv.org/abs/2109.10282">https://arxiv.org/abs/2109.10282</a>.
+</div>
+<div id="ref-muehlberger_transforming_2019" class="csl-entry" role="listitem">
+Muehlberger, Guenter, Louise Seaward, Melissa Terras, Sofia Ares Oliveira, Vicente Bosch, Maximilian Bryan, Sebastian Colutto, et al. 2019. <span>“Transforming Scholarship in the Archives Through Handwritten Text Recognition.”</span> <em>Journal of Documentation</em> 75 (5): 954–76. <a href="https://doi.org/10.1108/JD-07-2018-0114">https://doi.org/10.1108/JD-07-2018-0114</a>.
+</div>
+<div id="ref-noauthor_potentials_2024" class="csl-entry" role="listitem">
+UZH. 2024. <span>“Potentials <span class="nocase">o</span>f Advanced Text Technologies: Machine Learning-Based Text Recognition (<span>PATT</span>).”</span> 2024. <a href="https://www.hist.uzh.ch/de/fachbereiche/mittelalter/lehrstuehle/teuscher/forschung/projekte/PATT.html">https://www.hist.uzh.ch/de/fachbereiche/mittelalter/lehrstuehle/teuscher/forschung/projekte/PATT.html</a>.
+</div>
+</div></section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":false,"closeEffect":"zoom","descPosition":"bottom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>
