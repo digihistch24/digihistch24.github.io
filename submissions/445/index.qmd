@@ -1,5 +1,6 @@
 ---
 submission_id: 445
+categories: 'Session 1B'
 title: Teaching the use of Automated Text Recognition online. Ad fontes goes ATR
 author:
   - name: Laura Bitterli
