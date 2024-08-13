@@ -20,3 +20,4 @@
 - [ ] I have read the **[README](./README.md)** document.
 - [ ] My change requires a change to the documentation.
 - [ ] I have updated the documentation accordingly.
+- [ ] I have mentioned all co-authors in the PR description as `Co-authored-by: Name <email@domain.com>`.
