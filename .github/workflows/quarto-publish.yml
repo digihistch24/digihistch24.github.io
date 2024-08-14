@@ -67,7 +67,7 @@ jobs:
 
       - run: pip install jupyter
 
-      - run: pip install -r requirements.txt
+      - run: find submissions -name 'requirements.txt' -exec pip install -r {} \;
 
       # From https://github.com/r-lib/actions/tree/v2-branch/setup-r
       # - name: Setup R
