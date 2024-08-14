@@ -2,8 +2,15 @@
 title: 'Book of Abstracts'
 listing:
   type: table
+  categories: true
   contents:
     - submissions/*/index.qmd
+  fields: [categories, title, author]
+  field-display-names: 
+    categories: 'Session'
+    author: 'Author(s)'
+  sort: 'categories'
+  sort-ui: [categories, title, author]
 date-modified: last-modified
 ---
 

@@ -1,5 +1,6 @@
 ---
 submission_id: 450
+categories: 'Session 1A'
 title: "Using GIS to Analyze the Development of Public Urban Green Spaces in Hamburg and Marseille (1945 - 1973)"
 author:
   - name: Eliane Schmid
