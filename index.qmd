@@ -12,10 +12,12 @@ listing:
   sort: 'categories'
   sort-ui: [categories, title, author]
 date-modified: last-modified
-description-meta: "This repository contains the Book of Abstracts for the Digital History Switzerland 2024. Historical Research, Digital Literacy, and Algorithmic Criticism. The data in this repository is openly available to everyone and is intended to support reproducible research."
+description-meta: 'The DigiHistCH24 conference on "Historical Research, Digital Literacy, and Algorithmic Criticism," hosted by the University of Basel on September 12-13, 2024, explores the integration of digital tools and the critical role of algorithms in historical research. This book of abstracts features all presented papers, offering insights into cutting-edge methodologies, software applications, and challenges in digital history.'
 author-meta: "Digital History Switzerland 2024"
 ---
 
-<!-- TODO -->
+The DigiHistCH24 conference on "Historical Research, Digital Literacy, and Algorithmic Criticism" brings together scholars and professionals to address the evolving role of digital technologies in historical research. Hosted by the University of Basel on September 12-13, 2024, the conference will focus on the integration of digital tools, the importance of digital literacy, and the critical examination of algorithms within the discipline.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+This book of abstracts contains all the papers presented at the conference, providing a comprehensive overview of current research at the intersection of history and digital technology. These papers cover a range of topics, from innovative methodologies and software applications to the challenges of digital data management and algorithmic analysis in historical research.
+
+We are pleased to present this collection, which reflects the state of the art in digital history, and anticipate that the discussions it stimulates will make a significant contribution to the field.
