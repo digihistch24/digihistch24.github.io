@@ -71,6 +71,7 @@ format:
       - custom-header.html
     license: CC BY-SA 4.0
     page-layout: full
+    mainfont: Jost
 
 freeze: false
 
