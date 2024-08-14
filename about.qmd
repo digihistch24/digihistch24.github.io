@@ -1,1 +1,7 @@
+---
+description-meta: "This repository contains the Book of Abstracts for the Digital History Switzerland 2024. Historical Research, Digital Literacy, and Algorithmic Criticism. The data in this repository is openly available to everyone and is intended to support reproducible research."
+author-meta: "Digital History Switzerland 2024"
+license: "AGPL-3.0"
+---
+
 {{< include README.md >}}
