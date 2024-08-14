@@ -23,15 +23,19 @@ website:
     tools:
       - icon: github
         url: https://github.com/digihistch24/book-of-abstracts/
+        target: _blank
     left:
       - text: Abstracts
         href: index.qmd
       - text: Conference Program
         href: https://conferences.unibas.ch/frontend/index.php?page_id=1882
+        target: _blank
       - text: Registration
         href: https://conferences.unibas.ch/frontend/index.php?page_id=1424&booking_registration_action=show&booking_registration_controller=offer
+        target: _blank
       - text: Call for Contributions
         href: https://conferences.unibas.ch/frontend/index.php?folder_id=234&page_id=
+        target: _blank
       - text: About
         href: about.qmd
 
