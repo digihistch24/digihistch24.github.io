@@ -68,7 +68,11 @@ format:
     link-external-newwindow: true
     toc: true
     theme: cosmo
+    code-block-border-left: '#a5d7d2'
+    code-block-bg: true
     code-copy: true
+    code-fold: true
+    code-tools: true
     code-overflow: wrap
     css: styles.css
     include-in-header:
