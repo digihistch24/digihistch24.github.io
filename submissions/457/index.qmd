@@ -1,0 +1,73 @@
+---
+submission_id: 457
+categories: 'Session 4B'
+title: Towards Computational Historiographical Modeling
+author:
+  - name: Michael Piotrowski
+    orcid: 0000-0003-3307-5386
+    email: michael.piotrowski@unil.ch
+    affiliations:
+      - University of Lausanne
+keywords:
+  - corpora
+  - concepts
+  - epistemology
+  - methodology
+  - theory of history
+abstract: |
+  Digital corpora play an important, if not defining, role in digital history and may be considered as one of the most obvious differences to traditional history. Corpora are essential for the use of computational methods and thus for the construction of computational historical models. But beyond their technical necessity and their practical advantages, their epistemological impact is significant. While the traditional pre-digital corpus is often more of a potentiality, a mere "intellectual object," the objective of computational processing requires the corpus to be made explicit and thus turns it into a "material object." Far from being naturally given, corpora are constructed as models of a historical phenomenon and therefore have all the properties of models. Moreover, following Gaston Bachelard, I would argue that corpora actually construct the phenomenon they are supposed to represent; they should therefore be considered as phenomenotechnical devices.
+date: 2024-08-14
+bibliography: references.bib
+---
+
+## Introduction
+
+When we look for epistemological differences between "traditional" and digital history, *corpora*---stand out. Of course, historians have always created and studied collections of traces, in particular documents, but sometimes also other artifacts, and have built their narratives on the basis of these collections. This is a significant aspect of scholarship and in some sense constitutes the difference between historical and literary narratives: historical narratives are supposed to be grounded (in some way) in the historical facts represented by the respective corpus.
+
+Nevertheless, the relation between such a corpus and the narrative is traditionally rather unclear. Not only is the corpus necessarily incomplete (and uncertain), but it's typically only "virtual." As @Mayaffre2006 [20] puts it, in the humanities corpora traditionally tend to be potentialities rather than realities: one *could* go and consult a certain document in some archive, but this may only be rarely done, and the corpus may thus have never been anything but an "intellectual object." `<!-- ↗ ../2023-digital_hermeneutics_ii/paper.md -->`{=html}
+
+Machine-readable digital corpora---that is, what we mean by corpora today---have brought about major changes. Most of the time, it is their practical advantages that are highlighted: they are easier to store, they are (at least potentially) accessible from anywhere at any time, and they can be processed automatically. This, in turn, enables us to apply new types of analysis and thus to ask and study new research questions. What tends to be overlooked, though, is the epistemological impact of machine-readable corpora in history. The notion of corpus in digital history (and in digital humanities in general) is heavily influenced by the notion of corpus in computational linguistics: a large but finite collection of digital texts. @Mayaffre2006 [20] hints at the epistemological impact when he notes that, on the one hand, digitization dematerializes the *text* in that it is lifted from its previous support, but on the other hand, materializes the *corpus* more rigorously than before.
+
+This is, of course, a precondition for more rigorous types of analysis, notably computational analyses, and---eventually---the construction of computational historical models. However, this raises a number of epistemological and methodological questions. In computational linguistics, a corpus is essentially considered a statistical sample of language. Historical corpora typically differ from linguistic corpora, both in its relation to the research objects, the research questions, and to the expected research findings. They also differ in the way they are constructed.
+
+While there is much discussion of individual methods and their appropriateness---and many common definitions as well as a large part of the criticism of DH are related to these methods---there is surprisingly little theoretical discussion of corpora. In a typical DH paper (or project proposal), just a few words are said about the corpus that was used, and most of it tends to concern its size and composition (*n* items of class *X*, *m* items of class *Y*, and so on) and the technical aspects of its construction (e.g., how it was scraped), if the authors did not use an existing corpus. The methods (algorithms, tools, etc.) used and the results achieved (and their interpretation and visualization) are typically discussed extensively, though.
+
+Given the central role of corpora in digital history, I think we need to study them and the roles they play in order to avoid the production of research that is formally rigorous but historically meaningless (or even nonsensical).
+
+## Corpora as Models
+
+As @Granger1967 notes, the goal of any science (natural or other) is to build *coherent and effective models of the phenomena they study*.
+
+Thus, and as I have argued before [@Piotrowski2018c], a corpus should be considered a model in the sense of Leo Apostel, who asserted that "*any subject using a system A that is neither directly nor indirectly interacting with a system B to obtain information about the system B*, is using A as a model for B" [@Apostel1961, 36, emphasis in original]. Creating a corpus thus means constructing a model, and modelers consequently have to answer questions such as: What is it that I am trying to model? In what respects is the model a reduction of it? And for whom and for what purpose am I creating the model?
+
+These are not new questions: every time historians select sources, they construct models, even before any detailed analysis. However, machine-readable corpora are not only potentially much larger than any material collection of sources---which is already not inconsequential---but also have important epistemological consequences. The larger and the more "complete" a corpus is, the greater the danger to succumb to an "implicit essentialism" [@Mothon2010, 19] and to mistake the model for the original, a fallacy that can frequently be observed in the field of cultoromics [@Michel2011], when arguments are being made on the basis of the Google Books Ngram Corpus.
+
+The same then goes for any analysis of a corpus: if the corpus is "true," so must be the results of the analysis; if there is no evidence of something in the corpus, it did not exist. This allure is even greater when the analysis is done automatically and in particular using opaque quantitative methods: as the computational analysis is assumed to be completely objective, there seems to be no reason to question the results---they merely need to be interpreted, which leads us to some kind of "digital positivism." To rephrase Fustel de Coulanges [@Monod1889, 278], "[Ne m'applaudissez pas, ce n'est pas moi qui vous parle ; ce sont les données qui parlent par mes courbes.]{lang="fr"}"
+
+However, as @Korzybski1933 [58] famously remarked, "A map is *not* the territory it represents, but, if correct, it has a *similar structure* to the territory, which accounts for its usefulness." An analysis of a corpus will *always* yield results; the crucial question is whether these can tell us anything about the original phenomenon it aims to model. So, the crucial point is that corpora are not naturally occurring but intentionally constructed. A corpus is *already* a model and thus not epistemologically neutral. A good starting point for dealing with this seems to be Gaston Bachelard's notion of *phenomenotechnique* [@Bachelard1968].
+
+## Corpora as Phenomenotechnical Devices
+
+Bachelard originally developed this notion, which treats scientific instruments as "materialized theories," as a way to study the epistemology of modern physics, which goes far beyond what is directly observable. The humanities also and even primarily deal with phenomena that are not directly observable, but only through artifacts, in particular texts. They thus have also always constructed the objects of their studies through, for example, the categorization and selection of sources and the hermeneutic postulation and affirmation of phenomena.
+
+However, only the praxis has been codified to some extent as "best practices," such as source criticism. Theories---or perhaps better: models and metamodels, as the term "theory" has a somewhat different meaning in the humanities than in the sciences---are not formalized and are only suggested by the (natural language) narrative. What history (and the humanities in general) traditionally do not have is something that corresponds to the scientific instrument.
+
+This changes with digitalization and datafication: phenomena are now constructed and modeled through data and code, and (like in the sciences), the computational model takes on the role of the instrument and "sits in the center of the epistemic ensemble" [@Rheinberger2005, 320]. Corpora are then, methodologically speaking, phenomenotechnical devices and form the basis and influence how we build, understand, and research higher-level concepts---which at the same time underly the construction of the corpus. In short: a corpus produces the phenomenon to be studied. As a model, it has Stachowiak's three characteristics of models, the *characteristic of mapping*, the *characteristic of shortening*, and the *characteristic of pragmatical model-function* [@Stachowiak1973 131--133]. Note also that while a model does not have all properties of its corresponding original (the characteristic of shortening), it has *abundant attributes* [@Stachowiak1973, 155], i.e., attributes that are not present in the original.
+
+Statistics provide us with means to formally describe and analyze a specific subclass of models that are able to represent originals that have particular properties. However, the phenomena studied by the humanities generally do not have these properties, and we thus still lack adequate formal methods to describe them.
+
+## Conclusion
+
+I have tried to outline some of the background and the motivation for the project *Towards Computational Historiographical Modeling: Corpora and Concepts*, which is part of a larger research program.
+
+So far, digital history (and digital humanities more generally) has largely contented itself with borrowing methods from other fields and has developed little methodology of its own. The focus on "methods and tools" represents a major obstacle towards the construction of computational models that could help us to obtain new insights into *humanities* research questions rather than just automate primarily quantitative processing---which is, without doubt, useful, but inherently limited, given that the research questions are ultimately qualitative.
+
+Regardless of the application domain, digital humanities research tends to rely heavily on *corpora*, i.e., curated collections of texts, images, music, or other types of data. However, both the epistemological foundations---the underlying concepts---and the epistemological implications have so far been largely ignored. I have proposed to consider corpora as *phenomenotechnical devices* [@Bachelard1968], like scientific instruments: corpora are, on the one hand, models of the phenomenon under study; on the other hand, the phenomenon is *constructed* through the corpus.
+
+We therefore need to study corpora as models to answer questions such as: How do corpora model and produce phenomena? What are commonalities and differences between different types of corpora? How can corpora-as-models be formally described in order to take their properties into account for research that makes use of them?
+
+The overall goal of the project is to contribute to theory formation in digital history and digital humanities, and to help us move from project-specific, often ad hoc, solutions to particular problems to a more general understanding of the issues at stake.
+
+## Acknowledgements {#acknowledgements .unnumbered}
+
+This research was supported by the Swiss National Science Foundation (SNSF) under grant no. 105211_204305.
