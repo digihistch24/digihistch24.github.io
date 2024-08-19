@@ -1,0 +1,64 @@
+---
+submission_id: 459
+title: Data Literacy and the Role of Libraries
+author:
+  - name: Catrina Langenegger
+    orcid:  0000-0001-8875-2730
+    email: c.langenegger@unibas.ch
+    affiliations:
+      - University of Basel
+  - name: Johanna Schüpbach
+    orcid: 0000-0002-0905-2056
+    email: johanna.schuepbach@unibas.ch
+    affiliations:
+      - University of Basel
+     
+keywords:
+  - Data Literacy
+  - Academic Libraries
+  - Digital Humanities
+  - Experience Report
+
+abstract: |
+Libraries are finding their place in the field of data literacy and the opportunities as well as challenges of supporting students and researchers in the field of Digital Humanities. Key aspects of this development are research data management, repositories, libraries as suppliers of data sets, digitisation and more. Over the past few years, the library has undertaken steps to actively bring itself into teaching and facilitate the basics of working with digital sources. The talk shares three experience reports of such endeavours undertaken by subject librarians of the Digital Humanities Work Group (AG DH) at the University Library Basel (UB).
+ 
+date: 07-26-2024
+
+---
+
+## Introduction
+
+More and more, libraries are becoming important institutions when it comes to teaching data literacy and the basics of Digital Humanities (DH) tools and methods, especially to undergraduates or other people new to the subject matter. The Digital Humanities Work Group (AG DH), consisting of a selection of subject librarians from the University Library Basel (UB), have developed various formats to introduce students to these topics and continue to build and expand upon the available teaching elements in order to assemble customised lesson or workshop packages as needed. The aim of this talk is to share our experiences with the planning and teaching of three different course formats. These classes and workshops play, on one hand, an important part of making the library's (historical) holdings and datasets visible and available for digital research and, on the other hand, they are means to engage with students and (early stage) researchers and imparting skills in the area of working with data at an easily accessible level.
+As of today, there have been three distinct formats in which the AG DH has introduced students to data literacy and working with digitised historical sources: a full semester course (research seminar) that the AG DH has come up with in collaboration with a professor for Jewish and General History; a 90-minute session on data literacy and working with subject specific datasets within the larger frame of an existing semester course on information, data, and media literacy; and, last but not least, another 90-minute session within a research seminar in literary studies to provide a brief introduction to DH and how it can be incorporated in further research on the seminar topic.
+
+## Research Seminar/Semester Course
+
+To this end, the AG DH organised a semester course in close collaboration with Prof. Dr. phil. Erik Petry with whom they have created and then co-taught a curriculum introducing various DH tools and methods to be tried out using the UB's holdings on the topic of the first Zionist Congresses in Basel. The course was attended by MA students from the subjects of History, Jewish Studies and Digital Humanities. This research seminar was designed to provide an introduction to digital methods. 
+We have divided our course into different phases. The first introduction to work organisation, data management and data literacy was followed by sessions that combined the basics of the topic and introductions to digital methods. We focussed on different forms of sources: images, maps and text, with one session being dedicated to each type. This meant we could offer introductions to a broad spectrum of DH tools and methods such as digital storytelling and IIIF, geomapping and working with GIS, and transcription, text analysis and topic modelling. As a transition to the third phase of the project, we organised a session in which we presented various sources either from the University Library or from other institutions – the Basel-Stadt State Archives and the Jewish Museum Switzerland. The overall aim of the course was to enable students to apply their knowledge directly. To this end, they developed small projects in which they researched source material using digital methods and were able to visualise the results of their work. In the third phase of the course, students were given time to work on their own projects. In a block event at the end of the semester, the groups presented their projects and the status of their work. We were able to see for ourselves the students’ exciting approaches and good realisations. 
+The course was also a good experience for us subject librarians. Above all, we benefited from the broad knowledge in our team as well as the opportunity to gain new insights and experiences in select areas of DH. We particularly appreciated the good collaboration with Prof. Dr. Petry, who treated us as equal partners and experts. Despite the positive experience, this format is not sustainable: The effort involved in creating an entire semester course exceeds the resources available to regularly offer similar semester courses. Nevertheless, for this pilot project of the AG DH, the effort was justified because the course allowed us to make our holdings visible and they were researched.
+
+## Data Literacy – a Session Within an Existing IDM Semester Course
+
+For the second format, the AG DH was approached by the organisers of the regular IDM (“Informations-, Daten- & Medienkompetenz”) semester courses at the University Library Basel. These semester courses are offered for select subject areas to teach students basic information, data and media literacy skills tailored to their subject. The AG DH was asked to come up with two 90-minute sessions to introduce the students to the basics of data literacy. After talking through the requirements with the course lead, the AG DH decided to collaborate with the colleagues from the Open Science Team who would cover the first session dedicated to Research Data Management and a more general introduction to the subject matter. Building on that, the AG DH covers the second session, tailoring it to the requirements of the subject area in question (e.g. art history, sociology, cultural anthropology, economics etc.). Rather than by the whole group, these sessions are mainly prepared and taught by a member of the AG DH whose own subject specialty is closest to (or even the same as) the course’s audience. This means that not all AG DH members are involved in it all the time, therefore being more time and work efficient. Slides are, of course, liberally copied, pasted and reused. This ensures that not everyone has to do all the work while at the same time also guarantees that everyone in the group has access to all the information (which can then be adapted to the subject area). Of course these slides are always edited and brought up to date as to reflect the changes in the field.
+
+The goals for the session on subject specific data literacy are intended for the students to…:
+…know the relevant sources where to get (research) data and/or corpora for their projects
+…understand the specifics of working with data as pertains to the subject in question
+…assemble subject specific (reused or collected) data sets and how to work with them (i.e. analyse and visualise).
+…introduce them to the people and contacts at the University Library who can help them with their further studies/research.
+
+A big challenge for these sessions is, of course, the sheer extent of working with data. It is impossible to teach every method/tool the students might need for their projects. Particularly in subjects like social anthropology, where almost everything and anything can be seen and collected as data, this session works mainly as a very broad overview of what is possible. The students are given an entry point, links, examples and an understanding of the different kinds of data they might encounter – e.g. texts and linguistic data, statistical data, geodata, image and audi(visual) data – but are required to then work their own way into what they’ll need for their own projects.
+Because this 90-minute session is only just enough to give a brief introduction and overview of what data is and how you could work with subject specific data, it is important to provide the students with enough links and contact addresses where they can find further assistance, like the subject librarian or the AG DH. However, because the target audience are always students of one specific subject area, it is also easier to tailor the session to that particular subject. (All subject areas may request a semester course from the IDM-team/the organisers.)
+This format has been a very positive experience in terms of collaboration – not only with the department of the subject but also with the colleagues organising the IDM semester course and the Open Science team.
+
+## Introduction to DH for a Research Seminar in English Literary Studies
+
+Lastly we are also able to prepare bespoke inputs within the framework of a regular class. In this example, the idea for collaboration came about through an informal talk with Prof. Dr. Ina Habermann and her assistant MA Stefanie Heeg from the University of Basel’s English Department, while they were planning a research seminar on early modern travel writing. Since the UB has some of the texts discussed in their collections, I suggested teaching a session at the library where the students may look at the original print books and then talk about and discuss introductory aspects of DH when juxtaposing them with the digitised texts of the same. By using these examples the aim of this 90-minute session was to give the students an introduction to DH, metadata, authority files (in particular the GND) and – drawing on material used for the IDM session on data literacy – showing them possibilities of what they can do with and how to work with these digitised texts. Even though this was within the frame of a class in literary studies, the subject matter is closely related to historical research.
+While this session was also very dense, content wise, by hosting it at the UB and having the books from the historical holdings ready to be examined in the classroom, it added a nice touch of interactivity to the class. At the same time, preparing and teaching this session fulfils two intentions of the AG DH: first, to strengthen ties with the departments and let the researchers and teaching staff know, that the UB has the competence and people to help with and support with basic DH needs; second, to highlight and showcase our (digitised) collections and holdings, and to familiarise students and researchers with the possibilities of working with them. In addition to that, the UB could present itself as a location combining both the historical dimension with the original texts, as well as a centre for competence in digital methods.
+
+## Conclusion
+
+These three different formats highlight some of the chances but also challenges the AG DH faces with regards to their work on with and for students and researchers, and the experiences and feedback from these different formats throw an important light on the role of the UB in the task of teaching skills in this field. 
+Generally it can be said that it needs an active involvement from and by the AG DH to get into the teaching spaces. Either through directly talking with professors/teaching staff and offering to collaborate with them in contributing to their planned classes or by getting involved in existing course formats like the IDM semester courses.
+It can thus be shown that libraries play a key role in imparting knowledge and skills as well as guardians of cultural property in their function as reliable and long-lasting institutions. We also want to highlight aspects that can still be improved. Above all, this concerns the awareness and attractiveness of such services as well as cooperation with researchers and teachers from all subject areas that work digitally, and history in particular.
+The questions that drive the AG DH are many and varied: What are the needs of researchers and students? What do you need from your university library? Where do you see the possibility for the library to support and raise awareness with working with historical documents?
