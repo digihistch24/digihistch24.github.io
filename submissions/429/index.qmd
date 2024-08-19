@@ -1,0 +1,84 @@
+---
+submission_id: 429
+categories: 'Session 5A'
+title: Training engineering students through a digital humanities project: Techn’hom Time Machine
+author:
+  - name: Cyril Lacheze
+    orcid: 0009-0003-7231-9774
+    email: cyril.lacheze@utbm.fr
+    affiliations:
+      - University of Technology of Belfort-Montbéliard. UTBM, CNRS, institut FEMTO-ST, F-90000 Belfort, France
+  - name: Marina Gasnier
+    orcid: 
+    email: marina.gasnier@utbm.fr
+    affiliations:
+      - University of Technology of Belfort-Montbéliard. UTBM, CNRS, institut FEMTO-ST, F-90000 Belfort, France
+keywords:
+  - students participation
+  - 3D reconstruction
+  - spinning mill
+
+abstract: |
+  The Techn'hom Time Machine project aims to offer a digital reconstruction of a spinning mill, integrating buildings in their environment, machines, and activities. It involves engineering students from the Belfort-Montbéliard University of Technology, in all aspects of the project. They are able to discover and practise on software that they will have to use in their future professional activity (Revit, Catia, Blender, Unity…). Some students are able to discover entire conceptual fields that are rarely covered in their course, such as the notions of ontology and RDF database. A special relationship between history and digital technology underlies this work: students have a choice about which software to use, their results directly impact the evolution of the project, and they learn the importance of the whole organizing. These students, unfamiliar with humanities and specific problems associated with them, are at the same time discovering these disciplines and their difficulties, thus opening up their perspectives.
+key-points:
+  - The Techn’hom Time Machine project aims to offer a virtual reality reconstruction of a former spinning mill in the city of Belfort (France), with its machines and activities.
+  - Students from the Belfort-Montbéliard University of Technology participate directly in the project by modeling buildings, machines, or by working on knowledge engineering.
+  - Their reports make it possible to identify points that most marked them, namely the discovery of human sciences and their difficulties, as well as new technical and organizational skills learning.
+date: 07-26-2024
+bibliography: references.bib
+---
+
+## Introduction
+
+Part of the national Lab In Virtuo project (2021-2024), the Techn'hom Time Machine project, initiated in 2019 by the Belfort-Montbéliard University of Technology, aims to study and digitally restore the history of an industrial neighborhood, with teacher-researchers but also students as co-constructors [@Gasnier2014 ; @Gasnier2020, p. 293]. The project is thus located at the interface of pedagogy and research. The Techn'hom district was created after the Franco-Prussian War of 1870 with two companies from Alsace: the Société Alsacienne de Constructions Mécaniques, nowadays Alstom; and the Dollfus-Mieg et Compagnie (DMC) spinning mill, in operation from 1879 to 1959. The project aims to create a “Time Machine” of these industrial areas, beginning with the spinning mill. We seek to restore in four dimensions (including time) buildings, machines with their operation, but also document and model sociability and know-how, down to the gestures and feelings. The resulting “Sensory Realistic Intelligent Virtual Environment” should allow both researchers and general public to virtually discover places and “facts” taking place in the industry, but also interact with them or even make modifications.
+
+
+
+## Study and training areas
+
+The project is carried out within a technology university and, as such, is designed to include the participation of engineering students. They can apply and develop skills previously covered in a more basic way in their curriculum. This constitute for students an investment in the acquisition of skills that can subsequently be reused in their professional lives as engineers. In the current state, four main axes exist concerning inclusion of students in the Techn’hom Time Machine project:
+* Modeling of industrial buildings on Revit;
+* Machine modeling on Catia;
+* Knowledge engineering with the construction of a data model, initially as a relational database, having evolved into an RDF base based on standard ontologies;
+* Integration of those elements in the same virtual environment on Unity.
+Historical sources are crucial in all axes since many artifacts no longer exist, have been heavily modified and/or are inaccessible. Modeling is based on handwritten or printed writings, plans, iconography, and surviving heritage. This imposes a disciplinary opening for engineering students, untrained in the manipulation and analysis of such sources, and who may feel distant from issues linked to human and social sciences.
+
+
+## Project progress
+
+To date, thirty two students were included in the project. Each of the four axes was allocated between four and twelve students depending on opportunities and needs. In addition to the scientific contribution, student reports make it possible to evaluate their point of view on this training, all critical perspective retained.
+
+
+### Modeling: the software question
+
+This axis has currently involved twelve students, and has led to the complete or partial modeling of six machines. It implies to reverse engineering machines with very partial data, on software designed for rendering of much more recent mechanisms. Students are assigned to work on small projects whose results are not necessarily directly usable. This offers the advantage of an exploratory and critical approach, by having a student take over the project of a previous one. Students were thus responsible for creating the model, but also for defining the software used. The first machine modeled, a twisting machine, was the subject of two successive works, linked to a change in modeling software. The first student used Blender, directing his work “on the optimization of models rather than on precision” and “took the initiative to abandon coherence”, offering “parts very close to the base material from a visual point of view but absolutely not reliable from a measurement point of view” [@Bogacz2019, pp. 11-12]. The following year, a second group was tasked of restoring consistency in this model, but realized that their colleague's choices prevented such an achievement: pieces were too inaccurate, and conversion to a kinematic CAD model was impossible [@Castagno2020, pp. 11, 13]. They therefore remade the model on Catia, without realistic texture. The team of another machine proposed another solution: on Catia, they “‘imagined’ missing parts”, paying attention to their mechanical coherence, while using Keyshot to obtain a more visually attractive final result [@Paulin2020, pp. 15-16]. This questioning also occurred with integration of buildings and machines on Unity: models produced by specialized software are each quite efficient, but too heavy and ill-optimized to be all integrated in the same simulation. Students working on this topic thus have to take and reduce models in order to optimize performance, losing a part of the precision [@Bozane2022, pp. 4-6, 10]. Freedom left to students in technical solutions thus made it possible, by authorizing research and free experimentation, to identify configurations most likely to meet the needs of the project as a whole.
+
+
+### Which data model?
+
+Similarly, tests “distribution” between students provided insights as to the appropriate type of data model. The Techn’hom Time Machine project was initially supposed to rely on a “classic” relational database. The first student to work on setting up said database quickly realized that a historical database involves “a certain complexity in its design”, necessitating a table for abstract concepts “most difficult to define”, and a table for specifying types of links between actors, but without informing in advance all possible types of relationships [@Garcia2020, pp. 20, 23]. In short, the student realized that, for a system as complex as a human society, a relational database quickly shows its limits. In fact, even if this first student still managed to create a relational database, the next two underlined its complexity: “the number of tables in the database makes reading difficult” [@Ruff2022, p. 7], and it was difficult to “precisely complete [it]” [@Marais2020, pp. 9, 16]. A fourth student, tasked to take up the previous work to refine it and make a functional application, concluded with the support of teacher-researchers that this database simply did not allowed to describe precisely enough a historical reality, and pointed the need to use an RDF graph database [@Echard2023, pp. 15-16, 21]. This solution, actually adopted, therefore comes once again from a series of works allowing a self-critique of the entire project, helping to define effective solutions.
+
+
+## Reflective feedback from students
+
+Beyond these contributions to the scientific project, this program also aims to offer training to students. The point that emerges most clearly from students' reports, before any technical consideration or skills acquisition, relates to discovery of human sciences and their methodologies.
+
+### Discovering human sciences
+
+Almost all of the students emphasize an initial dismay when faced with historical sources, lacking quantity, precision and conciseness of the information expected in an engineering context. Apart from a few immediately relevant sources, the mass of additional documentation, necessary to understand machines operation and context, is much more confusing and time-consuming to analyze, while offering mediocre quality of information. Students have “access to a lot of documents but little precision” [@Bogacz2019, pp. 6, 8], and historical documents often “do not provide as much information as [they] hoped” [@Castagno2020, p. 4]. Moreover, students note that, even with good sources, machines “remain much more complex” than diagrams, and no blueprints, which “does not allow the direct connection and understanding of each piece" [@Paulin2020, p. 8]. The same goes for buildings, with damaged or partial plans, forcing to “make measurements on the plan to approximate distances” [LeGuilly2022, p. 9].
+
+Despite this initial blockage, students developed solutions - starting with awareness that historical models can never “exactly” reproduce past reality. The most important resource consisted of seeking by themselves complementary sources, like archive originals [@Marchal2021, p. 5], old films [@Castagno2020, p. 4], or “observations made on site” for buildings [@LeGuilly2022, p. 10]. For machines, two other valuable sources could be mobilized, via contacts obtained by supervising teacher-researchers: dialogue with former workers about machines functioning and details [@Bogacz2019, p. 7; Paulin2020, p. 9]; and visits in still-working spinning mills. Those experiences allowed them, according to their feedback, to better understand machines, operations but also context, “allowing [them] to take a step back from the project” [@Bogacz2019, p. 7]. On the contrary, students working in the midst of the Covid pandemic, regretted not having been able to have the same experience [@Paulin2020, p. 20]. Direct contact with historical elements also include an emotional aspect highlighted by the students: “It was both a very interesting and very pleasant moment. Being able to see with our own eyes the machine that we were trying to reproduce computationally was a very enriching experience”; “The fact of visualizing in real life a machine that we had been modeling for several months is truly incredible” [@Bogacz2019, pp. 7, 16].
+
+This need to delve into sources implied for students the discovery, through practice, of the ins and outs of human sciences research. Typically, with data modeling, working from real data brings a certain advantage: working from “concrete cases […] helped us to understand how to articulate [several] ontologies and thus develop a strategy to combine them effectively into a coherent whole” [@Echard2023, pp. 23, 32]. Likewise, for buildings, sources comparison led students to perceive inconsistencies, and thus “note the importance of reading all the archives and not just a few because errors may be present” [@Pic2020, pp. 3-4]. Some also emphasize “difficulty of exploiting numerous bibliographic resources” in terms of synthesis capacities and working time [@Bogacz2019, p. 6; @Castagno2020, p. 15], but also the pleasure of “learning to read archives” [@Paulin2020, p. 20]. The novelty of the practice compared to classic engineering curriculum is well summed up by one of the teams: “This type of task requires patience and a methodology completely different from what we have habit of doing. The difficulty or even the impossibility of finding the desired information taught us to put ourselves in the shoes of a historian who must at certain times make hypotheses in order to continue his work.” [@Castagno2020, p. 15].
+
+
+ ### Project managing
+
+Whatever the students’ specific project, it generally appeared to be a first in their training, positioning them as researchers over several months. This induced a “complete autonomy” [@Garcia2020, p. 8] underlined by all reports, often before competence gains. One, those project was “the most significant project he had to carry out”, “learned the management” of his organization [@Bogacz2019, p. 16]. Another “learned to manage a project in [his] free time” [@LeGuilly2022, p. 10], and a third “learned to work efficiently and manage projects independently” [@Echard2023, pp. 9, 40]. Faced with complex and non-linear projects, students emphasize the “need to do a lot of research to use the right method to work correctly”, and to propose solutions on their own [@Marchal2021, pp. 9-10, 27]. The gross volume of work is finally underlined, projects requiring “time to understand the documents, research into software functionalities as well as a considerable investment” [@Pic2020, p. 16]. Participation in the project can appear as “a first professional experience (...) The experience gained during the internship is immense” [@Garcia2020, p. 39].
+
+Beyond each individual work, some students also develop reflection on the overall project. In particular, they suffered from a lack of communication with their predecessor on the same subject, “making the task more difficult”, leading to risk of “wasting (...) time understanding what the other had already understood” [@Castagno2020, p. 15]. This experience lead to an awareness of the importance of good communication or documentation. Students therefore suggested organizing “video conferences between old and new groups”, and that “each group [should] bring together important documents in a separate file” during project transitions. They applied the lesson to their own report, by “explaining as best as possible what [they] had understood”, with concrete recommendations [@Castagno2020, pp. 15-16].
+
+
+## Conclusion
+
+Students involvement in the Techn’hom Time Machine project leads to bidirectional enrichment. The project benefits from the possibility of distributed work and multiple proposal strengths, making it possible to test several options in parallel on a given subject. Students deepen their knowledge of diverse software, while introducing themselves to human sciences and project management. Gain in technical skills is often implied in reports, obviously being an integral part of expectations of any engineering school project. Acquisition of more fundamental knowledge can be identified, with discovery of some entirely new technologies. An interest in the historical dimension is also mentioned, as well as human contacts with researchers and workers. Finally, the very fact of participating in a digital humanities project, atypical in itself, appears as a source of satisfaction.
