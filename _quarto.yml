@@ -68,7 +68,7 @@ format:
     link-external-newwindow: true
     toc: true
     theme:
-      light: cosmo
+      light: [cosmo, styles.css]
       dark: [darkly, theme-dark.css]
     code-block-border-left: '#a5d7d2'
     code-block-bg: true
@@ -76,7 +76,6 @@ format:
     code-fold: true
     code-tools: true
     code-overflow: wrap
-    css: styles.css
     include-in-header:
       - custom-header.html
     license: CC BY-SA 4.0
