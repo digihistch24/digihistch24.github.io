@@ -86,6 +86,7 @@ jobs:
           to: html
 
       - name: JamPack
+        if: github.event_name != 'pull_request'
         run: |
           npx @divriots/jampack .
 
