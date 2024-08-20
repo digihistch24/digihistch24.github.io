@@ -9,13 +9,6 @@ author:
     affiliations:
       - University of Geneva
 bibliography: Master_thesis_ILDF.bib
-editor: 
-  markdown: 
-    wrap: 72
-format: 
-  html: 
-    page-layout: article
-    toc: true
 keywords:
   - Digital History 
   - Structural Topic Modelling
