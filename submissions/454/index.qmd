@@ -98,6 +98,7 @@ Spatial matching and the measure of morphological proximity is key to harnessing
 
 Digitization also makes it possible to create links between sources, such as cadastres and censuses, by making their content searchable. Disambiguating individuals remains partly qualitative, as it is often necessary to reason on a cluster of clues. This is due in particular to a scant pool of names, resulting in many homonyms: for instance, there were eight household heads named "Jean Louis Blanc" in Lausanne in 1835. Digitisation therefore also highlights this type of contradiction, which might otherwise go unnoticed when reading the sources in progressive order.
 
+<!---
 ## Code
 
 ### Imports
@@ -468,7 +469,7 @@ for i in tqdm.tqdm(range(light_img.shape[0])):
         light_img[i, j] = legend[r, b]
 cv2.imwrite('persistence_1888_2020_light.png', light_img) # Light mode
 ```
-
+-->
 
 [^1]: Note that here we use the absolute difference L1 instead of the squared difference L2, which is favored by Arkin. This is intentional, as we believe that shape dissimilarities should be equally weighted in the present use case.
 [^2]: Here, we use the historical spelling of place names, as given in the sources.
