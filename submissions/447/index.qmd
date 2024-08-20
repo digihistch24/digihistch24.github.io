@@ -1,0 +1,126 @@
+---
+submission_id: 447
+categories: 'Session 3A'
+title: Geovistory, a LOD Research Infrastructure for Historical Sciences
+author:
+  - name: Stephen Hart
+    email: stephen.hart@unibe.ch
+    orcid: 0009-0003-6556-5512
+    affiliations:
+      - Universität Bern
+  - name: Vincent Alamercery
+    email: vincent.alamercery@ens-lyon.fr
+    orcid: 0000-0001-5830-3192
+    affiliations:
+      - ENS Lyon, LARHRA
+  - name: Francesco Beretta
+    email: francesco.beretta@cnrs.fr
+    orcid: 0000-0002-4389-4126
+    affiliations:
+      - CNRS, LARHRA
+  - name: Djamel Ferhod
+    email: Djamel.Ferhod@ish-lyon.cnrs.fr
+    affiliations:
+      - CNRS, LARHRA
+  - name: Sebastian Flick
+    email: sebastian.flick@unibe.ch
+    affiliations:
+      - Universität Bern
+  - name: Tobias Hodel
+    email: tobias.hodel@unibe.ch
+    orcid: 0000-0002-2071-6407
+    affiliations:
+      - Universität Bern
+  - name: David Knecht
+    email: david.knecht@kleiolab.ch
+    orcid: 0000-0001-5237-8337
+    affiliations:
+      - Kleiolab GmbH
+  - name: Gaétan Muck
+    email: gaetan.muck@kleiolab.ch
+    affiliations:
+      - Kleiolab GmbH
+  - name: Alexandre Perraud
+    email: alexandre.perraud@cnrs.fr
+    affiliations:
+      - CNRS, LARHRA
+  - name: Morgane Pica
+    email: morgane.pica@ens-lyon.fr
+    orcid: 0000-0002-0981-4516
+    affiliations:
+      - ENS Lyon, LARHRA
+  - name: Pierre Vernus
+    email: Pierre.VERNUS@msh-lse.fr
+    orcid: 0000-0002-9335-7070
+    affiliations:
+      - MSH, LARHRA
+keywords:
+  - Linked Open Data
+  - Research Infrastructure
+  - Semantic Web
+  - Ontology
+  - FAIR Data
+abstract: This article explores the significance of the Geovistory platform in the context of the growing Open Science movement within the Humanities, particularly its role in facilitating the production and reuse of FAIR data. As funding agencies increasingly mandate the publication of research data in compliance with FAIR principles, researchers face the dual challenge of mastering new methodologies in data management and adapting to a digital research landscape. Geovistory provides a comprehensive research environment specifically designed to meet the needs of historians and humanists, offering intuitive tools for managing research data, establishing a collaborative Knowledge Graph, and enhancing scholarly communication. By integrating semantic methodologies in the development of a modular ontology, Geovistory fosters interoperability among research projects, enabling scholars to draw on a rich pool of shared information while maintaining control over their data. Additionally, the platform addresses the inherent complexities of historical information, allowing for the coexistence of diverse interpretations and facilitating nuanced digital analyses. Despite its promising developments, the Digital Humanities ecosystem faces challenges related to funding and collaboration. The article concludes that sustained investment and strengthened partnerships among institutions are essential for ensuring the longevity and effectiveness of initiatives like Geovistory, ultimately enriching the field of Humanities research.
+date: 07-26-2024
+bibliography: references.bib
+---
+
+## Introduction
+
+The movement of Open Science has grown in importance in the Humanities, advocating for better accessibility of scientific research, especially in the form of the publication of research data [@unesco2023]. This has led funding agencies like SNSF, ANR, and Horizon Europe to ask research projects to publish their research data and metadata along the FAIR principles in public repositories (see for instance [@anr2023; @ec2023; @snsf2024]. Such requirements are putting pressure on researchers, who need to learn and understand the principles and standards of FAIR data and its impact on research data, but also require them to acquire new methodologies and know-how, such as in data management and data science.
+
+At the same time, this accessibility of an increasing volume of interoperable quality data and the new semantic methodologies might bring a change of paradigm in the Humanities by the way knowledge is produced [@beretta2023; @feugere2015]. The utilization of Linked Open Data (LOD) grants scholars access to large volumes of interoperable and high-quality datasets, at a scale analogue methods cannot reach, fundamentally altering their approach to information. This enables scholars to pose novel research questions, marking a departure from traditional modes of inquiry and facilitating a broader range of analytical perspectives within academic discourse. Moreover, drawing upon semantic methodologies rooted in ontology engineering, scholars can effectively document the intricate complexities inherent of social and historical phenomena, enabling a nuanced representation essential to the Social Sciences and Humanities domains within their databases. This meticulous documentation not only reflects a sophisticated understanding of multifaceted realities but also empowers researchers to deepen the digital analysis of rich corpora.
+
+The transition from analogical to digital research methodologies does not come without challenges for researchers, thus necessitating the development of new tools and research infrastructures to support them in this evolution. The demand arises for user-friendly tools that abstract the technical complexity, as well as project accompaniment organisations that can provide support in digital methodologies and strategies to help scholars to better manage their data for computational analysis and information sharing.
+
+This is the goal of Geovistory. It is conceived as a virtual research and data publication environment designed to strengthen Open Research Data practices. Geovistory is developed for research projects in the Humanities and Social Sciences, whether in history, geography, literature or other related fields, according to the participatory method of "user experience design". It supports researchers with simple and easy-to-use interfaces and allows them to make their research accessible in an attractive way to people interested in history.
+
+## Geovistory as a Research Environment
+
+Geovistory aims to be a comprehensive research environment that accompanies scholars throughout the whole research cycle. Geovistory includes:
+- The *Geovistory Toolbox*, which allows to manage and curate projects' research data. The Toolbox is freely accessible for all individual projects. Each research project works on its own data perspective but at the same time directly contributes to a joint knowledge graph.
+- A joint *Data repository* that allows to connect and link the different research projects under a unique and modular ontology, thus creating a large Knowledge Graph.
+- The Geovistory *Publication platform* (<http://geovistory.org>), where data is published using the RDF framework and can be accessed via the community page or project-specific webpages and its graphical search tools or a SPARQL-endpoint.
+- An active *Community* to foster information and know-how exchange among the researchers, users and technological experts.
+
+::: {#fig-geovistory-components}
+
+![](images/Geovistory_components.png)
+
+:::
+
+As per current terms of service, all data produced in the information layer of Geovistory are licensed under creative commons BY-SA 4.0. Initiated by KleioLab GmbH, the different infrastructure components are currently being developed jointly by LARHRA and the University of Bern, while other actors are welcome to join the Geovistory vision.. All the web components and the publication platform have been made available as open source, as well as the toolbox. The LOD4HSS project (<https://www.geovistory.org/lod4hss>), co-funded by swissuniversities, structures these efforts and aims at creating a larger community of users and supporters of this vision.
+
+## The aim of breaking information silos
+
+The goal of producing and publishing FAIR research data is to break the information silos that hinder the sharing and reusing of scientific data. However, achieving interoperability hinges on two critical components [@beretta2024a]:
+- Firstly, the unambiguous identification of real-world entities (e.g., persons, places, concepts) with unique identifiers (e.g., URIs in Linked Open Data) and the establishment of links between identical entities across different projects (e.g., ensuring that the entity "Paris" is identified by the same URI in all projects);
+- Secondly, the utilization of explicit ontologies that can be aligned across projects. Nevertheless, mapping between ontologies may prove challenging, or even unfeasible, particularly when divergent structural frameworks are employed (e.g., an event-centric ontology may have limited compatibility with an object-centric one).
+
+In Geovistory, those challenges are addressed by producing a unique Knowledge Graph that integrates the various projects. This necessitates from each project the adherence to the Semantic Data for History and Social Sciences (SDHSS) ontology ecosystem. It includes a methodology of ontological foundational analysis, based on the principles of OntoClean, from the domain of semantic engineering [@guarino2004], and the high-level conceptual categories of the DOLCE ontology [@borgo2022]. This has been applied to the CIDOC CRM ontology, the ICOM standard for the Heritage domain, while extending it to include the social and mental realities crucial for documenting essential aspects of human history, like ownership, membership, collective beliefs, etc. [@beretta2024b]. On this basis, a standardised semantic methodology for the development of domain-oriented ontologies in different fields of the Humanities, such as archaeology, prosopography, and geography has been created.. The SDHSS ontology ecosystem provides adaptability to the specificities of the various research projects while ensuring full interoperability among them. It  is collaboratively managed in the ontome.net (<http://ontome.net>) application, so that scholars and domain experts can participate in its development if interested.
+
+This shared Knowledge Graph streamlines the entity creation process by enabling users to navigate the graph, identify existing objects, and reuse them in their project using the same URIs for entity identification. By leveraging a common ontology ecosystem, users can not only easily identify and reuse information pertaining to specific entities but also ensure seamless integration and interoperability across projects within the Geovistory platform.
+
+## A modular system for managing complex HSS information
+
+Scholars within the Humanities domain grapple with intricate information, significantly more complex when compared to other scientific disciplines. Historical sources, whether textual, oral, visual, or material, provide fragmented and biased glimpses into the past, necessitating contextualization and interpretation. Consequently, this dynamic can engender a considerable degree of information uncertainty and discordance that need to be meticulously documented. Any digital infrastructure or model employed must adeptly navigate this multifaceted information landscape and accommodate its inherent complexity.
+
+An inherent strength of Geovistory lies in its handling of the challenges associated with scientific information in the Humanities and Social Sciences domain. Noteworthy among these challenges is the nuanced, context-sensitive nature of information and its relation with different research agendas, as well as the wide variations in meaning for the same terms and vocabulary complexities, competing views or gaps and fragmentation of available information. These complexities are deftly managed through the application of the SDHSS methodology, which tends to limit the number of classes and properties in the ontology ecosystem, while inviting projects to develop and share rich collections of controlled vocabularies of concepts that enrich the data model according to the different research agendas and perspectives.
+
+Moreover, the project-partition of the Knowledge Graph within Geovistory enables users to repurpose existing information while also accommodating contradictory data, particularly when discrepancies are identified by researchers. Each project graph is stored within a designated dataset, maintaining its individual identity within the overarching Knowledge Graph. This approach allows for the coexistence and contextualization of disparate interpretations of facts, enhancing the platform's flexibility and adaptability to varying scholarly perspectives. It is the unique amalgamation of the Geovistory graph data model and its robust semantic enrichment capabilities that render it particularly compelling for research within the Humanities and Social Sciences.
+
+## Integrating the DH ecosystem
+
+Operating within the framework of Linked Open Data principles entails establishing connections with disparate datasets housed in various open and online repositories or Knowledge Graphs, culminating in the creation of an inclusive and interconnected Web of Data—an accomplishment characterized as the fifth star of Tim Berners Lee's Open Data (<https://5stardata.info/en/>). As datasets interlink, they collectively form the Linked Open Data Cloud (<https://lod-cloud.net/>), wherein predominant repositories such as Wikidata or DBpedia, alongside authority files such as VIAF or GND, assume pivotal roles as data hubs, enhancing the discoverability, contextualization, and citability of information.
+
+The Geovistory ecosystem applies those principles, actively engaging with the Digital Humanities landscape. It is connected dynamically to the information systems of producers of authority records (such as IdRef, GND) and data repositories (such as Wikidata) in view of interconnecting bibliographic information systems and scale up to a large Knowledge Graph. Collaborative efforts include the establishment of a data exchange pipeline with the French Agence Bibliographique de l'Enseignement Supérieur (ABES), with ongoing initiatives to forge additional partnerships.
+
+Moreover, ensuring long-term preservation of research data remains imperative, with initiatives to archive completed projects in the Zenodo repository and explore potential collaborations with entities like DaSCH, OLOS, and Huma-Num for dynamic updates and data management, with preliminary engagements initiated with DaSCH.
+
+## Conclusions and future perspectives
+
+Geovistory has been designed as a comprehensive research environment tailored by and for historians and humanists to address their needs in generating and utilizing FAIR data, thereby streamlining the research digitization process. As the utilization of Geovistory proliferates across more projects, the Knowledge Graph grows with increasingly enriched information, rendering the overall environment more advantageous for scholars either by providing reusable datasets or by enriching imported data. In this regard, Geovistory can be compared as a Wikidata dedicated to research endeavors, with the difference that projects retain full control over their data without  a loss of semantic coherence throughout the graph.
+
+The forthcoming years mark a critical juncture for Geovistory, as the tools and infrastructures of the environment recently transitioned into the public domain. This needed change will ease collaboration with future public institutions within Europe, but a greater part of public fundings will be needed to ensure the sustainability of the ecosystem.
+
+Nonetheless, the Digital Humanities ecosystem remains unstable, attributed to the lack of sustained funding for infrastructural initiatives by national funding agencies and the absence of cohesive coordination among institutions. To ameliorate this landscape, prioritizing the establishment of robust collaborations and partnerships among diverse tools and infrastructures in Switzerland and Europe is imperative. Leveraging the specialized expertise of each institution holds the promise of engendering a harmonized and synergistic, distributed environment conducive to scholarly pursuits.
