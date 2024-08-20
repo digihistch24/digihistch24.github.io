@@ -10,15 +10,15 @@ author:
   - name: Yi Zhong
     email: yi.zhong@bcm.edu
     affiliations:
-      - Baylor Medicine College
+      - Baylor College of Medicine
   - name: Qiwei Li
     email: liqiwei2000@gmail.com
     orcid: 0000-0002-1020-3050
     affiliations:
-      - Unversity Of Texas At Dallas
+      - University of Texas at Dallas
   - name: Zhandong Liu
     affiliations:
-      - Baylor Medicine College
+      - Baylor College of Medicine
 keywords:
   - Capitalism
   - Communism
