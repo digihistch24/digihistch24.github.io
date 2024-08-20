@@ -69,7 +69,7 @@ format:
     toc: true
     theme:
       light: cosmo
-      dark: darkly
+      dark: [darkly, theme-dark.css]
     code-block-border-left: '#a5d7d2'
     code-block-bg: true
     code-copy: true
