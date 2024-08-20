@@ -67,7 +67,9 @@ format:
     link-external-icon: true
     link-external-newwindow: true
     toc: true
-    theme: cosmo
+    theme:
+      light: cosmo
+      dark: darkly
     code-block-border-left: '#a5d7d2'
     code-block-bg: true
     code-copy: true
