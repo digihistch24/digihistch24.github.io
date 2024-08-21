@@ -11,7 +11,7 @@ website:
   issue-url: https://github.com/digihistch24/book-of-abstracts/issues/new/choose
   repo-actions: [edit, issue]
   page-navigation: true
-  bread-crumbs: true
+  bread-crumbs: false
   back-to-top-navigation: true
   search:
     show-item-context: true
