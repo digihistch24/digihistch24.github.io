@@ -69,19 +69,19 @@
 
 .navbar a:hover {
 	color: inherit;
-    text-decoration: underline;
+	text-decoration: underline;
 	text-decoration-color: #ff3cc7;
 	text-decoration-thickness: 3px;
 }
 
 .navbar li.nav-item a.nav-link {
-    color: #181818;
+	color: #181818;
 }
 
 .quarto-category {
-    color: #181818;
+	color: #181818;
 }
 
 ::selection {
-    background-color: #a5d7d2;
+	background-color: #a5d7d2;
 }
