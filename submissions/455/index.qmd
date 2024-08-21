@@ -1,0 +1,65 @@
+---
+submission_id: 455
+categories: 'Session 7B'
+title: 'Rockefeller fellows as heralds of globalization: the circulation of elites, knowledge, and practices of modernization (1920–1970s): global history, database connection, and teaching experience'
+author:
+  - name: Ludovic Tournès
+    orcid: 0000-0002-1611-3574
+    email: ludovic.tournes@unige.ch
+    affiliations:
+      - University of Geneva
+  - name: Yi-Tang Lin
+    orcid: 0000-0003-2688-9445
+    email: yi-tang.lin@hist.uzh.ch
+    affiliations:
+      - University of Zurich
+date: 07-26-2024
+---
+
+## Introduction
+
+This paper presents the worldwide database of Rockefeller Foundation fellows produced as part of an SNSF project co-directed by Thomas David (UNIL), Yi-Tang Lin (UZH), Davide Rodogno (IHEID), Pierre-Yves Saunier (CNRS) and Ludovic Tournès (UNIGE) (2018-2023), with a group of PhD students (Ahmad Fahoum, Mathilde Sigalas, Hannah Tyler) and a computer scientist (Steven Piguet).
+
+It is composed of four parts: first, we outline the objective of the project; second, we describe the material used to build our database of Rockefeller fellows; third, we descrive the process of consolidation and standardization of data; and fourth, we provide some examples of the use of this database in teaching digital history at the university level.
+
+## Objective of the Project
+
+The aim of the project was to analyze the worldwide scientific politics of Rockefeller philanthropy through the prism of individual fellowship programs. The historiography of American philanthropy is very extensive, but has most often focused on the substantial funding granted by foundations to institutions and research programs, leaving aside funding to individuals, which was far less spectacular. Yet support for individuals is at the heart of philanthropic philosophy, and in particular that of the Rockefeller Foundation, which consists in selecting specific people at specific times, in specific sectors of activity and in specific countries to achieve specific goals. Ultimately, the Rockefeller Foundation's aim with these individual fellowship programs was to contribute to the construction of a global elite of experts and researchers involved in modernizing the world along American pa_erns, in line with the messianic project developed by American elites from the end of the 19th century onwards. Foundations have been among the main driving forces behind this project, and funding science one of the major means used to achieve it. This is the background to the Rockefeller Foundation's fellowship policy developed from the outset. As early as 1913, the Foundation awarded individual fellowships in all its fields of activity (medicine, public health, natural sciences, social sciences, nursing and agriculture). Between 1914 and 1968, 14,650 individual grants were awarded to 13,633 individuals (some of whom received several grants).
+
+## Material Used
+
+The Foundation has continued to award individual scholarships to the present day. However, we have limited ourselves to the period 1914-1968. The two basic materials used to build this base are: the Directory of fellowships and scholarships published by the Rockefeller Foundation in 1972; and above all, the “fellowship cards”, i.e. cardboard sheets containing extensive and relatively standardized information on fellows. This standardization is uneven and required a number of adjustments, but it enabled us to have a coherent corpus from the outset. Subsequently, the information gathered from the fellowship cards was cross-referenced, clarified or supplemented with the help of numerous documents from the Rockefeller archives.
+
+## Building a worldwide database from national material (Ludovic Tournès)
+
+Our database is a prosopographical database like many others. Its main originality is that it is transnational, since it contains fellows from or going to 134 different countries or territories. The construction of this transnational database from exclusively American archival material necessitated the resolution of a number of problems, which we would like to outline in this presentation, based on the data standardization and consolidation work we have carried out. The major challenge in building the database was to correct or break the American-centric bias of the Rockefeller archives without altering the nature of the information. We will discuss this process with three examples: consolidation of the names of countries and territories; consolidation of the names of the institutons from/to which fellows departed or arrived; and consolidation of the disciplines and disciplinary fields in which fellows practiced.
+
+Consolidating the names of countries and territories (134 in all) encountered several difficulties. The first was the historical evolution of the names of territories, whether colonized territories that became independent, or newly created or disappeared territories, or whose names change over time. The second difficulty arose from mistakes in the fellowship cards, which had to be corrected without altering the sources. We standardized the names of countries and locations (cities, regions, counties, etc.) by cross-referencing our data with those of reference databases such as Geonames, Wikidata and the Correlates of War Project.
+
+Consolidating the names of institutions (13,000 names collected in the fellowship cards) involved a complex process of cross-referencing between the fellowship cards and other sources, such as the institutions' own websites, Wikipedia pages, articles from scientific journals published at the time of the fellowships, and the Virtual International Authority File (VIAF), which harmonized the names while avoiding overwriting the linguistic diversity of the institutions, since in most cases it enables us to find their names in the original language. Finally, the institutions were geocoded.
+
+The consolidation of disciplines and fields of study was carried out in two stages. Firstly, we standardized the 8,000 different study programs mentioned in the cards, which were reduced to 2,395 “study program standardized” taking into account disciplinary titles and their evolution in the American intellectual field (since fellowship cards were filled in by Rockefeller Foundation officers). We then grouped these “standardized study programs” into 24 major themes, using UNESCO's Nomenclature for Fields and Science technology.
+
+The work carried out makes this database a tool for writing a history of scientific disciplines that goes beyond the national framework in which it has most often been written so far. One of our future objectives is to accentuate this transnational dimension by connecting our database with other prosopographical databases.
+
+## Teaching a database (Yi-Tang Lin)
+
+I used our database as teaching material for a Master's seminar entitled "Knowledge Flows in Twentieth-Century East Asia," where I introduced students to existing scholarly discussions on knowledge, science, technology, and techniques, and how these knowledge and materials traveled across East Asia, a region marked by constant political changes in the 20th century. The seminar format included reading historiographies on knowledge and information transfers, followed by three source workshops where students familiarized themselves, step by step, with the source materials of Rockefeller fellows and the creation of our database.
+
+Specifically, after a week of introduction to the historiography of the Rockefeller Foundation’s scientific endeavors, the first workshop involved close reading of the source materials—the Rockefeller Foundation fellowship index cards. Students in groups were asked to make online annotations to answer the following questions: What do the sources tell you, and what kinds of research questions have emerged from your reading of the fellowship cards?
+
+The fellowship index cards provided a unique opportunity for students with no previous training in quantitative history analysis or knowledge of East Asian regions. The first week of the workshop showed that the Rockefeller fellowship cards were material that students could easily relate to. The cards were essentially records of training and education, with some amazing details of the fellows’ struggles, mostly financial or linguistic, in a foreign environment. Groups of students spent much time discussing how difficult it could have been for these Rockefeller fellows, coming from East Asia, to adapt to U.S. universities or administrative organizations for their training.
+
+The second week of the workshop prepared students to act as database designers. I asked them to use our online database to find the fellows they had read about in their index cards and reflect on the information captured by the database, what was categorized into different values, and whether they agreed with the designers’ decisions. Many students pointed out that the designers did not capture anything about the family situation, which was omnipresent in the record cards as fellows would receive extra funding or have their families transported to the U.S. to stay with them. Students also advised that, as database designers, we could have been more explicit about our decisions regarding variable design. Through discussions with me, one of the designers, students learned about database designers' reflections and research questions behind a seemingly straightforward dataset with clean-cut information. They also understood the reasons behind why we were more detailed in some information and less so, or even ignored some, based on resources and manpower.
+
+Finally, the third session was for students to play with the database by presenting a visualization of their selection in front of the class. I asked students to be creative and present what they had found by playing with the data. Despite many interesting and innovative analytical frameworks based on how the students selected a sub-population (female fellows, Japanese fellows during WWII), this session was probably the least successful, as students tended to present many figures, resulting in limited analysis.
+
+To briefly conclude, my design of the workshops progressed from close reading of individual source materials to using the database, which is essentially a collective biography of fellows. Instead of training students in technical analysis skills, I emphasized the importance of close and "far" readings of Rockefeller fellows. This seminar also aimed to show them how to read and analyze a database, considering it as not neutral but driven by designers' research questions and available resources.
+
+Students reacted well to the first two sessions. However, as we delved into the "far reading" aspect of the database, students were less capable of making meaningful arguments and discussions. One of the reasons is probably that our captured fields were very much institutional within the Rockefeller galaxy, which students were not completely familiar with.
+
+At the end of this class, students did find inspiration from these source materials for their seminar research papers. Not with the individual fellows, but the contexts evidenced in the record cards. For example, as they read about a Japanese fellow’s journey in the USA during the conflict between the U.S. and Japan, some students became interested in researching Japanese science during and after WWII and its relations with the U.S., or Taiwanese agronomists and agricultural policies in Taiwan.
+
+## Conclusion: Moving Forward
+
+Today, we presented a dataset of transnational nature. Our team has rediscovered and standardized the transnational elements within the Rockefeller Foundation source materials in what we believe are the most meaningful ways. We have also started using this database to teach students database literacy. To conclude this presentation, we invite your feedback and comments on how we can promote this dataset globally, making it meaningful and alive for people specializing in different regions.
