@@ -1,0 +1,33 @@
+/*-- scss:defaults --*/
+$body-color: #ccc9c9;
+$link-color: #f0f600;
+$body-bg: #181818;
+
+$navbar-bg: #4c1a57;
+$navbar-padding-y: 0.5rem !default;
+
+/*-- Code blocks --*/
+$code-block-bg-alpha: -0.8;
+$code-block-border-left: #f0f600;
+
+/*-- inline code blocks --*/
+$code-bg: #4c1a57;
+$code-color: #ccc9c9;
+
+.navbar a:hover {
+	text-decoration: underline;
+	text-decoration-color: #f0f600; /* Different color for dark mode */
+	text-decoration-thickness: 3px; /* Thicker underline in dark mode */
+}
+
+.navbar li.nav-item a.nav-link {
+	color: #ccc9c9;
+}
+
+.quarto-category {
+	color: #f0f600;
+}
+
+::selection {
+	background-color: #4c1a57;
+}

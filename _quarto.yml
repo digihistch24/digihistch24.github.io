@@ -11,7 +11,7 @@ website:
   issue-url: https://github.com/digihistch24/book-of-abstracts/issues/new/choose
   repo-actions: [edit, issue]
   page-navigation: true
-  bread-crumbs: true
+  bread-crumbs: false
   back-to-top-navigation: true
   search:
     show-item-context: true
@@ -67,14 +67,15 @@ format:
     link-external-icon: true
     link-external-newwindow: true
     toc: true
-    theme: cosmo
+    theme:
+      light: [cosmo, styles.css]
+      dark: [darkly, theme-dark.css]
     code-block-border-left: '#a5d7d2'
     code-block-bg: true
     code-copy: true
     code-fold: true
     code-tools: true
     code-overflow: wrap
-    css: styles.css
     include-in-header:
       - custom-header.html
     license: CC BY-SA 4.0
