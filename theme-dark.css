@@ -31,3 +31,9 @@ $code-color: #ccc9c9;
 ::selection {
 	background-color: #4c1a57;
 }
+
+.sidebar-navigation {
+	overflow: scroll;
+	scrollbar-color: #f0f600 #181818;
+	scrollbar-width: thin;  
+}
