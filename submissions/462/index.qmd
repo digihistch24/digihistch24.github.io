@@ -1,6 +1,6 @@
 ---
 submission_id: 462
-categories: 'Session 7B'
+categories: 'Session 7A'
 title: "From record cards to the dynamics of real estate transactions: Working with automatically extracted information from Basel's historical land register, 1400-1700"
 author:
   - name: Benjamin Hitz
