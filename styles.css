@@ -67,6 +67,10 @@
 
 /*-- scss:defaults --*/
 
+.footer {
+	display: none;
+}
+
 .navbar a:hover {
 	color: inherit;
 	text-decoration: underline;
