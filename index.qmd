@@ -17,9 +17,8 @@ listing:
     categories: true
     contents:
       - submissions/poster/*/index.qmd
-    fields: [categories, title, author]
+    fields: [title, author]
     field-display-names:
-      categories: 'Session'
       author: 'Author(s)'
 
 date-modified: last-modified
