@@ -16,7 +16,7 @@ description-meta: 'The DigiHistCH24 conference on "Historical Research, Digital 
 author-meta: "Digital History Switzerland 2024"
 ---
 
-The DigiHistCH24 conference on "Historical Research, Digital Literacy, and Algorithmic Criticism" brings together scholars and professionals to address the evolving role of digital technologies in historical research. Hosted by the University of Basel on September 12-13, 2024, the conference will focus on the integration of digital tools, the importance of digital literacy, and the critical examination of algorithms within the discipline.
+The DigiHistCH24 conference on "Historical Research, Digital Literacy, and Algorithmic Criticism" brings together scholars and professionals to address the evolving role of digital technologies in historical research. Hosted by the University of Basel on September 12--13, 2024, the conference will focus on the integration of digital tools, the importance of digital literacy, and the critical examination of algorithms within the discipline.
 
 This book of abstracts contains all the papers presented at the conference, providing a comprehensive overview of current research at the intersection of history and digital technology. These papers cover a range of topics, from innovative methodologies and software applications to the challenges of digital data management and algorithmic analysis in historical research.
 
@@ -25,5 +25,5 @@ We are pleased to present this collection, which reflects the state of the art i
 ::: {.callout-tip}
 ## DigiHistCH24 Registration
 
-We are looking forward to seeing you in Basel! Please don't forget to [register](https://conferences.unibas.ch/frontend/index.php?page_id=1424&booking_registration_action=show&booking_registration_controller=offer) for attending DigiHistCH24!.
+We are looking forward to seeing you in Basel! Please don't forget to [register](https://conferences.unibas.ch/frontend/index.php?page_id=1424&booking_registration_action=show&booking_registration_controller=offer) for attending DigiHistCH24!
 :::
