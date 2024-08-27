@@ -1,5 +1,6 @@
 ---
 submission_id: 482
+categories: 'Session 2B'
 title: A Digital History of Internationalization. Operationalizing Concepts and Exploring Millions of Patent Documents
 author:
   - name: Jérôme Baudry
