@@ -1,0 +1,32 @@
+---
+submission_id: 484
+categories: 'Poster Session'
+title: Swiss Google Books for Research
+author:
+  - name: Martin Reisacher
+    orcid: 0009-0008-4529-5291
+    email: martin.reisacher@unibas.ch
+    affiliations:
+      - University of Basel, University Library
+  - name: Eric Dubey
+    orcid: 0000-0002-9300-9762
+    email: eric.dubey@unibas.ch
+    affiliations:
+      - University of Basel, University Library
+date: 08-29-2024
+---
+
+The UB Bern, ZHB Lucerne, ZB Zurich and UB Basel are digitizing a large part of their holdings from the 18th and 19th centuries in collaboration with Google Books. This digital collection, which is accessible in full text, is intended to offer new possibilities for digital and data-driven research and teaching, e.g. in the context of text and data mining and distant reading.
+
+Due to its size (90 million pages), the collection offers many opportunities, but also presents libraries and researchers with new challenges. Google's algorithms are responsible for image processing, book composition and full-text recognition. Continuous data improvement/changes must therefore be expected when changed algorithms deliver new data versions. This helps to continuously improve quality, but represents a black box that makes it complicated to make transparent statements about the data production processes.
+
+The four partner libraries are currently working on a project (“Google Books for Research”):
+
+* Research and teaching requirements for large digital historical text collections
+* State of the art solutions for research-orientated accessibility of large historical text collections
+* Data quality and enrichment
+* Infrastructure solutions
+
+The central question is how libraries, as cultural and memory institutions, can offer relatively generic infrastructure in the digital space and keep it stable while still being able to use it flexibly enough for very specific research questions and methods.
+
+As part of the poster session, we will present the results of the preliminary project and would like to explore these further with the audience.
