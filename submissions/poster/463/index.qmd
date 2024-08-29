@@ -1,0 +1,57 @@
+---
+submission_id: 463
+categories: 'Poster Session'
+title: transcriptiones – Create, Share and Access Transcriptions of Historical Manuscripts
+author:
+  - name: Yvonne Fuchs
+    orcid: 0009-0007-4545-606X
+    email: yvonne.fuchs@unibas.ch
+    affiliations:
+      - University of Basel
+      - University of Lucerne
+  - name: Dominic Weber
+    orcid: 0000-0002-9265-3388
+    email: dominic.weber@unibe.ch
+    affiliations:
+      - University of Bern
+      - University of Basel
+keywords:
+  - Transcriptions
+  - Open Research Data
+  - FAIR Data
+  - Crowdsourcing
+abstract: |
+  Transcriptions are crucial for historical research but largely inaccessible, leading to redundant work. transcriptiones revolutionizes the access to transcriptions and metadata of historical sources through a collaborative platform, empowering researchers, students, and citizen scientists to contribute. Thus, it takes transcriptions to the age of FAIR and open research data.
+key-points:
+  - Transcriptions are crucial for historical research but largely inaccessible, leading to redundant work.
+  - transcriptiones is a collaborative platform which revolutionizes the access to transcriptions and metadata.
+  - transcriptiones takes transcriptions to the age of FAIR and open research data. 
+date: 07-24-2024
+bibliography: references.bib
+---
+
+## Background
+
+The significance of Open Research Data (ORD) is rapidly increasing in the research landscape, promoting transparency, reproducibility, and reuse [For more information about ORD in the Swiss higher education system, see @swissuniversitiesSwissNationalOpen2021; and @swissuniversitiesSwissNationalStrategy2021]. In historical research, transcriptions are crucial research data, serving as indispensable resources for the interpretation of the past. Despite their immense value, transcriptions have often remained unpublished, difficult to find, and lacked a central platform for access. Therefore, historians frequently had to re-transcribe the same sources. *transcriptiones* addresses this problem by providing the infrastructure for sharing, editing and reusing transcriptions [@fuchsTranscriptiones].
+
+## Project Overview
+
+*transcriptiones* is for everyone – researchers, students, and citizen scientists. By contributing their transcriptions, they enhance the visibility and impact of their work. Institutional barriers diminish and collaborations are established. The shared transcriptions are not restricted to a certain period or space. And importantly, contributors are not bound to any digitisation programmes by GLAM institutions but can provide transcriptions of whatever sources they are working on. This leads to the inclusion of diverse sources not typically found on platforms focused on digital copies. In addition, *transcriptiones* gathers metadata of the transcribed sources, harnessing a rich pool of crowdsourced knowledge. Some of them would otherwise remain uncollected. Overall, *transcriptiones* enables the reuse of transcriptions and provides valuable insights into sources.
+
+In order to build and uphold a diverse community, *transcriptiones* needs to cater for the needs and skill sets of many different groups. This includes for example balancing a low-threshold and lightweight upload process for those wishing to quickly publish their transcriptions with the provision of comprehensive metadata required by researchers to properly contextualize the transcriptions they obtain from *transcriptiones*.
+
+After sharing, transcriptions are not intended to remain stagnant. Rather, the community is encouraged to adapt, enhance and therefore reuse the transcriptions. Additionally, users can also revise by adding metadata. The different versions of a transcribed document can be viewed in the document's version history. Each revised version is assigned a unique, permanent URL that remains unchanged. This ensures that the exact version of a transcription is easily findable and can be accurately cited. By design, the contributed transcriptions vary in state. Sometimes only parts of a source are transcribed, or incomplete raw versions are provided. However, even such partial transcriptions are valuable for *transcriptiones* as they provide valuable insights into archival collections. Moreover, their quality improves through collaboration, like the principle used by Wikipedia. The open and collaborative nature of *transcriptiones*, however, requires the users to possess a certain degree of data literacy. Accessing the transcriptions and metadata demands an understanding of what to expect, along with preparedness for potential preprocessing before further use. Contributors on the other hand should not be afraid to publish transcriptions which contain unclear readings or incomplete sections of a source. They can anticipate that other users are cognizant of the potential appearance of transcriptions and might edit or expand them later. This is also in line with the Swiss Data Literacy Charter, according to which, data literacy enables people to act as data producers and data consumers alike [@swissacademiesofartsandsciencesSwissDataLiteracy2024, p. 4].
+
+Another goal of *transcriptiones* is building a community of transcribers who interact with one another and enhance the transcriptions together. To facilitate this, several features have been implemented. Users can subscribe to other users, specific institutions, and reference numbers in order to stay up to date with recent developments related to their interests. Additionally, users can contact other contributors directly to exchange information about sources, manuscripts, or scientific findings.
+
+## Towards FAIR transcriptions
+
+From the research community’s perspective, findability, and therefore effective search strategies, are essential. For that reason, two distinct ways of navigating the *transcriptiones* collection have been implemented, each serving specific purposes. The field search allows users to initiate queries at varying levels of detail [@fuchsSearch]. This interface allows users to locate transcriptions of specific sources. By combining multiple fields, users can refine their searches and discover similar sources from a particular time period, for example. The second strategy is an inventory search, offering access to transcriptions based on archives, signatures, scribes, and different types of sources [@fuchsBrowseCollection]. This approach is similar to an archive plan search, designed to align with a search pattern historians are used to and to transpose this pattern to a platform which spans multiple GLAM institutions. Regarding the FAIR principles, these search strategies are crucial in making transcriptions of handwritten sources findable.
+
+Given the increasing importance of digital research methods in history, it is important that data from *transcriptiones* is not only accessible to humans but also to machines. Therefore, access to transcriptions and metadata is provided through both the web application and a REST-API [@fuchsTranscriptionesAPI]. Via the REST-API, lists and metadata of institutions, reference numbers, source types, scribes and documents can be accessed automatically in the JSON-format. The transcriptions themselves can also be automatically scraped either as plain text or as TEI-XML. Thanks to the API, digital historians can comfortably access the *transcriptiones* collection the way they need it to conduct quantitative research, to train language models or for any other task that requires automatic access to data and metadata. Furthermore, the API enables interoperability with other stakeholders and ensures that the impact of data reuse extends beyond the platform itself. One example of such a use of the *transcriptiones* API is the interface between *transcriptiones* and the *Digitaler Lesesaal* of the *Staatsarchiv Basel-Stadt*. Currently in development, this connection will enable direct links to existing transcriptions within the archive catalog.
+
+The central aspects of *transcriptiones* are accessibility, transparency, collaboration, and reuse. While the aforementioned features and strategies of *transcriptiones* tackle those aspects with regard to the transcriptions and their metadata, the platform also promotes them in the context of code and its development. For this reason, the source code is openly available on Zenodo and GitHub under the very open BSD-3-Clause license [@fuchsTranscriptiones2023a; @fuchsTranscriptiones2023].
+
+## Conclusion
+
+*transcriptiones* provides the infrastructure for sharing and editing transcriptions, which it understands as research data. By doing so, it takes this type of data to the age of FAIR and open research data. As an open and collaborative platform that requires metadata during uploads to ensure proper attribution to the source and offers various search strategies, it ensures that transcriptions are findable. Accessibility is guaranteed through the free web application, which allows viewing transcriptions without registration as well as through the various export formats and the API. The latter is also an important cornerstone in providing transcriptions and metadata interoperably. Reusability is achieved through the plethora of metadata and the versioning of edited transcriptions and metadata [For further information about what the FAIR data principles are, see @wilkinsonFAIRGuidingPrinciples2016]. At the same time, *transcriptiones* prompts a reconsideration of the perception of transcriptions, encouraging contributors to open up their work to collaboration. All these parts play together towards understanding transcriptions as invaluable research data which is worth gathering, sharing, enhancing and documenting so that many historians can use them for downstream research.
