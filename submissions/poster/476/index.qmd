@@ -1,0 +1,55 @@
+---
+submission_id: 476
+categories: 'Poster Session'
+title: "Modeling in history: using LLMs to automatically produce diagrammatic models synthesizing Piketty's historiographical thesis on economic inequalities"
+author:
+  - name: Axel Matthey
+    orcid: 0000-0001-7454-1131
+    email: axel.matthey@unil.ch
+    affiliations:
+      - Université de Lausanne
+keywords:
+  - LLM
+  - diagrams
+  - economic inequality
+  - pedagogy
+  - Artificial Intelligence
+abstract: |
+  This study seeks to merge two realms: theoretical digital history, specifically the modeling in history, and economic history, with a focus on the history of income and wealth inequalities. The central objective is to apply theoretical research outcomes concerning models and their application in history to scrutinize a historical explanation of the evolution of economic inequalities between 1914 and 1950. Traditionally, predictive models with reproducible results were paramount for validating explanations through observed data. However, the role of models has expanded, moving beyond mere predictive functions. This paradigm shift, acknowledged by the philosophy of science in recent decades, emphasizes that models now serve broader purposes, guiding exploration and research rather than just prediction. These models are not merely tools for validating predictions; they serve to bring clarity to our thinking processes, establishing the conditions under which our intuitions prove valid. Beyond merely representing systematic relationships between predetermined facets of reality, models aspire to elucidate causal connections. When a historical model aims to provide causal explanations, the process involves identifying the "explanandum" (the aspect of reality being explained) as the dependent variable and working backward to pinpoint its hypothetical causes as independent. Using a diagrammatic approach, we formalized a qualitative model aligning with an historiographical explanation of the evolution of economic inequalities by Thomas Piketty during 1914-1950. The intent was to employ causal diagrams, translating the narrative embedded in Piketty's historiography of inequalities into a formal model. This endeavor sought to make explicit the implicit causal relationships within the historian's narrative: the resulting causal model serves as a symbolic synthesis of our comprehension of a specific subject, enabling the construction of a highly refined narrative synthesis from a complex topic.
+
+date: 03-12-2023
+bibliography: references.bib
+---
+
+## Introduction
+
+This research explores the potential of Large Language Models (LLMs) to automatically generate diagrammatic models that synthesize complex historical narratives. Specifically, we focus on Thomas Piketty's analysis of economic inequalities in the first half of the 20th century, as presented in his seminal work, Capital in the Twenty-First Century . Our project aims to bridge the gap between theoretical digital history and economic history by employing LLMs to translate Piketty's causal explanations into visual representations, thus enhancing understanding and facilitating further analysis.
+
+## Models in history: from prediction to exploration
+
+Traditionally, models in the natural sciences served primarily as predictive tools, used to validate explanations through observed data. However, their role has expanded to encompass exploration, research, and the clarification of thought processes. This shift, acknowledged by the philosophy of science, emphasizes the ability of models to provide new perspectives and challenge existing assumptions. The models' main function becomes to clarify our thinking processes.
+
+With regard to that evolution of modeling, in the digital humanities, it should be noted that there is also a more "introspective" branch of research on models in the humanities, which can be described as the "meta-discipline" of the digital humanities, which attempts to evaluate the epistemological effects of models on research in the humanities, and which “calls for a shift from models as static objects (e.g., what functionalities they enable) to the dynamic process of modeling” . This distinction—between the simple use of models (model-based quantitative operationalization) and epistemological research into the implications of formal modeling—can be mapped onto the division between applied and theoretical digital humanities proposed by Michael Piotrowski .
+
+## “Manual” causal modeling and Piketty's historical narrative
+
+Our research delves into the realm of causal modeling, aiming to elucidate the cause-and-effect relationships within historical narratives. In this context, the "explanandum" (the phenomenon to be explained) is treated as the dependent variable, and the model seeks to identify its potential causes.
+We began by manually creating a semi-formal qualitative model based on Piketty's explanation of economic inequalities from 1914 to 1950. Utilizing causal diagrams, as described by Judea Pearl (Pearl 2018), we formalized Piketty's narrative, making explicit the implicit causal relationships within his analysis. The resulting model serves as a symbolic synthesis of our understanding of Piketty's core argument: that outside periods of significant economic interventionism, wealth tends to grow faster than economic output, leading to increased inequality (r > g, where r is the rate of return on capital and g is the rate of economic growth). While this trend was mitigated in the first half of the 20th century due to major sociopolitical shocks like the World Wars and the Great Depression, Piketty argues that it has resurfaced since the 1970s and 1980s, a phenomenon he terms the "return of capital."
+
+## LLMs and the automatic generation of historiographical diagrams: starting with a small article
+
+Our initial exploration will involve using Google’s LLM (Gemini 1.5 Pro) to convert a concise historical article by Piketty into a simplified causal diagram. This article will be A Historical Approach to Property, Inequality and Debt: Reflections on Capital in the 21st Century .
+Our previous experience with manually constructing a causal model based on Piketty's work highlighted the potential for automation using LLMs. LLMs have demonstrated remarkable capabilities in various domains, including understanding and generating code, translating languages, and even creating different creative text formats. We believe that LLMs can be trained to analyze historical texts, identify causal relationships, and automatically generate corresponding diagrammatic models. This could significantly enhance our ability to visualize and comprehend complex historical narratives, making implicit connections explicit and facilitating further exploration and analysis. 
+Historiographical theories explore the nature of historical inquiry, focusing on how historians represent and interpret the past. The use of diagrams has been considered as a means to enhance the communication and understanding of these complex theories.
+Diagrams have been utilized to represent causal narratives in historiography, providing a visual means to support historical understanding and communicate research findings effectively Diagrams have indeed been employed to represent historiographical theories, particularly to illustrate causal narratives and enhance the clarity of historical explanations. 
+On the other hand, Large Language Models (LLMs) have been increasingly integrated into various aspects of coding, from understanding and generating code to assisting in software development and customization. These models leverage vast amounts of data to provide support for a range of programming-related tasks. LLMs are proving to be versatile tools in the realm of coding, capable of understanding, generating, and customizing code across various programming languages and applications. They offer improvements in code-related tasks, user-friendly interactions, and support for low-resource languages. However, challenges such as bias in code generation and the need for human oversight in code review remain. Overall, LLMs are becoming an integral part of the software development process, offering both opportunities and areas for further research and development.
+
+
+## Benefits and implications of that research
+
+The ability to automatically generate historiographical diagrams using LLMs offers several potential benefits:
+-	Enhanced understanding of complex historical narratives: Visual representations can clarify intricate causal relationships and make historical analysis more accessible to a wider audience.
+-	Identification of uncertainties and biases: LLMs can be trained to recognize subtle markers of uncertainty and bias within historical texts, encouraging critical engagement with historical interpretations.
+-	Efficiency and scalability: Automating the process of diagram generation would save time and resources, allowing researchers and teachers to explore a wider range of historical topics and narratives.
+
+
