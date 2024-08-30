@@ -47,3 +47,8 @@ We are looking forward to seeing you in Basel! Please don't forget to [register]
 
 :::{#poster}
 :::
+
+<hr>
+<br />
+Digital History Switzerland 2024 is sponsored by:
+![Swiss National Science Foundation; University of Basel, Department of History; FAG Basel; Association History and Computing; Max-Geldner-Stiftung](images/sponsoring_logos.png)
