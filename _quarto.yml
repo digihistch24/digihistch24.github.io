@@ -81,6 +81,7 @@ format:
     license: CC BY-SA 4.0
     page-layout: full
     mainfont: Jost
+    html-math-method: plain
 
 freeze: false
 
