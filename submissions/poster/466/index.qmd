@@ -1,0 +1,50 @@
+---
+submission_id: 466
+categories: 'Poster Session'
+title: 'Economies of Space: Opening up Historical Finding Aids'
+author:
+  - name: Lucas Burkart
+    orcid: 0000-0002-9011-5113
+    email: lucas.burkart@unibas.ch
+    affiliations:
+      - University of Basel
+  - name: Tobias Hodel
+    orcid: 0000-0002-2071-6407
+    email: tobias.hodel@unibe.ch
+    affiliations:
+      - University of Bern
+  - name: Benjamin Hitz
+    orcid: 0000-0002-3208-4881
+    email: benjamin.hitz@unibas.ch
+    affiliations:
+      - University of Basel
+  - name: Aline Vonwiller
+    orcid: 0009-0001-2098-9237
+    email: a.vonwiller@unibas.ch
+    affiliations:
+      - University of Basel
+  - name: Ismail Prada Ziegler
+    orcid: 0000-0003-4229-8688
+    email: ismail.prada@unibe.ch
+    affiliations:
+      - University of Bern
+  - name: Jonas Aeby
+    email: jonas.aeby@unibas.ch
+    affiliations:
+      - University of Basel
+  - name: Katrin Fuchs
+    email: katrin.fuchs@unibas.ch
+    affiliations:
+      - University of Basel
+
+date: 08-28-2024
+---
+
+In the realm of historical data processing, machine learning has emerged as a game-changer, enabling the analysis of vast archives and complex finding aids on an unprecedented scale. One intriguing case study exemplifying the potential of these techniques is the digitization of the Historical Land Registry of the City of Basel (=Historisches Grundbuch Basel, HGB).
+The HGB, compiled around the turn of the 20th century, contains a wealth of historical data meticulously collected on index cards. Each card represents a transaction or entry from source documents, and the structured data reflects the conventions and interests of its creators. This inherent complexity has set the stage for a multifaceted exploration, encompassing text recognition, specifically for handwritten materials, and information extraction, particularly event extraction.
+
+One of the key accomplishments of this endeavor is the successful application of machine learning algorithms to decipher handwritten content, resulting in a remarkably low character error rate of just 4%. This breakthrough paves the way for extracting valuable information, such as named entities (persons, places, organizations), their relationships, and mentioned events, through specialized language models.
+
+When combined with property information, the extracted data offers a unique opportunity to visualize historical events and transactions on Geographical Information Systems. This process allows for analyzing normative and semantic shifts in the real estate market over time, shedding light on historical changes in language and practice.
+
+Ultimately, this project signifies a milestone in historical data analysis. Machine learning techniques have matured so that even extensive datasets and intricate finding aids can be effectively processed. As a result, innovative approaches to large-scale historical data analysis are now within reach, offering new perspectives on dynamic urban economies during pre-modern times. This venture showcases how technological approaches and humanities deliberations go hand in hand to understand complex patterns in economic history.
