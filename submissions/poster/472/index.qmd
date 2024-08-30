@@ -1,0 +1,29 @@
+---
+submission_id: 472
+categories: 'Poster Session'
+title: Discuss Data -- an Open Repository for Research and Data Communities
+author:
+  - name: Torsten Kahlert
+    orcid: 0009-0003-3264-5006
+    email: kahlert@hab.de
+    affiliations:
+      - Herzog-August-Bibliothek Wolfenbüttel
+  - name: Daniel Kurzawe
+    orcid: 0000-0001-5027-7313
+    email: kurzawe@sub.uni-goettingen.de
+    affiliations:
+      - SUB Göttingen
+date: 08-28-2024
+---
+
+In this poster, we show how the Discuss Data research data platform is being expanded to include a "community space" for the digital humanities (DH). Discuss Data enables and promotes contextualized discussion about the quality and sustainability of research data directly on the object.
+
+Current standards and the digitization of existing processes require structures to enable sustainable development models. This applies in particular to the quality of research data, which is becoming increasingly important in the academic debate.
+
+Discuss Data offers a platform for this. In addition to the information technology management, archiving and provision of data, Discuss Data also contextualizes data through curated discussion. The platform addresses individual communities and offers them a subject-specific discussion space and, in the long term, community-specific tools. Communities are not to be equated with disciplines, but are rather interest groups on specific issues or data materials.
+
+Following the introduction of the first community space for the research community on Eastern Europe, South Caucasus and Central Asia in 2020, 121 datasets were published and 141 users have registered (as of 28.11.23). However, the discussion function provided by Discuss Data has been used comparatively little so far. This discussion culture, which is quite common at conferences and reviews and is extremely important from a technical perspective, has not yet become established, despite the positive attitude towards it.
+
+Digital method and source criticism has become one of the central challenges of the digital humanities. Until now, research data has generally been published on institutional repositories or platforms such as Zenodo, but without the kind of quality control that is customary for journal articles. As a result, datasets often remain unused for further processing because it remains unclear what quality the research data has and what it might be suitable for.
+
+From the experience of the first funding phase of Discuss Data, it has become clear that more energy must be put into attracting data curators in order to ensure that the community spaces are supported by the community in the long term. Positive examples are needed for this. For example, the integration of discussions as micropublications could help to demonstrate the individual added value.
