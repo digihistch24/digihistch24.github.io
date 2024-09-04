@@ -46,7 +46,7 @@ Secondly, we plan to use this case study to reflect upon the interpretation of m
 
 Finally, we will discuss the role of GLAM (galleries, libraries, archives, and museums) institutions as drivers of change and facilitators, especially when it comes to the use of their collections as data [@padilla_2023_8342171].
 
-![Pipeline of end-to-end Named Entity Linking.](https://github.com/rashitig/abstract-template/blob/main/images/graph.png?raw=true)
+![Pipeline of end-to-end Named Entity Linking.](images/graph.png)
 
 ## Conclusion
 Current solutions for NEL need more accuracy and scalability. At the same time, such enrichment processes will become standard processes for GLAM institutions so that they can offer enriched data layers to their users as a service. This raises several challenges: The technical challenge to improve the linking workflow itself, the challenge to document the workflow in a transparent and reproducible form, and finally, the methodological challenge to negotiate and interpret the results at the intersection of GLAM institutions, data science, and historical research.   
