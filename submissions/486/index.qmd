@@ -17,6 +17,11 @@ author:
     orcid: 0000-0003-3689-2154
     affiliations:
       - ETH Zürich Library
+  - name: Agnieszka Ilnicka
+    email: agnieszka.ilnicka@ethz.ch
+    orcid: 0000-0002-4710-3440
+    affiliations:
+      - ETH Zürich IT Services
   
 keywords:
   - Machine Learning
