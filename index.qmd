@@ -12,6 +12,7 @@ listing:
       author: 'Author(s)'
     sort: 'categories'
     sort-ui: [categories, title, author]
+    page-size: 40
   - id: poster
     type: table
     categories: true
