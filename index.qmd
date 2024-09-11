@@ -33,6 +33,12 @@ This book of abstracts contains all the papers and posters presented at the conf
 
 We are pleased to present this collection, which reflects the state of the art in digital history, and anticipate that the discussions it stimulates will make a significant contribution to the field.
 
+::: {.callout-note}
+## Keynote Streaming
+
+[Join our Zoom live stream](https://unibas.zoom.us/j/67126379145) of Gerben Zaagsma's keynote [*When Literacy Goes Digital: Rethinking the Ethics and Politics of Digitisation*](https://digihistch24.github.io/book-of-abstracts/submissions/keynote/) Thursday at 6pm!
+:::
+
 ::: {.callout-tip}
 ## DigiHistCH24 Registration
 
