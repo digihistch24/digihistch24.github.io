@@ -7,12 +7,12 @@ author:
     orcid: 0000-0002-1318-4983
     email: christian.forney@unibe.ch
     affiliations:
-      - University of Berne
+      - University of Bern
   - name: Martin Stuber
     orcid: 0000-0001-9853-9570
     email: martin.stuber@unibe.ch
     affiliations:
-      - University of Berne
+      - University of Bern
 keywords:
   - Biodiversity
   - Botanical networks
@@ -25,6 +25,7 @@ keywords:
 abstract: |
   Floras and herbaria are particularly valuable sources both for historical analyses of the collaborative knowledge culture of botany and for research into historical biodiversity. Therefore, the digital representation of this complementary sources should fulfil the requirements of the humanities and natural sciences as well. In this paper, we describe challenges, solutions and lessons learned in this regard as a summary of experiences from multiple projects on the data and edition platform _hallerNet_ around the Bernese polymath Albrecht von Haller (1708–1777).
 date: 08-08-2024
+date-modified: 09-17-2024
 bibliography: references.bib
 ---
 
