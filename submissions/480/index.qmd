@@ -13,6 +13,7 @@ author:
     email: martin.stuber@unibe.ch
     affiliations:
       - University of Bern
+doi: 10.5281/zenodo.13768615
 keywords:
   - Biodiversity
   - Botanical networks
@@ -26,6 +27,19 @@ abstract: |
   Floras and herbaria are particularly valuable sources both for historical analyses of the collaborative knowledge culture of botany and for research into historical biodiversity. Therefore, the digital representation of this complementary sources should fulfil the requirements of the humanities and natural sciences as well. In this paper, we describe challenges, solutions and lessons learned in this regard as a summary of experiences from multiple projects on the data and edition platform _hallerNet_ around the Bernese polymath Albrecht von Haller (1708–1777).
 date: 08-08-2024
 date-modified: 09-17-2024
+citation:
+  type: speech
+  event: Digital History Switzerland 2024
+  container-title: 'Digital History Switzerland 2024: Book of Abstracts'
+  editor:
+  - Jérôme Baudry
+  - Lucas Burkart
+  - Béatrice Joyeux-Prunel
+  - Eliane Kurmann
+  - Moritz Mähr
+  - Enrico Natale
+  - Christiane Sibille
+  - Moritz Twente
 bibliography: references.bib
 ---
 
