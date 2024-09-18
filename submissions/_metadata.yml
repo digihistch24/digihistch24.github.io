@@ -1,0 +1,17 @@
+format:
+  html:
+    citation:
+      type: standard
+      event: Digital History Switzerland 2024
+      container-title: 'Digital History Switzerland 2024: Book of Abstracts'
+      editor:
+      - Jérôme Baudry
+      - Lucas Burkart
+      - Béatrice Joyeux-Prunel
+      - Eliane Kurmann
+      - Moritz Mähr
+      - Enrico Natale
+      - Christiane Sibille
+      - Moritz Twente
+
+freeze: auto
