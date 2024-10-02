@@ -8,7 +8,9 @@ author:
     email: audray.sauvage@bar.admin.ch
     affiliations:
       - Swiss Federal Archives
-  - name: Julien A. Raemy
+  - name:
+      given: Julien Antoine
+      family: Raemy
     orcid: 0000-0002-4711-5759
     email: julien.raemy@bar.admin.ch
     affiliations:
