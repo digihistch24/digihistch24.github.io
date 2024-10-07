@@ -5,9 +5,12 @@ title: 20 godparents and 3 wives – studying migrant glassworkers in post-medie
 author:
   - name: Monika Reppo
     orcid: 0000-0002-1643-7229
-    email: monika.reppo@ut.ee
+    email: monika.reppo@tlu.ee
     affiliations:
       - University of Tartu
+funding:
+  - statement: >
+      The Project "Cooperation between universities to promote doctoral studies" (2021-2027.4.04.24-0003) is co-funded by the European Union.
 keywords:
   - post-medieval archaeology
   - documentary archaeology
@@ -67,6 +70,10 @@ In this model, marriages between families and the connections of those families 
 ## Results
 
 This study explored the network of connections between 1,248 migrant glassworkers and their family members working in Estonia from the 16th–19th century, using Transkribus, OCR, and Gephi as the main tools. A complete list of workers during this period was not the goal of this study. The raw dataset was published via DataDOI, an Open Access repository managed by the University of Tartu library in accordance to FAIR principles. The data shows that a key factor in building and maintaining the glass community was godparenting and marriages between the families. In addition to tracing migration to, within, and from Estonia, the data also allowed identifying the makers of some archaeological glass artefacts and locations and names of glassworks.
+
+::: {.callout-note}
+The Project "Cooperation between universities to promote doctoral studies" (2021-2027.4.04.24-0003) is co-funded by the European Union.
+:::
 
 ## References
 
