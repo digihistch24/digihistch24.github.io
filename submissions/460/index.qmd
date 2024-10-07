@@ -9,7 +9,8 @@ author:
     affiliations:
       - University of Tartu
 funding:
-  - statement: 'The Project "Cooperation between universities to promote doctoral studies" (2021-2027.4.04.24-0003) is co-funded by the European Union.'
+  - statement: >
+      The Project "Cooperation between universities to promote doctoral studies" (2021-2027.4.04.24-0003) is co-funded by the European Union.
 keywords:
   - post-medieval archaeology
   - documentary archaeology
