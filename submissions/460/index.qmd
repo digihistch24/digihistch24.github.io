@@ -5,7 +5,7 @@ title: 20 godparents and 3 wives – studying migrant glassworkers in post-medie
 author:
   - name: Monika Reppo
     orcid: 0000-0002-1643-7229
-    email: monika.reppo@ut.ee
+    email: monika.reppo@tlu.ee
     affiliations:
       - University of Tartu
 funding:
