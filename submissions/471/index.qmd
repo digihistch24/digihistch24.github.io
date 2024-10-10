@@ -40,6 +40,8 @@ doi: 10.5281/zenodo.13908208
 other-links:
   - text: Presentation Slides
     href: https://doi.org/10.5281/zenodo.13908208
+  - text: Mini Muse Project Website
+    href: https://mini-muse.github.io/project/
 ---
 
 ## Introduction
