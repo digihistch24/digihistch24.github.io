@@ -25,7 +25,7 @@ author:
     affiliations:
       - ETH Library
 keywords:
-  - Natural Language Process
+  - Natural Language Processing
   - Text Summarization
   - Data Visualization
   - Visual Analysis
@@ -66,7 +66,7 @@ The basic working prototype is an online user interface displaying content from 
 ![Mini-Muse Information System](images/mini-muse-information-system.png){#fig-1}
 
 The working prototype is based on a selection of 25 recent articles. We selected the articles with the following attributes: focusing on politics (because several experts we interviewed were interested in this topic), in German and with historical figures shared among two or more articles.
-ETH Library provided us with the whole set of issues of the Swiss Historical Journal that are available via the E-Periodica digital archive both as text files, which were the output of OCR software applied to the digitizedmagazines and as an XML file containing the metadata of the whole issues of the journal. Then, we converted the content of the selected articles into a format suitable for the NLP algorithms, namely BioC JSON.
+ETH Library provided us with the whole set of issues of the Swiss Historical Journal that are available via the E-Periodica digital archive both as text files, which were the output of OCR software applied to the digitized magazines and as an XML file containing the metadata of the whole issues of the journal. Then, we converted the content of the selected articles into a format suitable for the NLP algorithms, namely BioC JSON.
 
 According to the experts’ desiderata, we gather both intrinsic and extrinsic content. As extrinsic content, namely the information that contextualizes the article, we gathered the title, author, publication date, the issue and the page number. As intrinsic content, namely the information that is contained within the article text, we gathered the historical figures (persons, institutions, and locations), and the actions they performed, with related dates and locations.
 The extrinsic content was extracted from the XML file provided by ETH-Library. The intrinsic content was extracted automatically through the implementation of an assembly of NLP algorithms consisting of two main parts: rule-based algorithms and LLM-based algorithms. The rule-based algorithms, including text Parsing, NER, Dependency Parsing, and Rule-Based Systems, extracted the set of intrinsic elements for each sentence of each article: historical figure, action, object, details, time, and location. The LLM-based algorithms, leveraging models like GPT-4 (gpt-4-0125-preview), use structured prompting and large text inputs to understand and interpret complex contexts, identify actions, actors, and relationships, and infer details like time and location for accurate action flow detection.
