@@ -16,8 +16,8 @@ abstract: |
   In recent years, the critical turn in digital humanities has sparked numerous discussions about digital literacy in the discipline of history. While critical work has focused on data, tools, and the skills that historians need in the current digital age, questions remain about the broader contours of digital literacy and the multiple meanings that could be attributed to it. Amidst the shift to a culture of digital abundance and a research environment that privileges what is available online, digitisation has brought old questions about heritage, power, and the production and construction of historical knowledge to the fore. This calls for an approach that expands our current methodological purview to include broader epistemological and normative considerations. 
   To this end, my talk will foreground the ethics and politics of digitisation as an essential component of digital historical literacy. I propose to do so in three intertwined steps. First comes historical context. Just as digital history urgently needs historicising, so too does digital literacy, not only as a product of precursors such as information and media literacy, but also in relation to notions of literacy and its ethical dimensions more generally. Second, thinking through digital literacy inevitably implies reckoning with the global dimensions of cultural heritage digitisation and its effects on historical knowledge production beyond the oft-posited Global North/South binary. Third, to exercise digital literacy is to acknowledge how ethics and politics suffuse digital epistemologies that fundamentally reframe historical research practices. 
   Ultimately, I argue that integrating these considerations in our discussions of digital literacy is crucial for a discipline still grappling to come to terms with the digital age.
-date: 05-10-2024
-date-modified: 05-30-2024
+date: 09-12-2024
+doi: 10.5281/zenodo.13904623
 other-links:
   - text: Homepage
     href: https://gerbenzaagsma.github.io/

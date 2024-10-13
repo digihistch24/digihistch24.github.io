@@ -13,7 +13,8 @@ keywords:
   - digital literacy
 abstract: |
   The digitization of historical materials and the application of computational techniques significantly expand the spectrum of sources and questions for historical research. However, the practical use of computer-assisted methods often involves resolving technical problems unique to a specific project. When teaching such methods to history students, this is the major challenge: there isn't a simple set of commands that covers all the potential issues in a research project. Moreover, the goal is not to train humanities students to be computer scientists, but to equip them with the skills to tackle specific problems. I will discuss how, based on problems faced in my own research, I combine the teaching of computer-assisted methods with student projects to help the students understand the limitations of out-of-the-box solutions while letting them experience the possibilities of digital analyses. Through their own project, students learn how to break down research questions into separate, manageable technical tasks and identify which types of problems can and which can’t be resolved using digital history methods.
-date: 09-09-2024
+date: 09-13-2024
+doi: 10.5281/zenodo.13904577
 bibliography: references.bib
 ---
 

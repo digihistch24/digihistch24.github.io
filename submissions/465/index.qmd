@@ -21,8 +21,9 @@ key-points:
   - Integrating Machine Learning output in historical research requires meticulous evaluation. 
   - Factoids can provide a technique for the multifaceted representation of data points.
   - Digital History requires new hermeneutical tools suitable for digital data and workflows.
-date: 07-23-2024
+date: 09-12-2024
 bibliography: references.bib
+doi: 10.5281/zenodo.13907672
 ---
 
 ## Introduction

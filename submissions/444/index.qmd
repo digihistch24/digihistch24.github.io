@@ -24,7 +24,9 @@ key-points:
   - Key point 1 Hybrid thinking or multidisciplinary collaboration always takes much more time than one estimates, and it is useful to develop several complementary ways of working with data together in order to understand their local specificities.
   - Key point 2 Archival metadata is an untapped research resource for digital humanities, but its use requires close collaboration with cultural heritage organisations and practical knowledge of archival practices.
   - Key point 3 The user test survey of the portal with 19th-century letter metadata showed that building a committed test group is challenging and that 'traditional' humanists have difficulties in studying mass data.
-date: 07-04-2024
+date: 09-12-2024
+date-modified: 10-07-2024
+doi: 10.5281/zenodo.13904128
 bibliography: references.bib
 ---
 

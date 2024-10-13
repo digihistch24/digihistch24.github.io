@@ -17,7 +17,8 @@ abstract: |
     However, OCR software struggled to accurately capture table content, requiring manual data entry, which introduced potential errors. Ideally, OCR tools would allow for direct XML export from PDFs. The implementation of TEI for tables remains a challenge, as TEI is primarily focused on running text rather than tabular data, as noted by TEI pioneer Lou Burnard.
   
     Despite these challenges, TEI data processing offers opportunities for conceptualizing tabular data structures and ensuring traceability of changes, especially in serial statistics. An example is a project using early-modern Basle account books, which were "upcycled" following TEI principles. Additionally, TEI's structured approach could help improve the accuracy of table text recognition in future projects.
-date: 08-15-2024
+date: 09-12-2024
+doi: 10.5281/zenodo.13903990
 bibliography: references.bib
 ---
 

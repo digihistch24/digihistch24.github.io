@@ -25,7 +25,8 @@ key-points:
   - Key point 1 The Repertorium Academicum Germanicum (RAG) focuses on the knowledge influence of medieval scholars in pre-modern Europe, creating a comprehensive research database.
   - Key point 2 The RAG database, with data on 62,000 scholars, has advanced from manual to computer-aided and AI-assisted data collection and analysis.
   - Key point 3 Technological advancements, including the use of nodegoat, have enhanced data management, collaboration, and accessibility, integrating AI for improved historical data analysis.
-date: 07-07-2024
+date: 09-12-2024
+doi: 10.5281/zenodo.13907024
 bibliography: references.bib
 ---
 

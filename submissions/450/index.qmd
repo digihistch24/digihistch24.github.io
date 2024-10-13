@@ -20,7 +20,8 @@ key-points:
   - GIS are powerful spatial analysis tools for historical research.
   - GIS aid the development of hypotheses and the framing of arguments in historical research projects.
   - GIS offer a myriad of choices for data modeling and visualization which researchers should remain critical and conscious of.
-date: 2024-07-26
+date: 09-12-2024
+doi: 10.5281/zenodo.13903914
 bibliography: references.bib
 ---
 

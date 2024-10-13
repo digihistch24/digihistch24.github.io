@@ -20,8 +20,9 @@ key-points:
   - Institutions holding the same types of ancient heritage objects face similar challenges when it comes to the digitization of their collections.
   - Papyri are a suitable case study object for the purpose of this analysis, having developed many digital resources through originally independent initiatives.
   - These endeavors have generated a digital landscape in which institutions can implement varied approaches, from utilizing existing metadata standards, external services and controlled vocabularies to combining digitization resources and connecting to transdisciplinary aggregators.
-date: 07-28-2024
+date: 09-13-2024
 bibliography: references.bib
+doi: 10.5281/zenodo.13907777
 ---
 
 ## Introduction

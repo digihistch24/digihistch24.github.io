@@ -25,7 +25,8 @@ abstract: |
 key-points:
   - Software development is increasingly important in digital humanities research projects, yet many struggle to implement modern engineering practices that enhance sustainability and speed up development.
   - Developing an XML schema for a scholarly edition project is challenging but can provide a solid foundation for the project when executed effectively.
-date: 07-25-2024
+date: 09-13-2024
+doi: 10.5281/zenodo.13907721
 bibliography: references.bib
 ---
 

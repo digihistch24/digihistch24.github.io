@@ -22,16 +22,17 @@ author:
     orcid: 0000-0002-4710-3440
     affiliations:
       - ETH Zürich IT Services
-  
 keywords:
   - Machine Learning
   - Named Entity Linking
   - Named Entity Recognition
   - Historical Data
   - Natural Language Processing
-abstract: Named Entity Linking (NEL) describes the recognition, disambiguation, and linking of so-called «Named Entities» (such as people, places, and organizations) in text. Machine-assisted linking of entities helps to identify historical actors in large source corpora and thus contributes significantly to digital approaches in historical research. However, applying NEL to historical data presents unique challenges due to issues ranging from poor OCR and alternate spellings to people in historical texts being under-represented in contemporary databases. Given that we often have only sparse specific information about an entity in its direct context, we are developing a robust, modular, and scalable workflow in which we «embed» the people by the context in which they appear. This gives us more information, enabling disambiguation even when only limited data is present and application of NEL to large text corpora. Such techniques have been used and described in works such as [@10.1007/978-3-030-29563-9_13] and [@vasilyev2022namedentitylinkingentity]. With developing this pipeline and the corresponding embedding knowledge base(s) of historical entities we want to enable the use of such methods in the Swiss GLAM landscape.
-date: 09-02-2024
+abstract: Named Entity Linking (NEL) describes the recognition, disambiguation, and linking of so-called «Named Entities» (such as people, places, and organizations) in text. Machine-assisted linking of entities helps to identify historical actors in large source corpora and thus contributes significantly to digital approaches in historical research. However, applying NEL to historical data presents unique challenges due to issues ranging from poor OCR and alternate spellings to people in historical texts being under-represented in contemporary databases. Given that we often have only sparse specific information about an entity in its direct context, we are developing a robust, modular, and scalable workflow in which we «embed» the people by the context in which they appear. This gives us more information, enabling disambiguation even when only limited data is present and application of NEL to large text corpora. Such techniques have been used and described in works such as @10.1007/978-3-030-29563-9_13 and @vasilyev2022namedentitylinkingentity. With developing this pipeline and the corresponding embedding knowledge base(s) of historical entities we want to enable the use of such methods in the Swiss GLAM landscape.
+date: 09-13-2024
+date-modified: 10-13-2024
 bibliography: references.bib
+doi: 10.5281/zenodo.13907910
 ---
 
 ## Introduction

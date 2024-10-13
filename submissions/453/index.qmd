@@ -16,8 +16,9 @@ keywords:
 
 abstract: |
   Over the last few decades, we have witnessed a major transformation in the digital resources available, with significant implications for society, the economy and research. In the social sciences, and history in particular, we can observe the provision of ever larger amounts of open research data and a growing number of data journals, as well as the development of educational resources aimed at strengthening the digital skills of researchers. Knowledge graphs and Linked Open Data make an exponentially growing number of resources easily accessible and raise the question of a paradigm shift for historical research. But this will only happen if digital methods are integrated into the training of new generations of historians, not just as tools but as part of new approaches to knowledge production, as a growing number of scholars and projects are realising. I have been teaching a master's course in digital methods in history at the University of Lyon 3 for five years, and now for four years at the University of Neuchâtel, which currently offers teachings in digital methods in the master courses in Historical Sciences and in Regional Heritage and Digital Humanities. In this paper, I will present the structure of the threefold programme of my teaching: in the first semester, understanding the research cycle, setting up an information system and discovering the semantic web; in the second, learning data analysis and visualisation methods; in the third, applying the methods to one's own research agenda. I will also review the results obtained and provide some examples of completed Master's theses.
-date: 07-26-2024
+date: 09-13-2024
 bibliography: references.bib
+doi: 10.5281/zenodo.13907693
 ---
 
 ## Introduction

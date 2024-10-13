@@ -19,7 +19,8 @@ key-points:
   - Data-driven research offers significant opportunities for analyzing large volumes of web archived data to reveal trends in the complexity of the structure of the preserved websites and the development of content.
   - Implementation of data-driven research in web history is challenging due to issues like data incompleteness, biases, and the diversity of file formats, which require the development of innovative solutions and digital research infrastructures.
   - The research highlights challenges in obtaining comprehensive datasets from web archives, underscores the importance of assessing data quality, and indicates the need to address the heterogeneous nature of data preserved in web archives.
-date: 07-24-2024
+date: 09-12-2024
+doi: 10.5281/zenodo.13904210
 bibliography: references.bib
 ---
 

@@ -16,7 +16,8 @@ keywords:
   - theory of history
 abstract: |
   Digital corpora play an important, if not defining, role in digital history and may be considered as one of the most obvious differences to traditional history. Corpora are essential for the use of computational methods and thus for the construction of computational historical models. But beyond their technical necessity and their practical advantages, their epistemological impact is significant. While the traditional pre-digital corpus is often more of a potentiality, a mere "intellectual object," the objective of computational processing requires the corpus to be made explicit and thus turns it into a "material object." Far from being naturally given, corpora are constructed as models of a historical phenomenon and therefore have all the properties of models. Moreover, following Gaston Bachelard, I would argue that corpora actually construct the phenomenon they are supposed to represent; they should therefore be considered as phenomenotechnical devices.
-date: 2024-08-14
+date: 09-12-2024
+doi: 10.5281/zenodo.13904530
 bibliography: references.bib
 ---
 

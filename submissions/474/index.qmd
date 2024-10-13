@@ -14,8 +14,9 @@ keywords:
   - Digital Forensics
   - Digital Born Sources
   - Source Criticism
-date: 07-26-2024
+date: 09-13-2024
 bibliography: baselbib.bib
+doi: 10.5281/zenodo.13907816
 abstract: |
   In an era dominated by digital information processing and communication systems, digital literacy has emerged as a critical competence. This competency is vital at all educational levels, fostering a profound and critical understanding of how information is processed digitally. Especially crucial is the ability to discern information sources, evaluate their expertise, and recognize potential biases, fundamental for the stability of democratic societies. This imperative becomes even more pronounced for historians engaging with original digital sources and analytical tools. Without reflective consideration of the epistemic conditions and consequences of these methods, historians risk compromising the reproducibility of their findings and undermining their long-term epistemic authority.
   This paper contends that historians, with their specific expertise and perspectives, can significantly contribute to the establishment and dissemination of a digital literacy canon. Source criticism and hermeneutics, integral to interpreting information, transcend the medium, be it digital or otherwise. However, in the digital realm, source criticism requires verifying the completeness, authenticity, provenance, context, and environment of data. To achieve this, the historian's toolkit must integrate methods from digital forensics.

@@ -22,8 +22,9 @@ key-points:
   - The study of video game graphics integrates narrative and aesthetic aspects with interactive and functional elements, differing significantly from classical visual media.
   - The Framework for the Analysis of Visual Representation in Video Games (FAVR) provides a structured approach to analyze video game images through annotation, focusing on their formal, material, and functional aspects.
   - The initial implementation of the FAVR framework as a linked open ontology for tools like Tropy has proven valuable in formally analyzing video game images and comparing aspects such as dynamic versus static image space, facilitating further digital and computational research.
-date: 07-19-2024
-date-modified: last-modified
+date: 09-12-2024
+date-modified: 10-10-2024
+doi: 10.5281/zenodo.13904453
 bibliography: references.bib
 ---
 

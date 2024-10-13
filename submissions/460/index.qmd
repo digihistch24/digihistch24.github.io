@@ -21,7 +21,8 @@ key-points:
   - This study explored the network of connections between 1,248 migrant glassworkers and their family members working in Estonia from the 16th-19th century, using Transkribus, OCR, and Gephi as the main tools.
   - The raw dataset was published via DataDOI, an Open Access repository managed by the University of Tartu library in accordance to FAIR principles.
   - The data shows that a key factor in building and maintaining the glass community was godparenting and marriages between the families.
-date: 07-29-2024
+date: 09-12-2024
+doi: 10.5281/zenodo.13904260
 bibliography: references.bib
 ---
 

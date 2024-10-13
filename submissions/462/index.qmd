@@ -32,8 +32,10 @@ key-points:
   - The number of receivers of interest in a house description is likely a good indicator for the burden of interest on a property.
   - A nested annotation of entities can enable to more complex research questions.
   - Awareness of strengths and weaknesses of the automated system is important when methodology is chosen.
-date: 08-04-2024
+date: 09-13-2024
+date-modified: 10-13-2024
 bibliography: references.bib
+doi: 10.5281/zenodo.13907882
 ---
 
 ## Introduction
@@ -116,7 +118,7 @@ plt.show()
 
 ```
 
-We consider three ways to measure the burden of interest. First, we could use the absolute number of descriptions, but this number is unreliable, as there is a trend to not describe the interest anymore in later documents (see @fig-3). Second, we could try to use the monetary values mentioned in the descriptions. Here we encounter multiple problems: Numbers suffer from more HTR errors than other parts of the documents and are thus less reliable in general. Additionally a number of different currencies are in use, which would need conversion to a single value, as well as payments in kind. Finally our automated system cannot differentiate between different reasons for interest at the moment, so we wouldn’t know if a value is paid per year or only in case of an exchange of property ownership (“zu erschatz”). We settled using the number of beneficiaries to determine the burden of rent. Any entity found in a house description is classified as a beneficiary (we evaluated this to be true in 98% of cases based on 100 samples, with the true false positives being caused by errors in the named entity recognition process). Figure [-@fig-4] shows the absolute numbers of organizations and persons recognized as receivers of interest in house descriptions over time.
+We consider three ways to measure the burden of interest. First, we could use the absolute number of descriptions, but this number is unreliable, as there is a trend to not describe the interest anymore in later documents (see @fig-3). Second, we could try to use the monetary values mentioned in the descriptions. Here we encounter multiple problems: Numbers suffer from more HTR errors than other parts of the documents and are thus less reliable in general. Additionally a number of different currencies are in use, which would need conversion to a single value, as well as payments in kind. Finally our automated system cannot differentiate between different reasons for interest at the moment, so we wouldn’t know if a value is paid per year or only in case of an exchange of property ownership (“zu erschatz”). We settled using the number of beneficiaries to determine the burden of rent. Any entity found in a house description is classified as a beneficiary (we evaluated this to be true in 98% of cases based on 100 samples, with the true false positives being caused by errors in the named entity recognition process). @fig-4 shows the absolute numbers of organizations and persons recognized as receivers of interest in house descriptions over time.
 
 ```{python}
 #| label: fig-4

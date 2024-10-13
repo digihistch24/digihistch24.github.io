@@ -13,7 +13,8 @@ author:
     email: yi-tang.lin@hist.uzh.ch
     affiliations:
       - University of Zurich
-date: 07-26-2024
+date: 09-13-2024
+doi: 10.5281/zenodo.13907962
 ---
 
 ## Introduction
@@ -24,7 +25,7 @@ It is composed of four parts: first, we outline the objective of the project; se
 
 ## Objective of the Project
 
-The aim of the project was to analyze the worldwide scientific politics of Rockefeller philanthropy through the prism of individual fellowship programs. The historiography of American philanthropy is very extensive, but has most often focused on the substantial funding granted by foundations to institutions and research programs, leaving aside funding to individuals, which was far less spectacular. Yet support for individuals is at the heart of philanthropic philosophy, and in particular that of the Rockefeller Foundation, which consists in selecting specific people at specific times, in specific sectors of activity and in specific countries to achieve specific goals. Ultimately, the Rockefeller Foundation's aim with these individual fellowship programs was to contribute to the construction of a global elite of experts and researchers involved in modernizing the world along American patterns, in line with the messianic project developed by American elites from the end of the 19th century onwards. Foundations have been among the main driving forces behind this project, and funding science one of the major means used to achieve it. This is the background to the Rockefeller Foundation's fellowship policy developed from the outset. As early as 1913, the Foundation awarded individual fellowships in all its fields of activity (medicine, public health, natural sciences, social sciences, nursing and agriculture). Between 1914 and 1968, 14,650 individual grants were awarded to 13,633 individuals (some of whom received several grants).
+The aim of the project was to analyze the worldwide scientific politics of Rockefeller philanthropy through the prism of individual fellowship programs. The historiography of American philanthropy is very extensive, but has most often focused on the substantial funding granted by foundations to institutions and research programs, leaving aside funding to individuals, which was far less spectacular. Yet support for individuals is at the heart of philanthropic philosophy, and in particular that of the Rockefeller Foundation, which consists in selecting specific people at specific times, in specific sectors of activity and in specific countries to achieve specific goals. Ultimately, the Rockefeller Foundation's aim with these individual fellowship programs was to contribute to the construction of a global elite of experts and researchers involved in modernizing the world along American patterns, in line with the messianic project developed by American elites from the end of the 19^th^ century onwards. Foundations have been among the main driving forces behind this project, and funding science one of the major means used to achieve it. This is the background to the Rockefeller Foundation's fellowship policy developed from the outset. As early as 1913, the Foundation awarded individual fellowships in all its fields of activity (medicine, public health, natural sciences, social sciences, nursing and agriculture). Between 1914 and 1968, 14,650 individual grants were awarded to 13,633 individuals (some of whom received several grants).
 
 ## Material Used
 
