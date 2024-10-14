@@ -18,9 +18,10 @@ keywords:
   - HCPC
   - Rockefeller Foundation
   - Development
-other-links:
+code-links:
   - text: GitHub Repository
     href: https://github.com/ivanldf13/Master-thesis-
+    icon: file-code
 key-points:
   - The analysis demonstrated that the Foundation's concept of development evolved significantly, incorporating layers such as economic, social, cultural, and environmental aspects over time.
   - The STM efficiently captured the temporal dynamics undergone by the Foundation's development concept.
