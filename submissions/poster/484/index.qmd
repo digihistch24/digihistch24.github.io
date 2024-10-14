@@ -13,7 +13,8 @@ author:
     email: eric.dubey@unibas.ch
     affiliations:
       - University of Basel, University Library
-date: 08-29-2024
+date: 09-12-2024
+doi: 10.5281/zenodo.13908139
 ---
 
 The UB Bern, ZHB Lucerne, ZB Zurich and UB Basel are digitizing a large part of their holdings from the 18th and 19th centuries in collaboration with Google Books. This digital collection, which is accessible in full text, is intended to offer new possibilities for digital and data-driven research and teaching, e.g. in the context of text and data mining and distant reading.

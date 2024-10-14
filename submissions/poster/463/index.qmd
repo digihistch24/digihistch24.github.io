@@ -26,7 +26,8 @@ key-points:
   - Transcriptions are crucial for historical research but largely inaccessible, leading to redundant work.
   - transcriptiones is a collaborative platform which revolutionizes the access to transcriptions and metadata.
   - transcriptiones takes transcriptions to the age of FAIR and open research data. 
-date: 07-24-2024
+date: 09-12-2024
+doi: 10.5281/zenodo.13908159
 bibliography: references.bib
 ---
 

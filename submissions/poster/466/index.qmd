@@ -36,7 +36,8 @@ author:
     email: katrin.fuchs@unibas.ch
     affiliations:
       - University of Basel
-date: 08-28-2024
+date: 09-12-2024
+doi: 10.5281/zenodo.13908083
 ---
 
 In the realm of historical data processing, machine learning has emerged as a game-changer, enabling the analysis of vast archives and complex finding aids on an unprecedented scale. One intriguing case study exemplifying the potential of these techniques is the digitization of the Historical Land Registry of the City of Basel (=Historisches Grundbuch Basel, HGB).
