@@ -13,6 +13,11 @@ author:
     email: eric.dubey@unibas.ch
     affiliations:
       - University of Basel, University Library
+  - name: Matteo Lorenzini
+    orcid: 0009-0009-4159-5614
+    email: matteo.lorenzini@unibas.ch
+    affiliations:
+      - University of Basel, University Library
 date: 08-29-2024
 ---
 
