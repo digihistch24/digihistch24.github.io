@@ -27,6 +27,9 @@ key-points:
   - The integration of machine learning technologies into the SFA's archival processes exemplifies the potential to transform archival research, although it requires ongoing validation and human expertise to ensure meaningful and accurate results.
 date: 09-12-2024
 doi: 10.5281/zenodo.13908129
+other-links:
+  - text: Poster (PDF)
+    href: https://doi.org/10.5281/zenodo.13908129
 bibliography: references.bib
 ---
 

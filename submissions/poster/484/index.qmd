@@ -15,7 +15,12 @@ author:
       - University of Basel, University Library
 date: 09-12-2024
 doi: 10.5281/zenodo.13908139
+other-links:
+  - text: Poster (PDF)
+    href: https://doi.org/10.5281/zenodo.13908139
 ---
+
+## Poster Abstract
 
 The UB Bern, ZHB Lucerne, ZB Zurich and UB Basel are digitizing a large part of their holdings from the 18th and 19th centuries in collaboration with Google Books. This digital collection, which is accessible in full text, is intended to offer new possibilities for digital and data-driven research and teaching, e.g. in the context of text and data mining and distant reading.
 

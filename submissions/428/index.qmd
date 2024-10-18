@@ -20,6 +20,9 @@ abstract: |
 date: 09-12-2024
 date-modified: last-modified
 doi: 10.5281/zenodo.13903990
+other-links:
+  - text: Slides (PDF)
+    href: https://doi.org/10.5281/zenodo.13903990
 bibliography: references.bib
 ---
 

@@ -28,6 +28,9 @@ key-points:
   - transcriptiones takes transcriptions to the age of FAIR and open research data. 
 date: 09-12-2024
 doi: 10.5281/zenodo.13908159
+other-links:
+  - text: Poster (PDF)
+    href: https://doi.org/10.5281/zenodo.13908159
 bibliography: references.bib
 ---
 
