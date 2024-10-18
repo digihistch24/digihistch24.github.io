@@ -27,6 +27,9 @@ key-points:
 date: 09-12-2024
 date-modified: 10-07-2024
 doi: 10.5281/zenodo.13904128
+other-links:
+  - text: Slides (PDF)
+    href: https://doi.org/10.5281/zenodo.13904128
 bibliography: references.bib
 ---
 

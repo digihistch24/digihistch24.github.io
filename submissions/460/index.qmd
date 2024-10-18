@@ -23,6 +23,9 @@ key-points:
   - The data shows that a key factor in building and maintaining the glass community was godparenting and marriages between the families.
 date: 09-12-2024
 doi: 10.5281/zenodo.13904260
+other-links:
+  - text: Slides (PDF)
+    href: https://doi.org/10.5281/zenodo.13904260
 bibliography: references.bib
 ---
 

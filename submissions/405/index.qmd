@@ -21,6 +21,9 @@ key-points:
   - The research highlights challenges in obtaining comprehensive datasets from web archives, underscores the importance of assessing data quality, and indicates the need to address the heterogeneous nature of data preserved in web archives.
 date: 09-12-2024
 doi: 10.5281/zenodo.13904210
+other-links:
+  - text: Slides (PDF)
+    href: https://doi.org/10.5281/zenodo.13904210
 bibliography: references.bib
 ---
 

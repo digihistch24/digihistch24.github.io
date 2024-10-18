@@ -24,6 +24,9 @@ key-points:
   - Working with historical documents today often takes place at the intersection between tried and tested analog methods and new digital approaches, which is why our teaching module takes these intersections into account.
 date: 09-12-2024
 doi: 10.5281/zenodo.13904071
+other-links:
+  - text: Slides (PDF)
+    href: https://doi.org/10.5281/zenodo.13904071
 bibliography: references.bib
 ---
 ## Introduction
