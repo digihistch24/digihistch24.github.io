@@ -3,7 +3,9 @@ submission_id: 458
 categories: 'Session 7A'
 title: Efficacy of Chat GPT Correlations vs. Co-occurrence Networks in Deciphering Chinese History
 author:
-  - name: Anne S. Chao
+  - name:
+      given: Anne S.
+      family: Chao
     email: mrsannechao@gmail.com
     affiliations:
       - Rice University
