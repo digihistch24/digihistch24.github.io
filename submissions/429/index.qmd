@@ -25,6 +25,9 @@ key-points:
   - Their reports make it possible to identify points that most marked them, namely the discovery of human sciences and their difficulties, as well as new technical and organizational skills learning.
 date: 09-13-2024
 doi: 10.5281/zenodo.13904555
+other-links:
+  - text: Slides (PDF)
+    href: https://doi.org/10.5281/zenodo.13904555
 bibliography: references.bib
 ---
 
