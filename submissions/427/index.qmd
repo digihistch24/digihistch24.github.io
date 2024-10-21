@@ -27,6 +27,9 @@ key-points:
   - Developing an XML schema for a scholarly edition project is challenging but can provide a solid foundation for the project when executed effectively.
 date: 09-13-2024
 doi: 10.5281/zenodo.13907721
+other-links:
+  - text: Slides (PDF)
+    href: https://doi.org/10.5281/zenodo.13907721
 bibliography: references.bib
 ---
 
