@@ -50,7 +50,7 @@ With the disappointing outcome from the Treaty of Versailles in 1919, whereby Ch
 
 What were Chen’s final views on Western democracy, capitalism, and communism? In his youthful optimism, he declared France to have gifted humanity with three powerful concepts: human rights, evolutionary theory, and socialism [@socialism_2]. Caught in the power struggle between Stalin and Trotsky, Chen lost his political leadership. Tragically he also lost two of his sons at the hands of the GMD. Did the vicissitudes of life affect his thinking?  We turn to his essays to find out. 
 
-## Methodology:
+## Methodology
 
 The central objective is to compare the efficacy of our earlier co-occurrence network methodology with the novel ChatGPT approach. We seek the best method to detect Chen’s ideological evolution over time. We used the corpus of Chen’s writing, consisting of 892 articles and 1,347,699 characters [@character_3].
 
@@ -101,16 +101,16 @@ Comparative Analysis of Network Structure revealed Change in Chen’s Understand
 In this step, we will apply two methods, one of which involves using the Colossal-LLaMA-2-7b-base model. From this collection we selected fifteen articles that were salient in his thoughts on political theory, written in the years 1914-1940 [@character_3]. The analysis was performed using various Python libraries and tools. Transformers were used for loading pre-trained language models, FAISS for efficient similarity search and clustering, Jieba for Chinese text tokenization, and Docx for handling Word documents. Numpy, Pandas, and Sklearn were used for numerical operations and data handling, and Langchain was used for managing document schemas and prompts.
 
 
-## Preprocessing and Text Tokenization:
+## Preprocessing and Text Tokenization
 The Chinese text was tokenized using Jieba, which segmented the text into meaningful tokens. Sentence Detection: A custom function called “chinese_sentence_detector“ was implemented to detect sentences based on punctuation marks specific to Chinese (e.g., "。", "！", "？").
 
-## Embedding and Similarity Analysis:
+## Embedding and Similarity Analysis
 We loaded the Colossal-LLaMA-2-7b-base model. Sentences from the documents were embedded using the loaded model. The embeddings were stored in a NumPy array. Next, we computed pair-wise cosine similarity scores between the embeddings of all sentences. 
 
-## Query Processing: 
+## Query Processing
 The question: “Is this article in favor of communism or capitalism?” [这篇文章是支持共产主义还是支持资本主义?"] was embedded using the same model and tokenizer. The FAISS index was used to search for the top 5 sentences most similar to the query. The indices and distances of the closest matches were retrieved.
 
-## Output Generation: 
+## Output Generation
 The sentences retrieved from the similarity search provided the context for answering the query.
 The following steps illustrate the workflow for a specific set of documents:
 
@@ -129,36 +129,36 @@ For the second part of the analysis, we employed a combination of natural langua
 ::: 
 
 
-## Question Design:
+## Question Design
 We formulated a question to extract the political sentence from the text. The question posed to the GPT-4 model was: "Is this article in favor of communism or capitalism?” [这篇文章是支持共产主义还是支持资本主义?"]
 
-## API Request:
+## API Request
 The openai.ChatCompletion.create method was utilized to interact with the GPT-4 API. We constructed a prompt with the following messages:
 
 *    System Message: Provided context to the model, indicating that it was functioning as a helpful assistant.
 *    User Messages: Included the embedded document content, followed by instructions for providing a score on a scale from -2 to 2 (where 2 indicates strong support for communism and -2 indicates strong support for capitalism) and a detailed explanation within 200 to 300 words.
 
-## Response Extraction: 
+## Response Extraction
 The response from the API was parsed to extract the generated content, which included the classification score and explanatory text. In summary, our method leveraged the GPT-4 API to analyze and classify political opinions in text documents. By embedding the documents and querying the model with specific questions and instructions, we automated the classification process and systematically stored the results for subsequent review.
 
-## Results:
+## Results
 The summaries of the fifteen articles produced by Llama were perfunctory and inconclusive. At times Llama changed the order of sentences in an effort to answer the query, but it often generated a text that was more a random collection of sentences than a cohesive answer to the question.
 
 ChatGPT4 produced a much more systematic and accurate summary for each article. However, we detected five articles that variously missed the intent of the essay, or forced fit the answer, or gave a wrong numerical coding. Of the remaining ten articles, ChatGPT4 best answered the question: “Is this article in support communism or capitalism?” when the essay consistently argued for one point of view, such as in “Shehui zhuyi piping” [A critique of socialism] and “Makesi xueshuo” [A study of Marxism]. Where ChatGPT4 ran into problems is when the writing was nuanced and contained multiple points of view. Because of its effort to answer the question, it sometimes force fit the answer by implying connections that did not exist. We briefly describe these five issues below.
 
-### Missing the context and the main argument of the article: 
+### Missing the context and the main argument of the article
 In his 1914 article, “Aiguo xin yu zijue xin” [Patriotism and self-awareness], Chen famously shocked his readers by concluding that a nation which did not care for its people should not expect support from its citizens, and that such a nation should be allowed to die. Lacking such context, ChatGPT4 picked up on Chen’s description of an ideal nation but did not underscore the novelty of his perspective. It coded the article as -1 (mildly in support of communism). The article never mentioned communism, and at the same time, the command was to rate articles from -2 to 2.
 
-### Trying too hard to answer the question: 
+### Trying too hard to answer the question
 In the 1915 article, “Fa lanxi ren yu jinshi wenming” [The French and contemporary civilization], Chen praised socialism and mentioned French socialists such as Henri de Saint-Simon, Gracchus Babeuf and Charles Fourier. It concluded that Chen was in favor of socialism but not rejecting capitalism. It erroneously stated that socialism was the same as communism, which did not appear in the text.
 
-### Inaccurate coding: 
+### Inaccurate coding
 In the 1916 article, “Tan zhengzhi” [Talk about politics], Chen strongly attacked the bourgeois exploitation of the working class, which was accurately picked up by ChatGPT4. However, it gave the article a +1 code, meaning it was somewhat in favor of capitalism. This is surprising since it concluded that the article was in favor of communism. Similarly in the 1924 article, “Women de huita” [Our response], Chen was defending the reason why the CCP was part of the GMD (an ill-fated decision ordered by Stain), and strongly argued for class struggle between the bourgeoisie and the proletariat. ChatGPT4 recognized this interpretation but surprisingly rated the article as +1 (mildly in support of capitalism).
 
-### Missed by a wide margin:
+### Missed by a wide margin
 Historians often cited the conflicting tone of “Gei Xiliu de xin” [A letter to Xiliu], one of Chen’s last essays, as indicative of his ambivalence about communism. He railed against Stalin’s dictatorship, the lack of freedoms of speech, assembly, publishing, the right to strike, and the right to an opposition party in Russia. He wrote that in his opinion, bourgeois democracy and proletarian democracy are similar in nature but differed only as a matter of degrees [@degrees_5]. Bourgeois democracy, Chen explained, was the culmination of a struggle by millions of people over six hundred years, and that gifted the world with the three big principles of science, democratic system and socialism. “We must recognize” he stated, “that the incomplete democracy of England, France and the United States deserve to be protected.” Chen created a table comparing the freedoms people enjoyed in a capitalist democracy versus those under Stalin and Hitler, and asked, “Would any Communist dare curse bourgeois democracy?” ChatGPT4 picked up the anti-fascist sentiment but missed Chen’s ambivalence toward bourgeois democracy. Instead it described the article as Chen’s way to use the struggle between fascist and Western democratic countries to advance the causes of the proletariat. We found this conclusion to be off the mark and as an attempt to force the conclusion.
 
-## Conclusion:
+## Conclusion
 ChatGPT 4 is able to detect strong and consistent sentiments in articles, but would force fit its answer and rationalize connections that did not exist. It does less well when multiple viewpoints are expressed, and it does not know the historical context. Llamas is unable to perform the analysis at all. 
 
 In conclusion, the use of ChatGPT 4 for analyzing historical texts presents both significant advantages and notable challenges. ChatGPT 4 has demonstrated its capability to detect strong and consistent sentiments in articles, providing systematic and accurate summaries in many cases. However, it occasionally forces connections that do not exist, particularly in texts with nuanced or multiple viewpoints. This limitation highlights the importance of historical context, which the model sometimes misses, leading to misinterpretations of the larger point. Conversely, the Llama 2-7b model was unable to perform the analysis adequately, emphasizing there may be a need for larger models. Our study underscores the need for continuous refinement in leveraging AI methodologies for historical text analysis. Future work should focus on enhancing the model’s contextual understanding and its ability to handle complex, multi-faceted arguments, thereby improving its overall efficacy in historical and ideological analysis.
