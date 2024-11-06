@@ -1,0 +1,15 @@
+---
+title: "Information Event: Open Research Data Task Force"
+---
+
+The national ORD (Open Research Data) Strategy Council is supported by the Swiss National Science Foundation, Swissuniversities, the ETH Domain and the Swiss Academies of Arts and Sciences. Its task is to coordinate and manage ORD activities in Switzerland. In a first step, so-called landscape analyses will be carried out in several thematic clusters. To this end, the StraCo is setting up task forces (TF) that have the necessary expertise in the clusters and are to prepare a report. The task of the TF SSH is to analyze the cluster Social Sciences and Humanities and to make recommendations for further development.
+
+The task force is inviting to an information event during Digital History Switzerland 2024. It will take place on September 12, 12:30 P.M. at Rosshofgasse 2, room S02 ([Map](https://osm.org/go/0CdsJawCG?m=) and [Infrastructure Details](https://rauminfo.unibas.ch/raum/8163)).
+
+At the information event, stakeholders from the SSH who are involved in ORD will be informed about the status of the work. In addition, the TF SSH would like to obtain feedback from the specialist community.
+
+Management: Béla Kapossy (Head of Task Force)  
+Members: Rainer Gabriel, Tobias Hodel, Ben Jann, Sylvia Jeney, Tabea Lurk, Kurt Schmidheiny  
+Coordination: Sarah Schlunegger, Rudolf Mumenthaler
+
+[Website/Contact: https://openresearchdata.swiss](https://openresearchdata.swiss/)

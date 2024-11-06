@@ -1,66 +1,29 @@
 ---
-title: 'Book of Abstracts'
-listing:
-  - id: paper
-    type: table
-    categories: true
-    contents:
-      - submissions/*/index.qmd
-    fields: [categories, title, author]
-    field-display-names: 
-      categories: 'Session'
-      author: 'Author(s)'
-    sort: 'categories'
-    sort-ui: [categories, title, author]
-    page-size: 40
-  - id: poster
-    type: table
-    categories: true
-    contents:
-      - submissions/poster/*/index.qmd
-    fields: [title, author]
-    field-display-names:
-      author: 'Author(s)'
-
+title: 'Historical Research, Digital Literacy and Algorithmic Criticism'
 date-modified: last-modified
 description-meta: 'The DigiHistCH24 conference on "Historical Research, Digital Literacy, and Algorithmic Criticism," hosted by the University of Basel on September 12-13, 2024, explores the integration of digital tools and the critical role of algorithms in historical research. This book of abstracts features all presented papers, offering insights into cutting-edge methodologies, software applications, and challenges in digital history.'
 author-meta: "Digital History Switzerland 2024"
 ---
 
-The DigiHistCH24 conference on "Historical Research, Digital Literacy, and Algorithmic Criticism" brings together scholars and professionals to address the evolving role of digital technologies in historical research. Hosted by the University of Basel on September 12--13, 2024, the conference will focus on the integration of digital tools, the importance of digital literacy, and the critical examination of algorithms within the discipline.
+We invite scholars, researchers and professionals of all levels of experience from Switzerland and beyond to submit papers on the DigiHistCH24 conference theme: **‹Historical Research, Digital Literacy and Algorithmic Criticism›**. We are particularly interested in papers that address ongoing research projects, innovative research methods, the use of software in historical research, data analysis, and digital tools.
 
-This book of abstracts contains all the papers and posters presented at the conference, providing a comprehensive overview of current research at the intersection of history and digital technology. These cover a range of topics, from innovative methodologies and software applications to the challenges of digital data management and algorithmic analysis in historical research.
+The conference will take place in September 2024. We are looking forward to seeing you in Basel – **please do not forget to register (CLOSED) for attending DigiHistCH24! If you are already curious about what to expect, our <a href="/book-of-abstracts" title="Book of Abstracts">Book of Abstracts</a> is the perfect place to start.**
 
-We are pleased to present this collection, which reflects the state of the art in digital history, and anticipate that the discussions it stimulates will make a significant contribution to the field.
+This conference provides a platform for scholars, researchers and professionals of all ages and levels of experience to discuss these challenges, exchange experiences, share best practices, and discuss forward-looking approaches to historical research in the digital age. It aims to promote digital literacy, raise awareness of the use of algorithms and AI systems, develop strategies for dealing with digital sources, encourage shared formats and methodologies, and facilitate the exchange of knowledge and best practices for collaborative historical research. The conference will also showcase projects and research in the field of digital history.
 
-<!-- ::: {.callout-note}
-## Keynote Streaming
+## Digital History Network Switzerland
 
-[Join our Zoom live stream](https://unibas.zoom.us/j/67126379145) of Gerben Zaagsma's keynote [*When Literacy Goes Digital: Rethinking the Ethics and Politics of Digitisation*](https://digihistch24.github.io/book-of-abstracts/submissions/keynote/) Thursday at 6pm!
-:::
+While you're here, you might also want to check out the Digital History Network Switzerland! Its aim is to promote the visibility of digital history and to network people from academic and memory institutions as well as other actors in this field. We recommend joining the network's mailing list! See <a href="https://www.infoclio.ch/en/digitalhistorynetwork" target="_blank" rel="noopener">infoclio.ch</a> for more information.
 
-::: {.callout-tip}
-## DigiHistCH24 Registration
+<a href="https://www.infoclio.ch/en/digitalhistorynetwork" target="_blank" rel="noopener"><img src="/images/logo_digital_history_network_ch.svg" width="600" /></a>
 
-We are looking forward to seeing you in Basel! Please don't forget to [register](https://conferences.unibas.ch/frontend/index.php?page_id=1424&booking_registration_action=show&booking_registration_controller=offer) for attending DigiHistCH24!
-::: -->
+## Organising Committee
 
-## Paper
-
-:::{#paper}
-:::
-
-## Poster
-
-:::{#poster}
-:::
-
-<hr>
-<br />
-Digital History Switzerland 2024 is sponsored by:
-![Swiss National Science Foundation logo; University of Basel logo, Department of History logo; FAG Basel logo; Association History and Computing logo; Max-Geldner-Stiftung logo](images/sponsoring_logos.png)
-
-<hr>
-<br />
-Digital History Switzerland 2024 is hosted and organized by:
-![University of Basel logo, infoclio.ch logo; Association History and Computing logo; Schweizerische Gesellschaft für Geschichte logo](images/patronage_logos.png)
+Jérôme Baudry (Ecole polytechnique fédérale de Lausanne)
+Lucas Burkart (Universität Basel)
+Béatrice Joyeux-Prunel (Université de Genève)
+Eliane Kurmann (infoclio.ch)
+Moritz Mähr (Universität Basel, Stadt.Geschichte.Basel)
+Enrico Natale (infoclio.ch, Verein Geschichte und Informatik)
+Christiane Sibille (Verein Geschichte und Informatik, ETH Library)
+Moritz Twente (Universität Basel, Stadt.Geschichte.Basel)

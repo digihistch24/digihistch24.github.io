@@ -1,0 +1,19 @@
+---
+title: Practical Information
+---
+
+## Conference Guide
+
+![Conference Guide Cover](/images/brochure_cover.jpg)
+
+[We compiled a PDF](/files/digihistch24_brochure.pdf) with the most important information for you.
+
+## Getting to Us
+
+![Map of Conference Location](../images/converia_map.png "Conference Location: Kollegienhaus, Petersplatz 1, 4051 Basel")
+
+The conference will take place at Kollegienhaus (also referred to as Main Building) of the University of Basel. It is conveniently located in Basel's city center and easy to reach.
+
+**From Basel SBB** (Swiss/French train station): Bus 30, direction "Badischer Bahnhof", to "**Universität**"  
+**From Basel Badischer Bahnhof** (German train station): Bus 30, direction "Bahnhof SBB" to "**Universität**"  
+**From EuroAirport**: Bus 50, direction Basel, change to Bus 30 at Basel SBB.

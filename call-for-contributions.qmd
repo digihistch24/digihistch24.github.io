@@ -1,0 +1,45 @@
+---
+title: Call for Contributions
+---
+
+Over the past few decades, history has gradually evolved into a discipline that is inconceivable without digital tools. Research rarely begins with manual browsing in archives, but rather on the Internet. Extending the legacy of quantitative history pioneered by the Annales School, quantitative methods such as distant reading complement established methods such as close reading and discourse analysis, and are becoming increasingly important as digital collections grow. AI systems like ChatGPT create new opportunities and challenges regarding text production and source analysis. Digital literacy and algorithmic criticism are one way of responding to this shift. Both students and researchers need to be trained and sensitized to the new demands and possibilities of digital research practice. Digital tools and methods are being integrated into history education to provide students with a solid foundation for their future research activities. Research collaborations need to be rethought under the conditions of digitization, etc.
+
+Within this general context, a lot of questions need urgently to be discussed. What are the basic elements of data literacy which every historian should know about? What is algorithmic criticism and how can it be practiced in our every-day research routines? How do we manage the data we produce during the research process?  Which criteria (if any) should we use to choose a software for a specific task? Where to find help when faced with a methodological or a computer problem – or a combination of both? How to set up interdisciplinary collaborations? How do we handle technologies that some of their inventors construct as ‹black boxes›? How can we deal with the rapidly increasing demand for very different resources (e.g. technical knowledge, computing power, money)? etc.  
+
+The conference provides a platform for scholars, researchers and professionals of all ages and levels of experience to discuss these challenges, exchange experiences, share best practices, and discuss forward-looking approaches to historical research in the digital age. It aims to promote digital literacy, raise awareness of the use of algorithms and AI systems, develop strategies for dealing with digital sources, encourage shared formats and methodologies, and facilitate the exchange of knowledge and best practices for collaborative historical research. The conference will also showcase projects and research in the field of digital history.
+
+It is planned that a selection of the papers presented at the conference will be published in a peer-reviewed open access publication. This is the first in a series of conferences that should take place every three years at a different Swiss university. The next edition in 2027 will be hosted by the University of Geneva and EPFL Lausanne.
+
+## Date, Venue and Registration
+
+Date: September 12–13, 2024  
+Venue: [Kollegienhaus](https://osm.org/go/0CdsJT3xl-?m=), University of Basel (on-site)  
+  
+Financial support is available for individuals whose institutions are unable to cover travel and accommodation costs. Please contact [digital-history-2024@unibas.ch](mailto:digital-history-2024@unibas.ch) for further details.Registration for Digital History Switzerland 2024 will be possible [on this platform](https://conferences.unibas.ch/frontend/index.php?folder_id=235&page_id= "Registration") starting June 03, 2024.
+
+## Call for Papers
+
+We invite scholars, researchers and professionals of all levels of experience  to submit papers on the conference theme: "Historical Research, Digital Literacy and Algorithmic Criticism". We are particularly interested in papers that address ongoing research projects, innovative research methods, the use of software in historical research, data analysis, and digital tools.
+
+Papers should provide insightful analysis, provoke thoughtful discussion, and contribute to the understanding and advancement of digital literacy and algorithmic criticism in historical research. This is an excellent opportunity to share your work with a diverse audience, receive valuable feedback, contribute to the evolving discourse in the field of digital history, and build community.
+
+## Call for Posters
+
+In addition to paper presentations, we also invite submissions for poster presentations. Posters provide a unique platform for presenting ongoing research projects, research methods, software, data, and tools in a visually appealing format.
+
+Poster presentations are an excellent way to showcase your work, stimulate discussion, and interact with conference attendees in a more informal setting. We encourage innovative, visually appealing posters that effectively communicate your research and its relevance to the conference theme.
+
+## Submission Guidelines
+
+Please follow the [submission guidelines](https://conferences.unibas.ch/frontend/index.php?page_id=1437) to ensure that your submission is properly formatted and submitted.
+
+## Organising Committee
+
+Jérôme Baudry (Ecole polytechnique fédérale de Lausanne)  
+Lucas Burkart (Universität Basel)  
+Béatrice Joyeux-Prunel (Université de Genève)  
+Eliane Kurmann (infoclio.ch)  
+Moritz Mähr (Universität Basel, Stadt.Geschichte.Basel)  
+Enrico Natale (infoclio.ch, Verein Geschichte und Informatik)  
+Christiane Sibille (Verein Geschichte und Informatik, ETH Library)  
+Moritz Twente (Universität Basel, Stadt.Geschichte.Basel)

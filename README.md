@@ -10,31 +10,51 @@ This repository contains the Book of Abstracts for the Digital History Switzerla
 
 <!-- [![DOI](https://zenodo.org/badge/ZENODO_RECORD.svg)](https://zenodo.org/badge/latestdoi/ZENODO_RECORD) -->
 
-## Repository Structure
+## Installation
 
-The structure of this repository follows the [Advanced Structure for Data Analysis](https://the-turing-way.netlify.app/project-design/project-repo/project-repo-advanced.html) of _The Turing Way_ and is organized as follows:
-
-- `submissions/` Contains the submissions for the conference.
-- `book-of-abstracts.md` The introduction to the book of abstracts.
-
-## Use
-
-This data is openly available to everyone and can be used for any research or educational purpose. If you use this data in your research, please cite as specified in [CITATION.cff](CITATION.cff). The following citation formats are also available through _Zenodo_:
-
-- [BibTeX](https://zenodo.org/record/ZENODO_RECORD/export/hx)
-- [CSL](https://zenodo.org/record/ZENODO_RECORD/export/csl)
-- [DataCite](https://zenodo.org/record/ZENODO_RECORD/export/dcite4)
-- [Dublin Core](https://zenodo.org/record/ZENODO_RECORD/export/xd)
-- [DCAT](https://zenodo.org/record/ZENODO_RECORD/export/dcat)
-- [JSON](https://zenodo.org/record/ZENODO_RECORD/export/json)
-- [JSON-LD](https://zenodo.org/record/ZENODO_RECORD/export/schemaorg_jsonld)
-- [GeoJSON](https://zenodo.org/record/ZENODO_RECORD/export/geojson)
-- [MARCXML](https://zenodo.org/record/ZENODO_RECORD/export/xm)
-
-_Zenodo_ provides an [API (REST & OAI-PMH)](https://developers.zenodo.org/) to access the data. For example, the following command will return the metadata for the most recent version of the data
+Install [Quarto](https://quarto.org/) and [Node.js](https://nodejs.org/) and run the following commands in the root directory of the repository:
 
 ```bash
-curl -i https://zenodo.org/api/records/ZENODO_RECORD
+npm install
+npm run prepare
+```
+
+## Usage
+
+Check that all files are properly formatted.
+
+```bash
+npm run check
+```
+
+Format all files.
+
+```bash
+npm run format
+```
+
+Run Quarto to preview the website.
+
+```bash
+quarto preview blog
+```
+
+Run Quarto to build the website.
+
+```bash
+quarto render blog
+```
+
+Run the wizard to write meaningful commit messages.
+
+```bash
+npm run commit
+```
+
+Run the wizard to create a CHANGELOG.md.
+
+```bash
+npm run changelog
 ```
 
 ## Support

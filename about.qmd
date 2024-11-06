@@ -1,7 +1,48 @@
 ---
+title: About
 description-meta: "This repository contains the Book of Abstracts for the Digital History Switzerland 2024. Historical Research, Digital Literacy, and Algorithmic Criticism. The data in this repository is openly available to everyone and is intended to support reproducible research."
 author-meta: "Digital History Switzerland 2024"
 license: "AGPL-3.0"
 ---
 
-{{< include README.md >}}
+## Organising Committee
+
+Jérôme Baudry (Ecole polytechnique fédérale de Lausanne)  
+Lucas Burkart (Universität Basel)  
+Béatrice Joyeux-Prunel (Université de Genève)  
+Eliane Kurmann (infoclio.ch)  
+Moritz Mähr (Universität Basel, Stadt.Geschichte.Basel)  
+Enrico Natale (infoclio.ch, Verein Geschichte und Informatik)  
+Christiane Sibille (Verein Geschichte und Informatik, ETH Library)  
+Moritz Twente (Universität Basel, Stadt.Geschichte.Basel)
+
+## Sponsoring
+
+funded by
+
+[![Sponsoring: Swiss National Foundation, FAG Basel, Max-Geldner-Stiftung, Universität Basel (Departement Geschichte), Verein Informatik und Geschichte](images/sponsoring_logos.png)](https://conferences.unibas.ch/frontend/index.php?folder_id=236&page_id=#)
+
+We are grateful for the generous support by our sponsors!  
+[Swiss National Science Foundation](https://data.snf.ch/grants/grant/228741)  
+[FAG Basel](https://fag-basel.ch/)  
+Max-Geldner-Stiftung  
+[Department of History, University of Basel](https://dg.philhist.unibas.ch/en/)  
+[Association History and Computing](https://ahc-ch.ch/)  
+  
+## Patronage
+
+![Patronage Logos](images/patronage_logos.png)
+
+[infoclio.ch](https://www.infoclio.ch/en "Homepage infoclio")  
+[Verein Geschichte und Informatik | Association Histoire et Informatique | Association History and Computing](https://ahc-ch.ch/ "Homepage G&I")  
+[Schweizerische Gesellschaft für Geschichte](https://www.sgg-ssh.ch/ "Homepage SGG")  
+  
+### Host
+
+[University of Basel, Department of History](https://dg.philhist.unibas.ch/en/)
+
+### Code of Conduct
+
+The organising committee of DigiHistCH24 is committed to providing a safe and inclusive environment, in which the personal integrity of all participants is respected. In particular, we do not tolerate discrimination and any form of harassment. We strive to create a safe, respectful, and collegial conference experience for all attendees – ensuring that DigiHistCH24 is an event characterised by professionalism, honesty and fairness in accordance with the host University of Basel's [Code of Conduct](https://www.unibas.ch/en/University/Administration-Services/Vice-President-s-Office-for-People-and-Culture/Culture-Diversity-and-Leadership-Development/Personal-Integrity/Code-of-Conduct.html).
+
+Please refer to the [Personal Integrity Coordination Office of the University of Basel](https://www.unibas.ch/en/University/Administration-Services/Vice-President-s-Office-for-People-and-Culture/Culture-Diversity-and-Leadership-Development/Personal-Integrity.html) as an easily accessible, confidential and personal point of contact, offering advice and support for participants whose personal integrity has been violated or for bystanders who have observed violations.

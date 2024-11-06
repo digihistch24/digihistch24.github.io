@@ -1,0 +1,35 @@
+---
+title: Schedule
+---
+
+## Thursday, 12 September 2024
+
+| Time     | Lecture Hall 001                                | Lecture Hall 115                                              |
+|----------|-------------------------------------------------|---------------------------------------------------------------|
+| 09:00 am | **Conference Opening**                          |                                                               |
+|          | Chair(s): Prof. Dr. Martin                      |                                                               |
+| 09:30 am | **Session 1A**                                  | **Session 1B**                                                |
+|          | Chair(s): Moritz Twente (Universität Basel)     | Chair(s): Prof. Dr. Lucas Burkart (Universität Basel)         |
+| 11:00 am | **Session 2A**                                  | **Session 2B**                                                |
+|          | Chair(s): Dr. Moritz Mähr (Universität Basel)   | Chair(s): Dr. Christiane Sibille (ETH Library)                |
+| 12:30 pm | **ORD Task Force**  (Lunch Break Event)         |                                                               |
+| 02:00 pm | **Session 3A**                                  | **Session 3B**                                                |
+|          | Chair(s): Prof. Jérôme Baudry (EPFL)            | Chair(s): Prof. Béatrice Joyeux-Prunel (Université de Genève) |
+| 04:00 pm | **Session 4A**                                  | **Session 4B**                                                |
+|          | Chair(s): Dr. Eliane Kurmann (infoclio.ch)      | Chair(s): Dr. Christiane Sibille (ETH Library)                |
+
+---
+
+## Friday, 13 September 2024
+
+| Time     | Lecture Hall 001                             | Lecture Hall 115                                |
+|----------|---------------------------------------------|-------------------------------------------------|
+| 09:00 am | **Session 5A**                               | **Session 5B (Workshop)**                       |
+|          | Chair(s): Dr. Enrico Natale (infoclio.ch)   | Chair(s): Daniel Jaquet (EPFL)                  |
+| 11:00 am | **Session 6A**                               | **Session 6B**                                  |
+|          | Chair(s): Moritz Twente (Universität Basel) | Chair(s): Dr. Moritz Mähr (Universität Basel)   |
+| 12:30 pm | **Digital History Network Switzerland** (Lunch Break Event) |                  |                                                 |
+| 02:00 pm | **Session 7A**                               | **Session 7B**                                  |
+|          | Chair(s): Dr. Enrico Natale (infoclio.ch)   | Chair(s): Dr. Eliane Kurmann (infoclio.ch)      |
+| 03:30 pm | **Closing Ceremony**                         |                                                 |
+|          | Chair(s): Prof. Jérôme                       |                                                 |

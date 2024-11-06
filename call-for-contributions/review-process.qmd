@@ -1,0 +1,39 @@
+---
+title: Evaluation Criteria
+---
+
+## Question/Interest/Claim (40%)
+
+Does the submission articulate a clear question, interest, or claim that is relevant to digital history?
+
+- **Yes, Clearly Articulated**: The submission presents a well-defined question or claim that is highly relevant to digital history.
+  - **Somewhat Clear**: The submission presents a question or claim, but it could be more clearly articulated or more closely aligned with digital history.
+  - **Unclear or Irrelevant**: The submission fails to present a clear question or claim, or it is not relevant to digital history.
+
+## Data/Sources/Source Code (30%)
+
+Does the submission provide adequate data, sources, or source code to support its question or claim?
+
+- **Adequate and Relevant**: The submission provides sufficient and relevant data or source code.
+  - **Insufficient or Partially Relevant**: The submission provides some data or source code, but it is either insufficient or only partially relevant.
+  - **Inadequate or Irrelevant**: The submission provides inadequate or irrelevant data or source code.
+
+## Method (30%)
+
+Is the method employed in the submission appropriate and well-explained?
+
+- **Appropriate and Well-Explained**: The method is suitable for the question or claim and is well-explained.
+  - **Somewhat Appropriate or Partially Explained**: The method is somewhat suitable or is not fully explained.
+  - **Inappropriate or Poorly Explained**: The method is not suitable for the question or claim, or it is poorly explained.
+
+## Overall Rating
+
+- **Accepted with Distinction**: The submission excels in all three dimensions and contributes significantly to the field of digital history.  
+  - **Accepted**: The submission meets the criteria in all three dimensions but may require minor revisions.
+  - **Not Accepted**: The submission does not meet the criteria in one or more dimensions and is not suitable for presentation at the conference.  
+
+## Submitting Your Review
+
+After filling out the review form, click _Save Review_. You can come back and change your review(s) any time until the end of the review period on February 29, 2024.
+
+On the overview page, the symbol indicating the status of your assigned abstracts might still show a grey circle for »not yet reviewed« even after you saved your review. This will only change to a green light after all reviewers submitted their reviews for the respective abstract.
