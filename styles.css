@@ -96,6 +96,22 @@
 	scrollbar-width: thin;
 }
 
+.btn-outline-primary {
+	display: block !important;
+	margin: auto !important;
+	width: fit-content !important;
+	color: #181818 !important;
+	background-color: #a5d7d2 !important;
+	border-color: #a5d7d2 !important;
+	border-radius: 0.25rem !important;
+	&:hover {
+		color: #181818 !important;
+		text-decoration: underline;
+		text-decoration-color: #ff3cc7;
+		text-decoration-thickness: 3px;
+	}
+}
+
 /* General print styles */
 @media print {
 	body {

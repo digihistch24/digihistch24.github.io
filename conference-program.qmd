@@ -6,7 +6,7 @@ Digital History Switzerland 2024 takes place September 12–13, 2024 at the Univ
   
 Please note: The exact rooms in Kollegienhaus indicated in the conference schedule are preliminary and subject to change.
 
-[Conference Schedule](conference-program/schedule.html)
+[Conference Schedule](conference-program/schedule.html){.btn .btn-outline-primary .btn role="button"}
 
 ## Book of Abstracts Digital History Switzerland 2024
 
@@ -14,7 +14,7 @@ We compiled a book of abstracts containing all the papers presented at the confe
 
 We are pleased to present this collection, which reflects the state of the art in digital history, and anticipate that the discussions it stimulates will make a significant contribution to the field.
 
-[Check the Book of Abstracts](book-of-abstracts.html)
+[Check the Book of Abstracts](book-of-abstracts.html){.btn .btn-outline-primary .btn role="button"}
 
 Each day, we have one additional, externally organized network/information meeting:
 
