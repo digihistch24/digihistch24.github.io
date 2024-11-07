@@ -8,14 +8,14 @@ title: Schedule
 |----------|-------------------------------------------------|---------------------------------------------------------------|
 | 09:00 am | **Conference Opening**                          |                                                               |
 |          | Chair(s): Prof. Dr. Martin                      |                                                               |
-| 09:30 am | **[Session 1A](/index.html#category=Session%2031A)**                                  | **[Session 1B](/index.html#category=Session%2031B)**                                                |
+| 09:30 am | **[Session 1A](/book-of-abstracts.html#category=Session%201A)**                                  | **[Session 1B](/book-of-abstracts.html#category=Session%201B)**                                                |
 |          | Chair(s): Moritz Twente (Universität Basel)     | Chair(s): Prof. Dr. Lucas Burkart (Universität Basel)         |
-| 11:00 am | **[Session 2A](/index.html#category=Session%2032A)**                                  | **[Session 2B](/index.html#category=Session%2032B)**                                                |
+| 11:00 am | **[Session 2A](/book-of-abstracts.html#category=Session%202A)**                                  | **[Session 2B](/book-of-abstracts.html#category=Session%202B)**                                                |
 |          | Chair(s): Dr. Moritz Mähr (Universität Basel)   | Chair(s): Dr. Christiane Sibille (ETH Library)                |
-| 12:30 pm | **ORD Task Force**  (Lunch Break Event)         |                                                               |
-| 02:00 pm | **[Session 3A](/index.html#category=Session%2033A)**                                  | **[Session 3B](/index.html#category=Session%2033B)**                                                |
+| 12:30 pm | **[ORD Task Force](info-event-ssh-ord.html)**  (Lunch Break Event)         |                                                               |
+| 02:00 pm | **[Session 3A](/book-of-abstracts.html#category=Session%203A)**                                  | **[Session 3B](/book-of-abstracts.html#category=Session%203B)**                                                |
 |          | Chair(s): Prof. Jérôme Baudry (EPFL)            | Chair(s): Prof. Béatrice Joyeux-Prunel (Université de Genève) |
-| 04:00 pm | **[Session 4A](/index.html#category=Session%2034A)**                                  | **[Session 4B](/index.html#category=Session%2034B)**                                                |
+| 04:00 pm | **[Session 4A](/book-of-abstracts.html#category=Session%204A)**                                  | **[Session 4B](/book-of-abstracts.html#category=Session%204B)**                                                |
 |          | Chair(s): Dr. Eliane Kurmann (infoclio.ch)      | Chair(s): Dr. Christiane Sibille (ETH Library)                |
 
 ---
@@ -24,12 +24,12 @@ title: Schedule
 
 | Time     | Lecture Hall 001                             | Lecture Hall 115                                |
 |----------|---------------------------------------------|-------------------------------------------------|
-| 09:00 am | **[Session 5A](/index.html#category=Session%2035A)**                               | **[Session 5B](/index.html#category=Session%2035B) (Workshop)**                       |
+| 09:00 am | **[Session 5A](/book-of-abstracts.html#category=Session%205A)**                               | **Session 5B (Workshop)**                       |
 |          | Chair(s): Dr. Enrico Natale (infoclio.ch)   | Chair(s): Daniel Jaquet (EPFL)                  |
-| 11:00 am | **[Session 6A](/index.html#category=Session%2036A)**                               | **[Session 6B](/index.html#category=Session%2036B)**                                  |
+| 11:00 am | **[Session 6A](/book-of-abstracts.html#category=Session%206A)**                               | **[Session 6B](/book-of-abstracts.html#category=Session%206B)**                                  |
 |          | Chair(s): Moritz Twente (Universität Basel) | Chair(s): Dr. Moritz Mähr (Universität Basel)   |
-| 12:30 pm | **Digital History Network Switzerland** (Lunch Break Event) |                  |                                                 |
-| 02:00 pm | **[Session 7A](/index.html#category=Session%2037A)**                               | **[Session 7B](/index.html#category=Session%2037B)**                                  |
+| 12:30 pm | **[Digital History Network Switzerland](info-event-digital-history-network-switzerland.html)** (Lunch Break Event) |                  |                                                 |
+| 02:00 pm | **[Session 7A](/book-of-abstracts.html#category=Session%207A)**                               | **[Session 7B](/book-of-abstracts.html#category=Session%207B)**                                  |
 |          | Chair(s): Dr. Enrico Natale (infoclio.ch)   | Chair(s): Dr. Eliane Kurmann (infoclio.ch)      |
 | 03:30 pm | **Closing Ceremony**                         |                                                 |
 |          | Chair(s): Prof. Jérôme                       |                                                 |
