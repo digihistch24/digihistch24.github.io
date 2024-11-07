@@ -21,41 +21,65 @@ npm run prepare
 
 ## Usage
 
-Check that all files are properly formatted.
+### 1. Code Quality Checks
+
+**Check Formatting**  
+This command identifies files that do not follow the project’s style conventions.
 
 ```bash
 npm run check
 ```
 
-Format all files.
+Expected output: A list of files with formatting issues, if any.
+
+**Auto-Format**  
+This command automatically corrects formatting issues in project files.
 
 ```bash
 npm run format
 ```
 
-Run Quarto to preview the website.
+### 2. Local Development
+
+**Preview the Site**  
+This command starts a local development server with hot-reloading to allow you to preview the website.
 
 ```bash
 quarto preview blog
 ```
 
-Run Quarto to build the website.
+Expected output: A local preview accessible at `http://localhost:4000`.
+
+### 3. Building for Production
+
+**Build Static Site**  
+This command compiles the website for deployment, generating static files in the `_site` directory.
 
 ```bash
 quarto render blog
 ```
 
-Run the wizard to write meaningful commit messages.
+Expected output: A fully built static website in the `_site` directory, ready for deployment.
+
+### 4. Version Control
+
+**Commit Messages Wizard**  
+This command launches an interactive prompt to help create standardized, meaningful commit messages.
 
 ```bash
 npm run commit
 ```
 
-Run the wizard to create a CHANGELOG.md.
+Expected output: A structured prompt for crafting a detailed commit message.
+
+**Generate Changelog**  
+This command automatically creates or updates a `CHANGELOG.md` file based on recent commits.
 
 ```bash
 npm run changelog
 ```
+
+Expected output: An updated `CHANGELOG.md` file summarizing recent changes and updates.
 
 ## Support
 

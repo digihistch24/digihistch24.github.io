@@ -25,4 +25,4 @@ By registering for Digital History Switzerland 2024, attendees accept the follow
 
 **5. Code of Conduct**
 
-- By registering, attendees accept the code of conduct as stated [on the homepage](/CODE_OF_CONDUCT).
+- By registering, attendees accept the code of conduct as stated [on the homepage](/CODE_OF_CONDUCT.html).

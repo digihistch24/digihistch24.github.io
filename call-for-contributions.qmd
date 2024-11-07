@@ -15,7 +15,7 @@ It is planned that a selection of the papers presented at the conference will be
 Date: September 12–13, 2024  
 Venue: [Kollegienhaus](https://osm.org/go/0CdsJT3xl-?m=), University of Basel (on-site)  
   
-Financial support is available for individuals whose institutions are unable to cover travel and accommodation costs. Please contact [digital-history-2024@unibas.ch](mailto:digital-history-2024@unibas.ch) for further details.Registration for Digital History Switzerland 2024 will be possible [on this platform](https://conferences.unibas.ch/frontend/index.php?folder_id=235&page_id= "Registration") starting June 03, 2024.
+Financial support is available for individuals whose institutions are unable to cover travel and accommodation costs. Please contact [digital-history-2024@unibas.ch](mailto:digital-history-2024@unibas.ch) for further details. Registration for Digital History Switzerland 2024 will be possible on this platform (CLOSED) starting June 03, 2024.
 
 ## Call for Papers
 
@@ -31,15 +31,15 @@ Poster presentations are an excellent way to showcase your work, stimulate discu
 
 ## Submission Guidelines
 
-Please follow the [submission guidelines](https://conferences.unibas.ch/frontend/index.php?page_id=1437) to ensure that your submission is properly formatted and submitted.
+Please follow the [submission guidelines](/call-for-contributions/submission-guidelines.html) to ensure that your submission is properly formatted and submitted.
 
 ## Organising Committee
 
-Jérôme Baudry (Ecole polytechnique fédérale de Lausanne)  
-Lucas Burkart (Universität Basel)  
-Béatrice Joyeux-Prunel (Université de Genève)  
-Eliane Kurmann (infoclio.ch)  
-Moritz Mähr (Universität Basel, Stadt.Geschichte.Basel)  
-Enrico Natale (infoclio.ch, Verein Geschichte und Informatik)  
-Christiane Sibille (Verein Geschichte und Informatik, ETH Library)  
-Moritz Twente (Universität Basel, Stadt.Geschichte.Basel)
+- Jérôme Baudry (Ecole polytechnique fédérale de Lausanne)  
+- Lucas Burkart (Universität Basel)  
+- Béatrice Joyeux-Prunel (Université de Genève)  
+- Eliane Kurmann (infoclio.ch)  
+- Moritz Mähr (Universität Basel, Stadt.Geschichte.Basel)  
+- Enrico Natale (infoclio.ch, Verein Geschichte und Informatik)  
+- Christiane Sibille (Verein Geschichte und Informatik, ETH Library)  
+- Moritz Twente (Universität Basel, Stadt.Geschichte.Basel)

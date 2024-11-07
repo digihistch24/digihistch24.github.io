@@ -8,14 +8,14 @@ title: Schedule
 |----------|-------------------------------------------------|---------------------------------------------------------------|
 | 09:00 am | **Conference Opening**                          |                                                               |
 |          | Chair(s): Prof. Dr. Martin                      |                                                               |
-| 09:30 am | **Session 1A**                                  | **Session 1B**                                                |
+| 09:30 am | **[Session 1A](/index.html#category=Session%2031A)**                                  | **[Session 1B](/index.html#category=Session%2031B)**                                                |
 |          | Chair(s): Moritz Twente (Universität Basel)     | Chair(s): Prof. Dr. Lucas Burkart (Universität Basel)         |
-| 11:00 am | **Session 2A**                                  | **Session 2B**                                                |
+| 11:00 am | **[Session 2A](/index.html#category=Session%2032A)**                                  | **[Session 2B](/index.html#category=Session%2032B)**                                                |
 |          | Chair(s): Dr. Moritz Mähr (Universität Basel)   | Chair(s): Dr. Christiane Sibille (ETH Library)                |
 | 12:30 pm | **ORD Task Force**  (Lunch Break Event)         |                                                               |
-| 02:00 pm | **Session 3A**                                  | **Session 3B**                                                |
+| 02:00 pm | **[Session 3A](/index.html#category=Session%2033A)**                                  | **[Session 3B](/index.html#category=Session%2033B)**                                                |
 |          | Chair(s): Prof. Jérôme Baudry (EPFL)            | Chair(s): Prof. Béatrice Joyeux-Prunel (Université de Genève) |
-| 04:00 pm | **Session 4A**                                  | **Session 4B**                                                |
+| 04:00 pm | **[Session 4A](/index.html#category=Session%2034A)**                                  | **[Session 4B](/index.html#category=Session%2034B)**                                                |
 |          | Chair(s): Dr. Eliane Kurmann (infoclio.ch)      | Chair(s): Dr. Christiane Sibille (ETH Library)                |
 
 ---
@@ -24,12 +24,12 @@ title: Schedule
 
 | Time     | Lecture Hall 001                             | Lecture Hall 115                                |
 |----------|---------------------------------------------|-------------------------------------------------|
-| 09:00 am | **Session 5A**                               | **Session 5B (Workshop)**                       |
+| 09:00 am | **[Session 5A](/index.html#category=Session%2035A)**                               | **[Session 5B](/index.html#category=Session%2035B) (Workshop)**                       |
 |          | Chair(s): Dr. Enrico Natale (infoclio.ch)   | Chair(s): Daniel Jaquet (EPFL)                  |
-| 11:00 am | **Session 6A**                               | **Session 6B**                                  |
+| 11:00 am | **[Session 6A](/index.html#category=Session%2036A)**                               | **[Session 6B](/index.html#category=Session%2036B)**                                  |
 |          | Chair(s): Moritz Twente (Universität Basel) | Chair(s): Dr. Moritz Mähr (Universität Basel)   |
 | 12:30 pm | **Digital History Network Switzerland** (Lunch Break Event) |                  |                                                 |
-| 02:00 pm | **Session 7A**                               | **Session 7B**                                  |
+| 02:00 pm | **[Session 7A](/index.html#category=Session%2037A)**                               | **[Session 7B](/index.html#category=Session%2037B)**                                  |
 |          | Chair(s): Dr. Enrico Natale (infoclio.ch)   | Chair(s): Dr. Eliane Kurmann (infoclio.ch)      |
 | 03:30 pm | **Closing Ceremony**                         |                                                 |
 |          | Chair(s): Prof. Jérôme                       |                                                 |

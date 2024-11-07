@@ -49,7 +49,16 @@ website:
       - section: Conference Program
         href: conference-program.qmd
         contents:
-          - auto: conference-program/*.qmd
+          - text: Conference Program
+            href: conference-program/schedule.qmd
+          - text: Keynote
+            href: submissions/keynote/index.qmd
+          - text: Practical Information
+            href: conference-program/practical-information.qmd
+          - text: Event Digital History Network
+            href: conference-program/info-event-digital-history-network-switzerland.qmd
+          - text: Event SSH ORD
+            href: conference-program/info-event-digital-history-network-switzerland.qmd
       - section: Call for Contributions
         href: call-for-contributions.qmd
         contents:
