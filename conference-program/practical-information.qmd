@@ -4,9 +4,9 @@ title: Practical Information
 
 ## Conference Guide
 
-![Conference Guide Cover](/images/brochure_cover.jpg)
-
 [We compiled a PDF](/files/digihistch24_brochure.pdf) with the most important information for you.
+
+![Conference Guide Cover](/images/brochure_cover.jpg){width=50% fig-align="left"}
 
 ## Getting to Us
 
