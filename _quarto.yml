@@ -58,7 +58,7 @@ website:
           - text: Event Digital History Network
             href: conference-program/info-event-digital-history-network-switzerland.qmd
           - text: Event SSH ORD
-            href: conference-program/info-event-digital-history-network-switzerland.qmd
+            href: conference-program/info-event-ssh-ord.qmd
       - section: Call for Contributions
         href: call-for-contributions.qmd
         contents:
