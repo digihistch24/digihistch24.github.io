@@ -49,7 +49,7 @@ website:
       - section: Conference Program
         href: conference-program.qmd
         contents:
-          - text: Conference Program
+          - text: Schedule
             href: conference-program/schedule.qmd
           - text: Keynote
             href: submissions/keynote/index.qmd

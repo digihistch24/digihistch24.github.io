@@ -19,11 +19,11 @@ While you're here, you might also want to check out the Digital History Network 
 
 ## Organising Committee
 
-Jérôme Baudry (Ecole polytechnique fédérale de Lausanne)
-Lucas Burkart (Universität Basel)
-Béatrice Joyeux-Prunel (Université de Genève)
-Eliane Kurmann (infoclio.ch)
-Moritz Mähr (Universität Basel, Stadt.Geschichte.Basel)
-Enrico Natale (infoclio.ch, Verein Geschichte und Informatik)
-Christiane Sibille (Verein Geschichte und Informatik, ETH Library)
-Moritz Twente (Universität Basel, Stadt.Geschichte.Basel)
+- Jérôme Baudry (Ecole polytechnique fédérale de Lausanne)
+- Lucas Burkart (Universität Basel)
+- Béatrice Joyeux-Prunel (Université de Genève)
+- Eliane Kurmann (infoclio.ch)
+- Moritz Mähr (Universität Basel, Stadt.Geschichte.Basel)
+- Enrico Natale (infoclio.ch, Verein Geschichte und Informatik)
+- Christiane Sibille (Verein Geschichte und Informatik, ETH Library)
+- Moritz Twente (Universität Basel, Stadt.Geschichte.Basel)

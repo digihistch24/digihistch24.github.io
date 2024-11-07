@@ -10,7 +10,7 @@ title: Practical Information
 
 ## Getting to Us
 
-![Map of Conference Location](../images/converia_map.png "Conference Location: Kollegienhaus, Petersplatz 1, 4051 Basel")
+![Map of Conference Location](../images/conference_location_map.png "Conference Location: Kollegienhaus, Petersplatz 1, 4051 Basel")
 
 The conference will take place at Kollegienhaus (also referred to as Main Building) of the University of Basel. It is conveniently located in Basel's city center and easy to reach.
 
