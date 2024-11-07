@@ -96,16 +96,18 @@
 	scrollbar-width: thin;
 }
 
-.btn-outline-primary {
-	display: block !important;
-	margin: auto !important;
-	width: fit-content !important;
-	color: #181818 !important;
-	background-color: #a5d7d2 !important;
-	border-color: #a5d7d2 !important;
-	border-radius: 0.25rem !important;
+.btn.btn-mint {
+	display: block;
+	margin: auto;
+	width: fit-content;
+	color: #181818;
+	background-color: #a5d7d2;
+	border-color: #a5d7d2;
+	border-radius: 0.25rem;
 	&:hover {
-		color: #181818 !important;
+		background-color: #a5d7d2;
+		border-color: #a5d7d2;
+		color: #181818;
 		text-decoration: underline;
 		text-decoration-color: #ff3cc7;
 		text-decoration-thickness: 3px;
