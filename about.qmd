@@ -64,8 +64,3 @@ Switzerland
 The University of Basel makes every effort to ensure that the information on its website is correct and up-to-date. However, it does not guarantee the topicality, correctness, completeness or quality of the information provided. It reserves the right to adjust or remove information at any time and without notice. Liability claims regarding damage caused by the use of any information provided, including any kind of information which is incomplete or incorrect, will therefore be rejected.  
 The University of Basel is not liable for any material or immaterial damage resulting from access to or use or non-use of the published information, from misuse of the connection or from technical faults.  
 The University of Basel has not reviewed external websites, i.e. websites not located on its servers or within its sphere of influence, which may be connected to this website via hyperlinks, and does not accept any responsibility for their content.
-
-## Copyrights
-
-All online content (documents, web pages and their parts) on the website of the University of Basel are protected by copyright and may only be copied and printed for private, scientific and non-commercial use.  
-Any copying, reproduction, retransmission or other use of the information on this website for commercial purposes is prohibited. This applies in particular to the logo of the University of Basel. Any requests for permission should be addressed in writing to the University of Basel, Web Services: [webservices@unibas.ch](mailto:webservices@unibas.ch).
