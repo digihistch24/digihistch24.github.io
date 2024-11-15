@@ -1,0 +1,27 @@
+---
+title: Submission Guidelines
+---
+
+Please follow the guidelines below to ensure that your submission is properly formatted and submitted.  
+
+## Paper Proposals
+
+- **Abstract**: Submit an abstract of no more than 300 words that clearly outlines the title, purpose, methodology, findings, and implications of your research project, research method, software, data, or tool.
+- **Biography**: Provide a brief biography (up to 150 words) that includes your current affiliation, research interests, and relevant publications. If there are multiple authors, you can use up to 150 words per person.
+- **Language**: Abstract and biography must be submitted in English. While the common language at the conference will be English, paper presentations may be in English, German, French, or Italian.
+- **Format**: Abstract and biography submissions should be combined into a single PDF file. The file should be named as follows: `LASTNAME_Firstname_short-title-of-proposition.pdf`. If there are multiple authors, use the name of the person submitting the proposal on this platform.
+
+## Poster Proposals
+
+- **Abstract**: Submit an abstract of no more than 300 words that clearly outlines the purpose, methodology, findings, and implications of your research project, research method, software, data, or tool.
+- **Biography**: Provide a brief biography (up to 150 words) that includes your current affiliation, research interests, and relevant publications. If there are multiple authors, you can use up to 150 words per person.
+- **Language**: Abstract and biography must be submitted in English. While the common language at the conference will be English, posters may be in English, German, French, or Italian.
+- **Format**: Abstract and biography submissions should be combined into a single PDF file. The file should be named as follows: `LASTNAME_Firstname_short-title-of-proposition.pdf`. If there are multiple authors, use the name of the person submitting the proposal on this platform.
+
+## General Guidelines
+
+- **Deadline**: All submissions must be received by December 4, 2023. Late entries will not be considered.
+- **Submission**: Please use the conference submission platform (CLOSED).
+- **Review Process**: All submissions will be peer-reviewed by an extended panel of reviewers. Authors will be notified of the decision by mid-March 2024. The review is based on [these evaluation criteria](review-process.html).  
+
+- **Questions**: If you have any questions about the submission process, please contact [digital-history-2024 [at] unibas.ch](mailto:digital-history-2024@unibas.ch).

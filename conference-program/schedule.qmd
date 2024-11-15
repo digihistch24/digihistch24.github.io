@@ -1,0 +1,35 @@
+---
+title: Schedule
+---
+
+## Thursday, 12 September 2024
+
+| Time     | Lecture Hall 001                                | Lecture Hall 115                                              |
+|----------|-------------------------------------------------|---------------------------------------------------------------|
+| 09:00 am | **Conference Opening**                          |                                                               |
+|          | Chairs: Prof. Dr. Martin Lengwiler (Universität Basel)<br>Prof. Dr. Lucas Burkart (Universität Basel)<br>Dr. Christiane Sibille (ETH Library)<br>Dr. Enrico Natale (infoclio.ch)                      |                                                               |
+| 09:30 am | **[Session 1A](/book-of-abstracts.html#category=Session%201A)**                                  | **[Session 1B](/book-of-abstracts.html#category=Session%201B)**                                                |
+|          | Chair: Moritz Twente (Universität Basel)     | Chair: Prof. Dr. Lucas Burkart (Universität Basel)         |
+| 11:00 am | **[Session 2A](/book-of-abstracts.html#category=Session%202A)**                                  | **[Session 2B](/book-of-abstracts.html#category=Session%202B)**                                                |
+|          | Chair: Dr. Moritz Mähr (Universität Basel)   | Chair: Dr. Christiane Sibille (ETH Library)                |
+| 12:30 pm | **[ORD Task Force](info-event-ssh-ord.html)**  (Lunch Break Event)         |                                                               |
+| 02:00 pm | **[Session 3A](/book-of-abstracts.html#category=Session%203A)**                                  | **[Session 3B](/book-of-abstracts.html#category=Session%203B)**                                                |
+|          | Chair: Prof. Jérôme Baudry (EPFL)            | Chair: Prof. Béatrice Joyeux-Prunel (Université de Genève) |
+| 04:00 pm | **[Session 4A](/book-of-abstracts.html#category=Session%204A)**                                  | **[Session 4B](/book-of-abstracts.html#category=Session%204B)**                                                |
+|          | Chair: Dr. Eliane Kurmann (infoclio.ch)      | Chair: Dr. Christiane Sibille (ETH Library)                |
+
+---
+
+## Friday, 13 September 2024
+
+| Time     | Lecture Hall 001                             | Lecture Hall 115                                |
+|----------|---------------------------------------------|-------------------------------------------------|
+| 09:00 am | **[Session 5A](/book-of-abstracts.html#category=Session%205A)**                               | **Session 5B (Workshop)**                       |
+|          | Chair: Dr. Enrico Natale (infoclio.ch)   | Chair: Daniel Jaquet (EPFL)                  |
+| 11:00 am | **[Session 6A](/book-of-abstracts.html#category=Session%206A)**                               | **[Session 6B](/book-of-abstracts.html#category=Session%206B)**                                  |
+|          | Chair: Moritz Twente (Universität Basel) | Chair: Dr. Moritz Mähr (Universität Basel)   |
+| 12:30 pm | **[Digital History Network Switzerland](info-event-digital-history-network-switzerland.html)** (Lunch Break Event) |                  |                                                 |
+| 02:00 pm | **[Session 7A](/book-of-abstracts.html#category=Session%207A)**                               | **[Session 7B](/book-of-abstracts.html#category=Session%207B)**                                  |
+|          | Chair: Dr. Enrico Natale (infoclio.ch)   | Chair: Dr. Eliane Kurmann (infoclio.ch)      |
+| 03:30 pm | **Closing Ceremony**                         |                                                 |
+|          | Chairs: Prof. Jérôme Baudry (EPFL)<br>Prof. Béatrice Joyeux-Prunel (Université de Genève)                       |                                                 |

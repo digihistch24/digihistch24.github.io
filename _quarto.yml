@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: DigiHistCH24 Book of Abstracts
+  title: DigiHistCH24
   favicon: logo.png
   open-graph: true
   twitter-card: true
@@ -19,48 +19,54 @@ website:
   navbar:
     background: '#a5d7d2'
     logo-alt: ''
-    title: '***DigiHistCH24*** Book of Abstracts'
+    title: '***DigiHistCH24***'
     tools:
       - icon: github
         url: https://github.com/digihistch24/book-of-abstracts/
         target: _blank
     left:
-      - text: Abstracts
+      - text: Home
         href: index.qmd
+      - text: Book of Abstracts
+        href: book-of-abstracts.qmd
       - text: Conference Program
-        href: https://conferences.unibas.ch/frontend/index.php?page_id=1882
-        target: _blank
-      - text: Registration
-        href: https://conferences.unibas.ch/frontend/index.php?page_id=1424&booking_registration_action=show&booking_registration_controller=offer
-        target: _blank
+        href: conference-program.qmd
       - text: Call for Contributions
-        href: https://conferences.unibas.ch/frontend/index.php?folder_id=234&page_id=
-        target: _blank
+        href: call-for-contributions.qmd
       - text: About
         href: about.qmd
 
   sidebar:
     style: 'docked'
+    collapse-level: 1
     contents:
-      - section: Abstracts
+      - text: Home
         href: index.qmd
+      - section: Book of Abstracts
+        href: book-of-abstracts.qmd
         contents:
           - auto: submissions/*/index.qmd
+      - section: Conference Program
+        href: conference-program.qmd
+        contents:
+          - text: Schedule
+            href: conference-program/schedule.qmd
+          - text: Keynote
+            href: submissions/keynote/index.qmd
+          - text: Practical Information
+            href: conference-program/practical-information.qmd
+          - text: Event Digital History Network
+            href: conference-program/info-event-digital-history-network-switzerland.qmd
+          - text: Event SSH ORD
+            href: conference-program/info-event-ssh-ord.qmd
+      - section: Call for Contributions
+        href: call-for-contributions.qmd
+        contents:
+          - auto: call-for-contributions/*.qmd
       - section: About
         href: about.qmd
         contents:
-          - text: Changelog
-            href: CHANGELOG.md
-          - text: Code of Conduct
-            href: CODE_OF_CONDUCT.md
-          - text: Contributing
-            href: CONTRIBUTING.md
-          - text: License (Data)
-            href: LICENSE-CCBYSA.md
-          - text: License (Code)
-            href: LICENSE-AGPL.md
-          - text: Security
-            href: SECURITY.md
+          - auto: about/*.qmd
 
 format:
   html:

@@ -10,32 +10,76 @@ This repository contains the Book of Abstracts for the Digital History Switzerla
 
 <!-- [![DOI](https://zenodo.org/badge/ZENODO_RECORD.svg)](https://zenodo.org/badge/latestdoi/ZENODO_RECORD) -->
 
-## Repository Structure
+## Installation
 
-The structure of this repository follows the [Advanced Structure for Data Analysis](https://the-turing-way.netlify.app/project-design/project-repo/project-repo-advanced.html) of _The Turing Way_ and is organized as follows:
-
-- `submissions/` Contains the submissions for the conference.
-- `book-of-abstracts.md` The introduction to the book of abstracts.
-
-## Use
-
-This data is openly available to everyone and can be used for any research or educational purpose. If you use this data in your research, please cite as specified in [CITATION.cff](CITATION.cff). The following citation formats are also available through _Zenodo_:
-
-- [BibTeX](https://zenodo.org/record/ZENODO_RECORD/export/hx)
-- [CSL](https://zenodo.org/record/ZENODO_RECORD/export/csl)
-- [DataCite](https://zenodo.org/record/ZENODO_RECORD/export/dcite4)
-- [Dublin Core](https://zenodo.org/record/ZENODO_RECORD/export/xd)
-- [DCAT](https://zenodo.org/record/ZENODO_RECORD/export/dcat)
-- [JSON](https://zenodo.org/record/ZENODO_RECORD/export/json)
-- [JSON-LD](https://zenodo.org/record/ZENODO_RECORD/export/schemaorg_jsonld)
-- [GeoJSON](https://zenodo.org/record/ZENODO_RECORD/export/geojson)
-- [MARCXML](https://zenodo.org/record/ZENODO_RECORD/export/xm)
-
-_Zenodo_ provides an [API (REST & OAI-PMH)](https://developers.zenodo.org/) to access the data. For example, the following command will return the metadata for the most recent version of the data
+Install [Quarto](https://quarto.org/) and [Node.js](https://nodejs.org/) and run the following commands in the root directory of the repository:
 
 ```bash
-curl -i https://zenodo.org/api/records/ZENODO_RECORD
+npm install
+npm run prepare
 ```
+
+## Usage
+
+### 1. Code Quality Checks
+
+**Check Formatting**  
+This command identifies files that do not follow the project’s style conventions.
+
+```bash
+npm run check
+```
+
+Expected output: A list of files with formatting issues, if any.
+
+**Auto-Format**  
+This command automatically corrects formatting issues in project files.
+
+```bash
+npm run format
+```
+
+### 2. Local Development
+
+**Preview the Site**  
+This command starts a local development server with hot-reloading to allow you to preview the website.
+
+```bash
+quarto preview blog
+```
+
+Expected output: A local preview accessible at `http://localhost:4000`.
+
+### 3. Building for Production
+
+**Build Static Site**  
+This command compiles the website for deployment, generating static files in the `_site` directory.
+
+```bash
+quarto render blog
+```
+
+Expected output: A fully built static website in the `_site` directory, ready for deployment.
+
+### 4. Version Control
+
+**Commit Messages Wizard**  
+This command launches an interactive prompt to help create standardized, meaningful commit messages.
+
+```bash
+npm run commit
+```
+
+Expected output: A structured prompt for crafting a detailed commit message.
+
+**Generate Changelog**  
+This command automatically creates or updates a `CHANGELOG.md` file based on recent commits.
+
+```bash
+npm run changelog
+```
+
+Expected output: An updated `CHANGELOG.md` file summarizing recent changes and updates.
 
 ## Support
 
