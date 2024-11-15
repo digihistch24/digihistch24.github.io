@@ -24,10 +24,11 @@ key-points:
   - Students from the Belfort-Montbéliard University of Technology participate directly in the project by modeling buildings, machines, or by working on knowledge engineering.
   - Their reports make it possible to identify points that most marked them, namely the discovery of human sciences and their difficulties, as well as new technical and organizational skills learning.
 date: 09-13-2024
-doi: 10.5281/zenodo.13904555
+date-modified: 11-15-2024
+doi: 10.5281/zenodo.14171328
 other-links:
   - text: Presentation Slides (PDF)
-    href: https://doi.org/10.5281/zenodo.13904555
+    href: https://doi.org/10.5281/zenodo.14171328
 bibliography: references.bib
 ---
 

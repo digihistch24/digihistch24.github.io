@@ -25,11 +25,11 @@ key-points:
   - Key point 2 Archival metadata is an untapped research resource for digital humanities, but its use requires close collaboration with cultural heritage organisations and practical knowledge of archival practices.
   - Key point 3 The user test survey of the portal with 19th-century letter metadata showed that building a committed test group is challenging and that 'traditional' humanists have difficulties in studying mass data.
 date: 09-12-2024
-date-modified: 10-07-2024
-doi: 10.5281/zenodo.13904128
+date-modified: 11-15-2024
+doi: 10.5281/zenodo.14171306
 other-links:
   - text: Presentation Slides (PDF)
-    href: https://doi.org/10.5281/zenodo.13904128
+    href: https://doi.org/10.5281/zenodo.14171306
 bibliography: references.bib
 ---
 

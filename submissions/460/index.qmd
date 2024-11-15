@@ -22,10 +22,11 @@ key-points:
   - The raw dataset was published via DataDOI, an Open Access repository managed by the University of Tartu library in accordance to FAIR principles.
   - The data shows that a key factor in building and maintaining the glass community was godparenting and marriages between the families.
 date: 09-12-2024
-doi: 10.5281/zenodo.13904260
+date-modified: 11-15-2024
+doi: 10.5281/zenodo.14171320
 other-links:
   - text: Presentation Slides (PDF)
-    href: https://doi.org/10.5281/zenodo.13904260
+    href: https://doi.org/10.5281/zenodo.14171320
 bibliography: references.bib
 ---
 

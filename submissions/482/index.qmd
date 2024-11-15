@@ -22,10 +22,11 @@ keywords:
 abstract: |
   Our presentation reflects on the experience gained in an ongoing SNSF-funded research project investigating the internationalization of patent systems. In our research, we mix different methods: traditional historical methods allow us to shed light on the role of intergovernmental agreements and of private networks of patent specialists; digital analysis enables us to trace how internationalization stemmed from patent practice itself, and to study the activity of patentees that have left few historical traces. Relying on a large corpus (over 4 million documents) of digitized patents, we use text mining and computer vision techniques to explore the corpus and operationalize the concept of internationalization. In this paper, we focus on the challenges of matching (almost) identical drawings between patents of different countries, combining image embeddings (obtained by using a pretrained convolutional neural network) and feature matching (SIFT).
 date: 09-12-2024
-doi: 10.5281/zenodo.13904197
+date-modified: 11-15-2024
+doi: 10.5281/zenodo.14171307
 other-links:
   - text: Presentation Slides (PDF)
-    href: https://doi.org/10.5281/zenodo.13904197
+    href: https://doi.org/10.5281/zenodo.14171307
 bibliography: references.bib
 ---
 

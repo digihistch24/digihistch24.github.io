@@ -18,8 +18,8 @@ keywords:
   - Audiovisual Media
   - Film History
 date: 09-12-2024
-date-modified: 10-22-2024
-doi: 10.5281/zenodo.13907455
+date-modified: 11-15-2024
+doi: 10.5281/zenodo.14171325
 bibliography: references.bib
 ---
 
