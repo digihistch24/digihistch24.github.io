@@ -29,7 +29,7 @@ abstract: |
 date: 09-13-2024
 doi: 10.5281/zenodo.13904600
 other-links:
-  - text: Slides (PDF)
+  - text: Presentation Slides (PDF)
     href: https://doi.org/10.5281/zenodo.13904600
 ---
 

@@ -38,7 +38,7 @@ date: 09-12-2024
 bibliography: references.bib
 doi: 10.5281/zenodo.13908208
 other-links:
-  - text: Presentation Slides
+  - text: Presentation Slides (PDF)
     href: https://doi.org/10.5281/zenodo.13908208
   - text: Mini Muse Project Website
     href: https://mini-muse.github.io/project/
