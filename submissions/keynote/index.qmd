@@ -24,7 +24,15 @@ other-links:
     href: https://x.com/gerbenzaagsma
   - text: C²DH
     href: https://www.c2dh.uni.lu/
+  - text: Keynote Video Recording
+    href: https://doi.org/10.5281/zenodo.14340336
 ---
+
+::: {.callout-note appearance="simple" icon=false}
+
+A recording of the Zoom live stream of this keynote is available [on Zenodo](https://doi.org/10.5281/zenodo.14340336).
+
+:::
 
 In recent years, the critical turn in digital humanities has sparked numerous discussions about digital literacy in the discipline of history. While critical work has focused on data, tools, and the skills that historians need in the current digital age, questions remain about the broader contours of digital literacy and the multiple meanings that could be attributed to it. Amidst the shift to a culture of digital abundance and a research environment that privileges what is available online, digitisation has brought old questions about heritage, power, and the production and construction of historical knowledge to the fore. This calls for an approach that expands our current methodological purview to include broader epistemological and normative considerations. 
 

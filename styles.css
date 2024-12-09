@@ -107,6 +107,10 @@
 	text-decoration: underline #ff3cc7 3px;
 }
 
+.callout {
+	border-left-color: #a5d7d2 !important;
+}
+
 /* Print styles */
 @media print {
 	body {
