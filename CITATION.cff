@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: >-
-  Digital History Switzerland 2024 Book of Abstracts
+  Digital History Switzerland 2024
 message: 'If you use this guide, please cite it as below.'
 type: software
 authors:
@@ -32,10 +32,10 @@ authors:
 identifiers:
   - type: doi
     value: 10.5281/
-repository-code: 'https://github.com/digihistch24/book-of-abstracts/'
-url: 'https://digihistch24.github.io/book-of-abstracts/'
+repository-code: 'https://github.com/digihistch24/digihistch24.github.io/'
+url: 'https://digihistch24.github.io/'
 abstract: >-
-  This repository contains Book of Abstracts for the Digital History Switzerland 2024. Historical Research, Digital Literacy and Algorithmic Criticism.
+  This repository contains website and Book of Abstracts for the Digital History Switzerland 2024. Historical Research, Digital Literacy and Algorithmic Criticism.
 keywords:
   - histocial research
   - digital literacy

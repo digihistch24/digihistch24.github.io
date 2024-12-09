@@ -1,8 +1,8 @@
 {
-	"name": "book-of-abstracts",
+	"name": "Digital History Switzerland 2024",
 	"description": "This repository contains Book of Abstracts for the Digital History Switzerland 2024. Historical Research, Digital Literacy and Algorithmic Criticism.",
 	"author": "Moritz Mähr <digital-history-2024@unibas.ch>",
-	"url": "https://github.com/digihistch24/book-of-abstracts/issues",
+	"url": "https://github.com/digihistch24/digihistch24.github.io/issues",
 	"license": "AGPL-3.0",
 	"scripts": {
 		"check": "prettier --ignore-path .gitignore  --check . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBYSA.md,fonts/LICENSE-OFL.md,package-lock.json,pnpm-lock.yaml,yarn.lock}'",

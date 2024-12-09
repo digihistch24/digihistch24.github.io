@@ -2,8 +2,8 @@
 title: DigiHistCH24 Program
 ---
 
-Digital History Switzerland 2024 takes place September 12–13, 2024 at the University of Basel. The conference will be held at Kollegienhaus centrally located in Basel.  
-  
+Digital History Switzerland 2024 takes place September 12–13, 2024 at the University of Basel. The conference will be held at Kollegienhaus centrally located in Basel.
+
 Please note: The exact rooms in Kollegienhaus indicated in the conference schedule are preliminary and subject to change.
 
 [Conference Schedule](conference-program/schedule.html){.btn .btn-mint role="button"}
@@ -18,5 +18,5 @@ We are pleased to present this collection, which reflects the state of the art i
 
 Each day, we have one additional, externally organized network/information meeting:
 
-September 12, 12:30–14:00: [**SSH Open Research Data Taskforce (Lunch Break Event)**](/conference-program/info-event-ssh-ord.html "Event Information")  
-September 13, 12:30–14:00: [**Digital History Network Switzerland (Lunch Break Event)**](/conference-program/info-event-digital-history-network-switzerland.html "Event Information")
+- September 12, 12:30–14:00: [**SSH Open Research Data Taskforce (Lunch Break Event)**](/conference-program/info-event-ssh-ord.html "Event Information")
+- September 13, 12:30–14:00: [**Digital History Network Switzerland (Lunch Break Event)**](/conference-program/info-event-digital-history-network-switzerland.html "Event Information")

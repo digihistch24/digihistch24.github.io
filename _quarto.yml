@@ -6,9 +6,9 @@ website:
   favicon: logo.png
   open-graph: true
   twitter-card: true
-  site-url: https://digihistch24.github.io/book-of-abstracts/
-  repo-url: https://github.com/digihistch24/book-of-abstracts/
-  issue-url: https://github.com/digihistch24/book-of-abstracts/issues/new/choose
+  site-url: https://digihistch24.github.io/
+  repo-url: https://github.com/digihistch24/digihistch24.github.io/
+  issue-url: https://github.com/digihistch24/digihistch24.github.io/issues/new/choose
   repo-actions: [edit, issue]
   page-navigation: true
   bread-crumbs: false
@@ -22,7 +22,7 @@ website:
     title: '***DigiHistCH24***'
     tools:
       - icon: github
-        url: https://github.com/digihistch24/book-of-abstracts/
+        url: https://github.com/digihistch24/digihistch24.github.io/
         target: _blank
     left:
       - text: Home

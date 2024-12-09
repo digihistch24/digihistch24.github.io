@@ -1,0 +1,26 @@
+---
+submission_id: 873
+categories: 'Session 5B'
+title: 'Unveiling Historical Depth: Semantic annotation of the Panorama of the Battle of Murten'
+author: 
+  - name: Daniel Jaquet
+    orcid: 0000-0003-1515-3619
+    email: daniel.jaquet@epfl.ch
+    affiliation: EPFL
+  - name: Tsz Kin Chau
+    orcid: 0009-0006-7939-3151
+    email: tszkin.chau@epfl.ch
+    affiliation: EPFL
+date: 09-13-2024
+doi: 10.5281/zenodo.14175343
+---
+
+## Workshop
+
+In the context of the research project Digitizing and Augmenting the Panorama of the Battle of Murten (EPFL, 2022-2026), we have produced the largest digital image of a single work of art (1.62 terapixel, the original painting dimensions are 10x100m, oil on canvas, 1894). To enhance the interpretation of the panorama's intricate visual content, we propose a deep semantic annotation approach for data curation, operating at the Point of Interest (POI) level.
+
+Leveraging Linked Open Data (LOD) technologies and adopting the CIDOC CRM standards, we develop an annotation ontology to facilitate the description and interpretation of the panorama using interoperable structured data. This annotation will be supported by a web-based platform we designed, featuring deep zoom capabilities, with the potential to evolve into a versatile tool for the curation of panoramic content. During this workshop, we will present the beta-version of the web-based platform and let the audience test the annotation platform.
+
+This workshop is being offered by Daniel Jaquet and Tsz Kin Chau (EPFL).
+
+Participants can use their own laptops.

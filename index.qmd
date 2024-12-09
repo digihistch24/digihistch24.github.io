@@ -7,15 +7,15 @@ author-meta: "Digital History Switzerland 2024"
 
 We invite scholars, researchers and professionals of all levels of experience from Switzerland and beyond to submit papers on the DigiHistCH24 conference theme: **‹Historical Research, Digital Literacy and Algorithmic Criticism›**. We are particularly interested in papers that address ongoing research projects, innovative research methods, the use of software in historical research, data analysis, and digital tools.
 
-The conference will take place in September 2024. We are looking forward to seeing you in Basel – **please do not forget to register (CLOSED) for attending DigiHistCH24! If you are already curious about what to expect, our <a href="/book-of-abstracts.html" title="Book of Abstracts">Book of Abstracts</a> is the perfect place to start.**
+The conference will take place in September 2024. We are looking forward to seeing you in Basel – **please do not forget to register (CLOSED) for attending DigiHistCH24! If you are already curious about what to expect, our [Book of Abstracts](/book-of-abstracts.html "Book of Abstracts") is the perfect place to start.**
 
 This conference provides a platform for scholars, researchers and professionals of all ages and levels of experience to discuss these challenges, exchange experiences, share best practices, and discuss forward-looking approaches to historical research in the digital age. It aims to promote digital literacy, raise awareness of the use of algorithms and AI systems, develop strategies for dealing with digital sources, encourage shared formats and methodologies, and facilitate the exchange of knowledge and best practices for collaborative historical research. The conference will also showcase projects and research in the field of digital history.
 
 ## Digital History Network Switzerland
 
-While you're here, you might also want to check out the Digital History Network Switzerland! Its aim is to promote the visibility of digital history and to network people from academic and memory institutions as well as other actors in this field. We recommend joining the network's mailing list! See <a href="https://www.infoclio.ch/en/digitalhistorynetwork" target="_blank" rel="noopener">infoclio.ch</a> for more information.
+While you're here, you might also want to check out the Digital History Network Switzerland! Its aim is to promote the visibility of digital history and to network people from academic and memory institutions as well as other actors in this field. We recommend joining the network's mailing list! See [infoclio.ch](https://www.infoclio.ch/en/digitalhistorynetwork){target="_blank" rel="noopener"} for more information.
 
-<a href="https://www.infoclio.ch/en/digitalhistorynetwork" target="_blank" rel="noopener"><img src="/images/logo_digital_history_network_ch.svg" width="600" alt="Digital History Network Switzerland Logo" /></a>
+[![Digital History Network Switzerland Logo](/images/logo_digital_history_network_ch.svg){width="600"}](https://www.infoclio.ch/en/digitalhistorynetwork){target="_blank" rel="noopener"}
 
 ## Organising Committee
 

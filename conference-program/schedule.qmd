@@ -24,7 +24,7 @@ title: Schedule
 
 | Time     | Lecture Hall 001                             | Lecture Hall 115                                |
 |----------|---------------------------------------------|-------------------------------------------------|
-| 09:00 am | **[Session 5A](/book-of-abstracts.html#category=Session%205A)**                               | **Session 5B (Workshop)**                       |
+| 09:00 am | **[Session 5A](/book-of-abstracts.html#category=Session%205A)**                               | **[Session 5B (Workshop)](/submissions/873)**                       |
 |          | Chair: Dr. Enrico Natale (infoclio.ch)   | Chair: Daniel Jaquet (EPFL)                  |
 | 11:00 am | **[Session 6A](/book-of-abstracts.html#category=Session%206A)**                               | **[Session 6B](/book-of-abstracts.html#category=Session%206B)**                                  |
 |          | Chair: Moritz Twente (Universität Basel) | Chair: Dr. Moritz Mähr (Universität Basel)   |
