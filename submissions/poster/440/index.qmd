@@ -33,6 +33,12 @@ other-links:
 bibliography: references.bib
 ---
 
+::: {.callout-note appearance="simple" icon=false}
+
+A PDF version of the poster is available [on Zenodo (PDF)](https://zenodo.org/records/13908129/files/440_DigiHistCH24_MultimodalUI_SFA_Poster.pdf).
+
+:::
+
 ## Introduction
 
 Access to archival records has been an integral part of the mission of the Swiss Federal Archives (SFA)[^1] since the founding of the Helvetic Republic in 1798, and represents a commitment to preserving and providing access to the administrative records of federal authorities such as the government, parliament and the administration. As custodian of Switzerland's historical documentation, the SFA plays a vital role in facilitating access to these records for researchers and the public. In response to the constant evolution of digital technologies and the emergence of artificial intelligence (AI), the SFA has adopted innovative approaches to improve the accessibility and usability of its extensive holdings.

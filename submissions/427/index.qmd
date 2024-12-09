@@ -34,6 +34,12 @@ other-links:
 bibliography: references.bib
 ---
 
+::: {.callout-note appearance="simple" icon=false}
+
+For this paper, slides are available [on Zenodo (PDF)](https://zenodo.org/records/14171339/files/427_DigiHistCH24_SolidGround_Slides.pdf).
+
+:::
+
 ## Introduction
 
 ### General Problem Description

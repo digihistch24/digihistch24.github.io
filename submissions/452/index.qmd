@@ -33,6 +33,12 @@ other-links:
     href: https://doi.org/10.5281/zenodo.13904600
 ---
 
+::: {.callout-note appearance="simple" icon=false}
+
+For this paper, slides are available [on Zenodo (PDF)](https://zenodo.org/records/13904600/files/452_DigiHistCH24_Belpop_Slides.pdf).
+
+:::
+
 ## Extended Abstract
 
 The Belpop project aims to reconstruct the demographic behavior of the population of a mushrooming working-class town during industrialization: Belfort. Belfort is a hapax in the French urban landscape of the 19^th^ century, as the demographic growth of its main working- class district far outstripped that of the most dynamic Parisian suburbs. The underlying hypothesis is that the massive Alsatian migration following the 1870-71 conflict, along with concomitant industrialization and militarization of the city, profoundly altered the demographic behavior of the people of Belfort.

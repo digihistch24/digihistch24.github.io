@@ -32,6 +32,12 @@ other-links:
 bibliography: references.bib
 ---
 
+::: {.callout-note appearance="simple" icon=false}
+
+For this paper, slides are available [on Zenodo (PDF)](https://zenodo.org/records/14171328/files/429_DigiHistCH24_Technhom_Slides.pdf).
+
+:::
+
 ## Introduction
 
 Part of the national Lab In Virtuo project (2021-2024), the Techn'hom Time Machine project, initiated in 2019 by the Belfort-Montbéliard University of Technology, aims to study and digitally restore the history of an industrial neighborhood, with teacher-researchers but also students as co-constructors [@Gasnier2014 ; @Gasnier2020, p. 293]. The project is thus located at the interface of pedagogy and research. The Techn'hom district was created after the Franco-Prussian War of 1870 with two companies from Alsace: the Société Alsacienne de Constructions Mécaniques, nowadays Alstom; and the Dollfus-Mieg et Compagnie (DMC) spinning mill, in operation from 1879 to 1959. The project aims to create a “Time Machine” of these industrial areas, beginning with the spinning mill. We seek to restore in four dimensions (including time) buildings, machines with their operation, but also document and model sociability and know-how, down to the gestures and feelings. The resulting “Sensory Realistic Intelligent Virtual Environment” should allow both researchers and general public to virtually discover places and “facts” taking place in the industry, but also interact with them or even make modifications.

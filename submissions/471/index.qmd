@@ -44,6 +44,12 @@ other-links:
     href: https://mini-muse.github.io/project/
 ---
 
+::: {.callout-note appearance="simple" icon=false}
+
+For this paper, slides are available [on Zenodo (PDF)](https://zenodo.org/records/13908208/files/471_DigiHistCH24_AI-assistedSearch_Presentation.pdf).
+
+:::
+
 ## Introduction
 
 Cultural digital archives are a goldmine of information for historians, offering access to digitized sources online. However, research highlights that these archives often struggle with usability issues [@vora_n00b_2010; @dani_digital_2015] including difficulties in accessing certain items and information. Moreover, several emerging challenges are affecting the work of historians. Among these are the limited ways to explore archives, because cultural digital archives typically rely heavily on keyword-based search methods, the lack of transparency about how search results are generated, and the absence of advanced search and filtering options to reduce the volume of search results.

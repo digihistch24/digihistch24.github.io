@@ -24,6 +24,12 @@ other-links:
 bibliography: references.bib
 ---
 
+::: {.callout-note appearance="simple" icon=false}
+
+For this paper, a manuscript is available [on Zenodo (PDF)](https://zenodo.org/records/13904530/files/457_DigiHistCH24_ComputationalHistoriographicalModeling_Manuscript.pdf).
+
+:::
+
 ## Introduction
 
 When we look for epistemological differences between "traditional" and digital history, *corpora*---stand out. Of course, historians have always created and studied collections of traces, in particular documents, but sometimes also other artifacts, and have built their narratives on the basis of these collections. This is a significant aspect of scholarship and in some sense constitutes the difference between historical and literary narratives: historical narratives are supposed to be grounded (in some way) in the historical facts represented by the respective corpus.

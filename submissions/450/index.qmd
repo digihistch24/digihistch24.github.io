@@ -29,6 +29,12 @@ other-links:
 bibliography: references.bib
 ---
 
+::: {.callout-note appearance="simple" icon=false}
+
+For this paper, slides are available [on Zenodo (PDF)](https://zenodo.org/records/13903914/files/450_DigiHistCH24_PublicUrbanGreenSpaces_Slides.pdf).
+
+:::
+
 ## Introduction
 
 GIS (Geographic Information Systems) have become increasingly valuable in spatial history research since the mid-1990s, and is particularly useful for analyzing socio-spatial dynamics in historical contexts [@kemp_what_2009, p. 16; @gregory_historical_2007, p.1]. My PhD research applies GIS to examine and compare the development of public urban green spaces, namely public parks and playgrounds, in the port cities of Hamburg and Marseille, between post-WWII urban reconstruction and the First Oil Shock in 1973. The management and processing of data concerning green space evolution in GIS allow visualization of when and where parks were created, and how these reflect socio-spatial differentiations. This layering of information offers ways to evaluate historical data and construct arguments, while also helping communicate the project to a wider audience. To critically assess the application of GIS in historical research, I will use the SWOT (Strengths, Weaknesses, Opportunities, Threats) analysis framework. This popular business consultancy approach [@minsky_are_2021] serves here as a structure for systematic reflection on how digital methods can enhance historical research and where caution is needed. The goal is to provoke critical thinking about when using GIS genuinely support research beyond producing impressive visuals, and to explore the balance between close and distant reading of historical data.

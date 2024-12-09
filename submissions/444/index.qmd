@@ -33,6 +33,12 @@ other-links:
 bibliography: references.bib
 ---
 
+::: {.callout-note appearance="simple" icon=false}
+
+For this paper, slides are available [on Zenodo (PDF)](https://zenodo.org/records/14171306/files/444_DigiHistCH24_LetterMetadata_Slides.pdf).
+
+:::
+
 ## Introduction
 
 This paper discusses data and practices related to an ongoing digital humanities consortium project *Constellations of Correspondence – Large and Small Networks of Epistolary Exchange in the Grand Duchy of Finland* (CoCo; Research Council of Finland, 2021–2025). The project aggregates, analyses and publishes 19th-century epistolary metadata from letter collections of Finnish cultural heritage (CH) organisations on a Linked Open Data service and as a semantic web portal (the ‘CoCo Portal’), and it consists of three research teams, bringing together computational and humanities expertise. We focus exclusively on metadata considering them to be part of the cultural heritage and a fruitful starting point for research, providing access i.e. to 19th-century epistolary culture and archival biases. The project started with a webropol survey addressed to over 100 CH organisations to get an overview of the preserved 19th-century letters and the Finnish public organisations willing to share their letter metadata with us. Currently the CoCo portal includes seven CH organisations and four online letter publications with the metadata of over 997.000 letters and with 95.000 actors (senders and recipients of letters).

@@ -30,6 +30,12 @@ other-links:
 bibliography: references.bib
 ---
 
+::: {.callout-note appearance="simple" icon=false}
+
+For this paper, slides are available [on Zenodo (PDF)](https://zenodo.org/records/14171307/files/482_DigiHistCH_Internationalization_Slides.pdf).
+
+:::
+
 ## Introduction
 
 Our presentation reflects on the experience gained in the ongoing SNSF-funded research project [The Internationalization of Patent Systems: From Patent Cultures to Global Intellectual Property](https://data.snf.ch/grants/grant/207571). As recent debates on price of, and access to, patented COVID-19 vaccines have recalled, intellectual property rights are of great importance on a global scale. Our research investigates how patents have become, albeit incompletely, such globally relevant rights. While this internationalization is often seen as the consequence of agreements between macro-actors such as states, this project argues that this internationalization stems equally, if not more, from the networks of actors, economic strategies, texts and images involved in patent practices. To explore these, our project relies on the digital analysis of a large corpus of digitized patent documents, using text mining and computer vision techniques.

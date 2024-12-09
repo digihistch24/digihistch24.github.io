@@ -30,6 +30,13 @@ other-links:
     href: https://doi.org/10.5281/zenodo.14171285
 bibliography: references.bib
 ---
+
+::: {.callout-note appearance="simple" icon=false}
+
+For this paper, slides are available [on Zenodo (PDF)](https://zenodo.org/records/14171285/files/445_DigiHistCH24_AdFontes_Slides.pdf).
+
+:::
+
 ## Introduction
 
 Scholars and interested laypeople who want to adequately deal with historical topics or generally extract information from differently structured historical documents need both knowledge of old scripts and methods for analysing complex layouts. Studies of written artefacts are only possible if they can be read at all – written in unfamiliar scripts such as Gothic Cursive, Humanist Minuscule or German Kurrent and sometimes with rather unconventional layouts. Until now, the relevant skills have been developed, for example, by the highly specialised field of palaeography. In the last few years, a shift in practice has taken place. With digital transcription tools based on deep learning models trained to read these old scripts and accompanying layouts on the rise, working with old documents or unusual layouts is becoming easier and quicker. However, using the corresponding software and platforms can still be intimidating. Users need to have a particular understanding of how to approach working with Automated Text Recognition (ATR) depending on their projects aims. This is why the Ad fontes platform [@noauthor_ad_2018] is currently developing an e-learning module that introduces students, researchers, and other interested users (e.g. citizen scientists) to ATR, its use cases, and best practices in general and more specifically into how exactly they can use ATR for their papers and projects.

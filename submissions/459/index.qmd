@@ -27,6 +27,12 @@ other-links:
     href: https://doi.org/10.5281/zenodo.13904170
 ---
 
+::: {.callout-note appearance="simple" icon=false}
+
+For this paper, slides are available [on Zenodo (PDF)](https://zenodo.org/records/13904170/files/459_DigiHistCH24_DataLiteracyLibraries_Slides.pdf).
+
+:::
+
 ## Introduction
 
 More and more, libraries are becoming important institutions when it comes to teaching data literacy and the basics of Digital Humanities (DH) tools and methods, especially to undergraduates or other people new to the subject matter. The Digital Humanities Work Group (AG DH), consisting of a selection of subject librarians from the University Library Basel (UB), have developed various formats to introduce students to these topics and continue to build and expand upon the available teaching elements in order to assemble customised lesson or workshop packages as needed. The aim of this talk is to share our experiences with the planning and teaching of three different course formats. These classes and workshops play, on one hand, an important part of making the library's (historical) holdings and datasets visible and available for digital research and, on the other hand, they are means to engage with students and (early stage) researchers and imparting skills in the area of working with data at an easily accessible level.

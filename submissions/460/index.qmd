@@ -30,6 +30,12 @@ other-links:
 bibliography: references.bib
 ---
 
+::: {.callout-note appearance="simple" icon=false}
+
+For this paper, slides are available [on Zenodo (PDF)](https://zenodo.org/records/14171320/files/460_DigiHistCH24_Glassworkers_Slides.pdf).
+
+:::
+
 ## Introduction
 
 As part of the author’s PhD project, ‘Glass and its makers in Estonia, c. 1550–1950: an archaeological study,’ the genealogical data about 1,248 migrant glassworkers and their family members working in Estonia from the 16th–19th century were collected using archival records and newspapers. The goal was to use information about key life events to trace the life histories of the glassworkers and their families from childhood to old age to gain an understanding of the community and the industry through one of its most important aspects – the workforce. It was hoped that the data will also assist in identifying the locations and names of glassworks during the period under study. In this paper, the author reflects on the process of this documentary archaeology research. The data collection, storage, and visualisation process are described, followed by the results of the study which have been included in a doctoral dissertation [@mythesis] and a research article [@reppo2023d].

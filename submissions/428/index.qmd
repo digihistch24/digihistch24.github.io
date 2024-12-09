@@ -26,6 +26,12 @@ other-links:
 bibliography: references.bib
 ---
 
+::: {.callout-note appearance="simple" icon=false}
+
+For this paper, slides are available [on Zenodo (PDF)](https://zenodo.org/records/13903990/files/428_DigiHistCH24_TrickyTables_Slides.pdf).
+
+:::
+
 ## Introduction
 
 In 2121, nothing is as it once was: a nasty virus is keeping the world on tenterhooks – and people trapped in their own four walls. In the depths of the metaverse, contemporaries are searching for data to compare the frightening death toll of the current killer virus with its predecessors during the Covid-19 pandemic and the «Spanish flu». There is an incredible amount of statistical material on the Covid-19 pandemic in particular, but annoyingly, this is only available in obscure data formats such as .xslx in the internet archives. They can still be opened with the usual text editors, but their structure is terribly confusing and unreadable with the latest statistical tools. If only those digital hillbillies in the 2020s had used a structured format that not only long-outdated machines but also people in the year 2121 could read...

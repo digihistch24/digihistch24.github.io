@@ -27,6 +27,12 @@ other-links:
 bibliography: references.bib
 ---
 
+::: {.callout-note appearance="simple" icon=false}
+
+For this paper, slides are available [on Zenodo (PDF)](https://zenodo.org/records/13904210/files/405_DigiHistCH24_HistoryOfMuseums_Slides.pdf).
+
+:::
+
 ## Introduction
 
 Data-driven approaches bring extensive opportunities for research to analyze large volumes of data, and gain new knowledge and insights. This is considered especially beneficial for implementation in the humanities and social sciences [@weichselbraun2021]. Application of data-driven research methodologies in the field of history requires a sufficient source base, which should be accurate, transparently shaped and large enough for robust analysis [@braake2016]. 

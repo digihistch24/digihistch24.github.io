@@ -33,6 +33,12 @@ other-links:
     href: transcript.html
 ---
 
+::: {.callout-note appearance="simple" icon=false}
+
+For this paper, slides are available [on Zenodo (PDF)](https://zenodo.org/records/13904453/files/438_DigiHistCH24_VideoGameGraphics_Slides.pdf).
+
+:::
+
 The 1980s marked the arrival of the home computer. Computing systems became affordable and were marketed to private consumers through state-supported programs and new economic opportunities [@haddonHomeComputerMaking1988; @williamsEarlyComputersEurope1976]. Early models, such as the ZX Spectrum[^1], Texas Instrument TI-99/4A[^2], or the Atari[^3], quickly became popular in Europe and opened the door for digital technology to enter the home. This period also marks the advent of homebrew video game culture and newly emerging creative programming practices [@swalwellHomebrewGamingBeginnings2021; @albertsHackingEuropeComputer2014]. As part of this process, these early programmers not only had to figure out how to develop video games but also were among the first to incorporate graphics into video games. This created fertile grounds for a new array of video game genres and helped popularize video games as a mainstream media.
 
 I’m researching graphics programming for video games from the 1980s and 1990s. The difference to other visual media lies in the amalgamation of computing and the expression of productive or creative intent by video game designers and developers. The specifics of video game graphics are deeply rooted in how human ideas must be translated into instructions that a computer understands. This necessitates a mediation between the computer's pure logic and a playing person's phenomenological experience. In other words, the video game image is a specific type of interface that needs to take care of a semiotic layer and offer functional affordances. I am interested in how early video game programmers worked with these interfaces, incorporating their own visual inspirations and attempting to work with the limited resources at hand. Besides critical source code analysis, I also extensively analyze formal aspects of video game images. For the latter, I depend on FAVR to properly describe and annotate images in datasets relevant to my inquiries. The framework explicitly deals with problems of analyzing video game graphics. It guides the annotation of images by their functional, material, and formal aspects and aids in analyzing narrativity and the rhetoric of aesthetic aspects [@arsenaultGameFAVRFramework2015].

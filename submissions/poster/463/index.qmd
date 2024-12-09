@@ -34,6 +34,12 @@ other-links:
 bibliography: references.bib
 ---
 
+::: {.callout-note appearance="simple" icon=false}
+
+A PDF version of the poster is available [on Zenodo (PDF)](https://zenodo.org/records/13908159/files/463_DigiHistCH24_transcriptiones_Poster.pdf).
+
+:::
+
 ## Background
 
 The significance of Open Research Data (ORD) is rapidly increasing in the research landscape, promoting transparency, reproducibility, and reuse [For more information about ORD in the Swiss higher education system, see @swissuniversitiesSwissNationalOpen2021; and @swissuniversitiesSwissNationalStrategy2021]. In historical research, transcriptions are crucial research data, serving as indispensable resources for the interpretation of the past. Despite their immense value, transcriptions have often remained unpublished, difficult to find, and lacked a central platform for access. Therefore, historians frequently had to re-transcribe the same sources. *transcriptiones* addresses this problem by providing the infrastructure for sharing, editing and reusing transcriptions [@fuchsTranscriptiones].

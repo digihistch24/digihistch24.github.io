@@ -22,6 +22,12 @@ other-links:
 bibliography: references.bib
 ---
 
+::: {.callout-note appearance="simple" icon=false}
+
+For this paper, slides are available [on Zenodo (PDF)](https://zenodo.org/records/14171331/files/687_DigiHistCH24_GoDigital_Slides.pdf).
+
+:::
+
 ## Introduction
 
 As historians today, we profit from an unmatched availability of historical sources online, with most of the information contained in these sources  digitally accessible. This greatly facilitates the use of computer-assisted methods to support or augment historical analyses. How and when to use which methods in a research endeavor are questions that cannot easily be answered, as the application of appropriate techniques  more often than not is something to be clarified or revised during a project. Therefore, we need to find a way to not only teach computer-assisted methods to history students, but also how to enable them to conceptualize a historical research project and how to solve technical problems along the way, empowering them to develop and apply different methods in a practical and inspiring way. In the following, I will discuss an approach that proposes designing semester-long courses with a thematic focus, where students progressively learn how to use computational tools through continuous engagement with a historical source.
