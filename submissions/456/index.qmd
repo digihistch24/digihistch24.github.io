@@ -34,8 +34,9 @@ keywords:
   - census transcription
 abstract:
   This article discusses the evolution of digital approaches to historical data, particularly in the creation and use of transcripted corpora extracted from demographic, cadastral, and geographic sources. These datasets are crucial for quantitative analyses across various disciplines. The emergence of computational techniques, including manual annotation, machine learning, and OCR, has led to a significant influx of historical data, challenging traditional methods of analysis. This paper emphasizes the importance of maintaining data versioning and transparency, enabling corrections and refinements over time. It highlights projects like "Names of Lausanne" and "Parcels of Venice," which use advanced technologies to create searchable and analyzable datasets from historical censuses and cadastral records. These projects illustrate the critical role of versioning and proper data management in preserving the integrity and usability of historical data, allowing for continuous improvements and new historical insights.
-date: 07-24-2024
+date: 09-13-2024
 bibliography: references.bib
+doi: 10.5281/zenodo.13907752
 ---
 
 ## Introduction

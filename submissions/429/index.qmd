@@ -23,9 +23,20 @@ key-points:
   - The Techn’hom Time Machine project aims to offer a virtual reality reconstruction of a former spinning mill in the city of Belfort (France), with its machines and activities.
   - Students from the Belfort-Montbéliard University of Technology participate directly in the project by modeling buildings, machines, or by working on knowledge engineering.
   - Their reports make it possible to identify points that most marked them, namely the discovery of human sciences and their difficulties, as well as new technical and organizational skills learning.
-date: 07-26-2024
+date: 09-13-2024
+date-modified: 11-15-2024
+doi: 10.5281/zenodo.14171328
+other-links:
+  - text: Presentation Slides (PDF)
+    href: https://doi.org/10.5281/zenodo.14171328
 bibliography: references.bib
 ---
+
+::: {.callout-note appearance="simple" icon=false}
+
+For this paper, slides are available [on Zenodo (PDF)](https://zenodo.org/records/14171328/files/429_DigiHistCH24_Technhom_Slides.pdf).
+
+:::
 
 ## Introduction
 

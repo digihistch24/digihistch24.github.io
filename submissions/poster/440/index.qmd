@@ -25,9 +25,19 @@ key-points:
   - The Swiss Federal Archives (SFA) has implemented Archipanion, built on top of vitrivr, to enable AI-driven, content-based multimedia retrieval, significantly improving access to its digital film collection "Filmwochenschau (1940-1975)".
   - The Archipanion platform supports multilingual query processing and multiple search modes, allowing users to perform granular content queries and discover connections within the Schweizer Filmwochenschau collection.
   - The integration of machine learning technologies into the SFA's archival processes exemplifies the potential to transform archival research, although it requires ongoing validation and human expertise to ensure meaningful and accurate results.
-date: 07-25-2024
+date: 09-12-2024
+doi: 10.5281/zenodo.13908129
+other-links:
+  - text: Poster (PDF)
+    href: https://doi.org/10.5281/zenodo.13908129
 bibliography: references.bib
 ---
+
+::: {.callout-note appearance="simple" icon=false}
+
+A PDF version of the poster is available [on Zenodo (PDF)](https://zenodo.org/records/13908129/files/440_DigiHistCH24_MultimodalUI_SFA_Poster.pdf).
+
+:::
 
 ## Introduction
 

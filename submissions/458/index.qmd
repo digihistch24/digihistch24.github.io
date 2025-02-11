@@ -31,7 +31,9 @@ key-points:
   - 'We strive to detect the evolution of political convictions in the writings of the founder of the Chinese Communist Party with AI tools by posing a question: Is this article in favor of communism or capitalism?'
   - 'LLaMA was used for interpreting Chinese text but provided an inadequate summary.'
   - 'ChatGPT offered a good analysis when the text contained one strong point of view, but encountered challenges when multiple perspectives were present in the same text.'
-date: 09-12-2024
+date: 09-13-2024
+date-modified: 10-21-2024
+doi: 10.5281/zenodo.13907852
 bibliography: references.bib
 ---
 

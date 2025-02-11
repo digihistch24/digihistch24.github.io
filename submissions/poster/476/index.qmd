@@ -16,8 +16,8 @@ keywords:
   - Artificial Intelligence
 abstract: |
   This study seeks to merge two realms: theoretical digital history, specifically the modeling in history, and economic history, with a focus on the history of income and wealth inequalities. The central objective is to apply theoretical research outcomes concerning models and their application in history to scrutinize a historical explanation of the evolution of economic inequalities between 1914 and 1950. Traditionally, predictive models with reproducible results were paramount for validating explanations through observed data. However, the role of models has expanded, moving beyond mere predictive functions. This paradigm shift, acknowledged by the philosophy of science in recent decades, emphasizes that models now serve broader purposes, guiding exploration and research rather than just prediction. These models are not merely tools for validating predictions; they serve to bring clarity to our thinking processes, establishing the conditions under which our intuitions prove valid. Beyond merely representing systematic relationships between predetermined facets of reality, models aspire to elucidate causal connections. When a historical model aims to provide causal explanations, the process involves identifying the "explanandum" (the aspect of reality being explained) as the dependent variable and working backward to pinpoint its hypothetical causes as independent. Using a diagrammatic approach, we formalized a qualitative model aligning with an historiographical explanation of the evolution of economic inequalities by Thomas Piketty during 1914-1950. The intent was to employ causal diagrams, translating the narrative embedded in Piketty's historiography of inequalities into a formal model. This endeavor sought to make explicit the implicit causal relationships within the historian's narrative: the resulting causal model serves as a symbolic synthesis of our comprehension of a specific subject, enabling the construction of a highly refined narrative synthesis from a complex topic.
-
-date: 03-12-2023
+date: 09-12-2024
+doi: 10.5281/zenodo.13908110
 bibliography: references.bib
 ---
 

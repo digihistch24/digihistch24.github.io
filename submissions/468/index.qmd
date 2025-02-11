@@ -17,7 +17,10 @@ keywords:
   - Agricultural Films
   - Audiovisual Media
   - Film History
-date: 08-16-2024
+date: 09-12-2024
+date-modified: 11-15-2024
+doi: 10.5281/zenodo.14171325
+bibliography: references.bib
 ---
 
 ## Introduction
@@ -136,13 +139,13 @@ animals at work. Films thus bear witness, often unintentionally, to the fact tha
 often was not as it was portrayed or demanded in textbooks and magazines.
 
 However, films are more than mere images; they intervene in the context of their creation and use,
-create a reality of their own and exert an influence on the viewer.[^2] This was often used deliberately, for example if there was a need for media control when innovations of a technical, economic, political, social or medical nature had an impact on society or the environment. Changes of all kinds, including the controversies that accompanied them, were therefore an important reason to produce commissioned films. The films had the function of adapting their audiences to new
+create a reality of their own and exert an influence on the viewer [@bernhardt_visual_2013, 5]. This was often used deliberately, for example if there was a need for media control when innovations of a technical, economic, political, social or medical nature had an impact on society or the environment. Changes of all kinds, including the controversies that accompanied them, were therefore an important reason to produce commissioned films. The films had the function of adapting their audiences to new
 requirements, creating acceptance for the innovation and laying the foundation for further changes.
 In this respect, commissioned films contributed to the creation of a willingness to cooperate and
-to consensus-building in modernisation processes.[^3] In the agricultural context, this function of
+to consensus-building in modernisation processes [@zimmermann_dokumentarischer_2011, pp. 64, 69f.]. In the agricultural context, this function of
 films was used, for example, by the Eidgenössische Alkoholverwaltung EAV (Swiss Alcohol
-Board)[^4] and the plant protection company Dr Rudolf Maag AG, which commissioned and
-produced numerous films illustrating their activities and the use of their products.[^5]
+Board, @auderset_rausch_2016; @wigger_saft_2022) and the plant protection company Dr Rudolf Maag AG, which commissioned and
+produced numerous films illustrating their activities and the use of their products [@archiv_fur_agrargeschichte_playlist_nodate-1; @archiv_fur_agrargeschichte_playlist_nodate].
 
 The dual function of audiovisual sources as images and as influencing media often cannot be
 adequately captured by written texts alone. This is why we conceptualise moving images also for
@@ -155,7 +158,7 @@ will come up against limitations because much of what characterises moving image
 written down: the dynamics and (in the case of sound films) the interplay of image and sound in
 particular. It is, furthermore, often impossible to translate the content of the image into words, for
 example when it comes to the behaviour of (speechless) animals, human-animal interactions or
-disappeared (agricultural) practices, for which there is no vocabulary in industrialised societies.[^6]
+disappeared (agricultural) practices, for which there is no vocabulary in industrialised societies [@wigger_bewegende_2023].
 
 To counter these difficulties, the format of the historical video essay lends itself as a supplement
 to written texts. A video essay in our series is understood as a montage of historical film and image
@@ -164,7 +167,7 @@ material and visual carrier of the knowledge transfer and are contextualised and
 commentary. In addition to the communication function, video essays can also be used as an
 analytical tool.
 
-![Fig. 4: The first video essay in the series Video Essays in Rural History focuses on the importance of working horses, cattle, dogs, mules and donkeys in agriculture and in the cities of the 19^th^ and 20^th^ centuries.[^7]](images/Figure4.jpg)
+![Fig. 4: The first video essay in the series Video Essays in Rural History focuses on the importance of working horses, cattle, dogs, mules and donkeys in agriculture and in the cities of the 19^th^ and 20^th^ centuries [@wigger_working_2022].](images/Figure4.jpg)
 
 The ARH and ERHFA have launched the *[Video Essays in Rural History series](https://www.ruralfilms.eu/all_video_essays.html)*, in which five video essays from Switzerland,
 Belgium and Canada have been published to date. They address the importance of working animals, Swiss agronomists and farmers travelling to America in the early 20^th^ century, neighbourly
@@ -181,24 +184,3 @@ video essay on working animals was clicked on 3,100 times in the first week afte
 example).
 
 [^1]: The film is available online in the ARH/ERHFA online portal: [ruralfilms.eu (16.08.2024)](https://ruralfilms.eu/filmdatabaseOnline/index.php?tablename=films&function=details&where_field=ID_films&where_value=203).
-
-[^2]: Bernhardt Markus, Visual History: Einführung in den Themenschwerpunkt, in: Zeitschrift für Geschichtsdidaktik,
-12/1 (2013), p. 5–8, here: p. 5.
-
-[^3]: Zimmermann Yvonne, Dokumentarischer Film: Auftragsfilm und Gebrauchsfilm, in: Zimmermann Yvonne (Hg.),
-Schaufenster Schweiz: Dokumentarische Gebrauchsfilme 1896-1964, Zürich 2011, p. 34–83, here: p. 64 & 69f.
-
-[^4]: Auderset Juri/Moser Peter, Rausch & Ordnung. Eine illustrierte Geschichte der Alkoholfrage, der schweizerischen
-Alkoholpolitik und der Eidgenössischen Alkoholverwaltung (1887-2015), Bern 2016; Wigger Andreas, Saft statt
-Schnaps. Das Filmschaffen der Eidgenössischen Alkoholverwaltung (EAV) von 1930 bis 1985, in: Geschichte im
-Puls, Dossier 3: Ekstase (2022), [www.geschichteimpuls.ch (02.07.2024)](https://www.geschichteimpuls.ch/artikel/eav)
-
-[^5]: Playlist Eidgenössische Alkoholverwaltung (EAV), in: Archiv für Agrargeschichte, [YouTube Playlist (02.07.2024)](https://youtube.com/playlist?list=PLSdpgcFyXTnbny77UvXG2neenufUdK7gH); Playlist Dr. Rudolf
-Maag AG, in: Archiv für Agrargeschichte, [YouTube Playlist (02.07.2024)](https://youtube.com/playlist?list=PLSdpgcFyXTnbQFfNleFhCKqqNhGcP3M4_).
-
-[^6]: Wigger Andreas, Bewegende Tiere auf bewegten Bildern. Filme als Quellen und Vermittlungsformat zur
-Geschichte der arbeitenden Tiere in der Zeit der Massenmotorisierung (1950-1980), Videoessay zur Masterarbeit,
-Fribourg 2023, [YouTube (25.06.2024)](https://youtu.be/_XVWdHNQxv8).
-
-[^7]: Moser Peter/Wigger Andreas, Working Animals. Hidden modernisers made visible, in: Video Essays in Rural
-History, 1 (2022), [https://www.ruralfilms.eu/essays/videoessay_1_EN.html](https://www.ruralfilms.eu/essays/videoessay_1_EN.html) [16.08.2024].

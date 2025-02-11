@@ -20,8 +20,18 @@ keywords:
   - Experience Report
 abstract: |
   Libraries are finding their place in the field of data literacy and the opportunities as well as challenges of supporting students and researchers in the field of Digital Humanities. Key aspects of this development are research data management, repositories, libraries as suppliers of data sets, digitisation and more. Over the past few years, the library has undertaken steps to actively bring itself into teaching and facilitate the basics of working with digital sources. The talk shares three experience reports of such endeavours undertaken by subject librarians of the Digital Humanities Work Group (AG DH) at the University Library Basel (UB).
-date: 07-26-2024
+date: 09-12-2024
+doi: 10.5281/zenodo.13904170
+other-links:
+  - text: Presentation Slides (PDF)
+    href: https://doi.org/10.5281/zenodo.13904170
 ---
+
+::: {.callout-note appearance="simple" icon=false}
+
+For this paper, slides are available [on Zenodo (PDF)](https://zenodo.org/records/13904170/files/459_DigiHistCH24_DataLiteracyLibraries_Slides.pdf).
+
+:::
 
 ## Introduction
 

@@ -13,7 +13,8 @@ author:
     email: kurzawe@sub.uni-goettingen.de
     affiliations:
       - SUB Göttingen
-date: 08-28-2024
+date: 09-12-2024
+doi: 10.5281/zenodo.13908038
 ---
 
 In this poster, we show how the Discuss Data research data platform is being expanded to include a "community space" for the digital humanities (DH). Discuss Data enables and promotes contextualized discussion about the quality and sustainability of research data directly on the object.

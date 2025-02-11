@@ -38,11 +38,17 @@ date: 09-12-2024
 bibliography: references.bib
 doi: 10.5281/zenodo.13908208
 other-links:
-  - text: Presentation Slides
+  - text: Presentation Slides (PDF)
     href: https://doi.org/10.5281/zenodo.13908208
   - text: Mini Muse Project Website
     href: https://mini-muse.github.io/project/
 ---
+
+::: {.callout-note appearance="simple" icon=false}
+
+For this paper, slides are available [on Zenodo (PDF)](https://zenodo.org/records/13908208/files/471_DigiHistCH24_AI-assistedSearch_Presentation.pdf).
+
+:::
 
 ## Introduction
 

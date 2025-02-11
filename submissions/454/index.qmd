@@ -29,7 +29,8 @@ key-points:
   - We vectorise cadastral plans using an automated approach
   - We study the dynamics of parcel persistence based on geometries
   - We investigate the social structure of ownership cross-matching comparing cadastral sources with population censuses
-date: 07-24-2024
+date: 09-12-2024
+doi: 10.5281/zenodo.13904641
 bibliography: references.bib
 ---
 

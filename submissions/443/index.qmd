@@ -32,8 +32,8 @@ keywords:
   - historical scholarship 
 abstract: |
  The Impresso project pioneers the exploration of historical media content across temporal, linguistic, and geographical boundaries. In its initial phase (2017-2020), the project developed a scalable infrastructure for Swiss and Luxembourgish newspapers, featuring a powerful search interface. The second phase, beginning in 2023, expands the focus to connect media archives across languages and modalities, creating a Western European corpus of newspaper and broadcast collections for transnational research on historical media. In this presentation, we introduce Impresso 2 and discuss some of the specific challenges to connecting newspaper and radio. 
-
-date: 04-09-2024
+date: 09-12-2024
+doi: 10.5281/zenodo.13907298
 bibliography: references.bib
 ---
 

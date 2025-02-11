@@ -20,9 +20,20 @@ key-points:
   - GIS are powerful spatial analysis tools for historical research.
   - GIS aid the development of hypotheses and the framing of arguments in historical research projects.
   - GIS offer a myriad of choices for data modeling and visualization which researchers should remain critical and conscious of.
-date: 2024-07-26
+date: 09-12-2024
+date-modified: last-modified
+doi: 10.5281/zenodo.13903914
+other-links:
+  - text: Presentation Slides (PDF)
+    href: https://doi.org/10.5281/zenodo.13903914
 bibliography: references.bib
 ---
+
+::: {.callout-note appearance="simple" icon=false}
+
+For this paper, slides are available [on Zenodo (PDF)](https://zenodo.org/records/13903914/files/450_DigiHistCH24_PublicUrbanGreenSpaces_Slides.pdf).
+
+:::
 
 ## Introduction
 
@@ -31,6 +42,7 @@ GIS (Geographic Information Systems) have become increasingly valuable in spatia
 ## Strengths
 
 GIS are composed of layers of data sets and are mainly used for mapping, georeferencing, and data analysis (e.g. spatial analysis). The data can be varied in what it represents but must be linked to spatial parameters for it to be positioned in a visualization for analysis of spatial information [@wheatley_spatial_2005, pp.1,8]. GIS layers for historical studies can be viewed as models of data sets. They represent specific topics in time and space simplistically, and spark reflection [@van_ruymbeke_modeliser_2021, p.8]. The screen shot of my QGIS workspace (@fig-1) shows the city of Marseille with parks marked in various stages of planning in the early 1970s. This was the time when longstanding Mayor Gaston Defferre launched the large-scale greening initiative Mille Points Verts pour Marseille [@g_envoi_1971]. Defferre and his team’s goal was to react to a growing ecological awareness and increase the number of green spaces for a more livable city [@prof_j_no_1971]. They also organized events to include and educate citizens and to garner their support for the upcoming elections [@noauthor_semaine_1971]. The majority of parks created within Mille Points Verts remain until today, with only a handful of additional parks added after the mid-1970s. This is visible when the layer with parks and gardens from a 2018 dataset provided by the government of Marseille is selected (@fig-2). The strength of GIS layering is evident when we apply distant reading techniques: skimming over the model we see a display of spatial relations of park distribution and location as well as their connection to time.\
+
 In order for this visualization to take shape, I produced and assembled data. Specifically, I selected data and went through the process of closely reading my historical sources, learning to understand them and to think through their meaning. In this way maps are social documents. By themselves, they do not reveal anything yet. But by superimposing visualizations, GIS can reveal thinking processes of the data curators and map creators [cf. for example @jones_mapping_2021].
 
 ::: {#fig-1}
@@ -43,16 +55,22 @@ In order for this visualization to take shape, I produced and assembled data. Sp
 ## Weaknesses
 
 The curation of data, although an important and empowering step for the historian and GIS researcher, also reveals the weaknesses of GIS: the mismatch between GIS requirements (in terms of data structuring and quality) and the imperfection of historical data. GIS software is created for geographers, not historians. Everything in GIS is structured data and therefore cannot handle ambiguities natural to historical sources. Sources in whatever form they are collected by the historian first must be organized, selected, tabularized, geocoded and/or georeferenced [@kemp_what_2009, p.16-17]. The caveat here is that a historian’s data is hardly ever complete. Missing records shape both what we can and cannot analyze – especially when working with GIS. In historical narration on text the researcher can explain gaps and postulate why this may be the case. GIS do not allow for gaps and thus we can only produce models and visualizations with the numerical evidence available.\
+
 The visualization presented here helps to model different states of an object: the park. As my data is not complete, discrepancies between the mapped data and the on-the-ground reality occur, especially since the planned parks had vague names sometimes only matching the name of an entire neighborhood. This raises the question of how to capture temporality. How can the aspect of time appear on a two-dimensional visualization? Rendering the time layer onto the spatial one demands creativity and an awareness that time is something constructed [Massey speaks of “implicit imaginations of time and space” @massey_for_2005, pp.22].\
+
 From the map making perspective, time significantly impacts the creation process. GIS work is time-consuming and labor-intensive. It involves meticulous manual searching, assembling, and layering of data. However, linking to the overarching topic of this conference, AI may offer new possibilities. Tools such as Transkribus allow users to apply machine learning to filter specific elements from document sets. LLMs can then process this information into CSV files for GIS software. While not yet revolutionary, as these tools evolve, AI could become useful in extracting numerical evidence from textual sources. For geocoding of places, AI would greatly aid efficiency and relieve the researcher of tedious manual work. However, at this point, LLMs such as Claude AI and ChatGPT still hallucinate considerably.
 
 ## Opportunities
 
 AI-assisted data extraction presents a gateway to think about opportunities. Researchers could focus more on experimenting with design and layering by automating time-consuming tasks. For example, mapping supports spatial thinking and perception by integrating the crucial 'where' element: Where are specific features located? How near or far is one place from another? Depending on what obstacles or facilitators are in place a park may be close in measured distance but far in terms of accessibility if there is no bridge or tunnel to e.g. cross a motorway, or water element. Therefore, how are different locations related? How can we perceive and understand distance?\
+
 The screenshot here shows a handful of ‘wheres’ (@fig-3). They reveal where the majority of parks are located, their proximity to neighborhoods, the types of surrounding communities, and their connections to amenities and public infrastructure. This approach enables comparisons across different scales. For instance, I can compare park distribution between Hamburg and Marseille and track their development over time.\
 These questions prompted by the use of GIS direct both user and observer back to the original sources for close reading. A GIS model can spark interest in a topic and motivate the researcher to dig deeper on what these layers mean and how they were created. Ideally GIS should be used as a starting point for in depth analysis. In the case of Marseille and Hamburg, the development of public urban green spaces was what inspired me to look more closely at the historical circumstances. Hamburg, for instance, has a long history of creating expansive green areas with the support of private patrons. Marseille does not have a comparable patronage system. Instead, municipal expropriation rendered private villas and their gardens public.\
+
 GIS are a powerful tool that serve multiple functions in research [@wheatley_spatial_2005, p.8]. They “can play a role in generating ideas and hypotheses at the beginning of a project” and serve as valuable instruments for analysis and evaluation [@brewer_basic_2006, p.S36]. By modeling research hypotheses and findings, e.g. maps can be used to effectively communicate to diverse audiences – from the general public to specialized groups such as urban planners and municipal governments, relevant to my field of historical urban planning research.\
-A particularly compelling aspect of GIS is their ability to visually represent power relations (@fig-4). This feature bridges the gap between historical analysis and contemporary urban planning, making it an invaluable tool in understanding the evolution of urban spaces. The visualization of Marseille reveals that the majority of parks are located towards the center and south of the city and does not necessarily correspond to the population density. The south of Marseille is where villas abound and thus the upper and upper-middle class live. The majority of the HLM (housing at moderate rent) are located towards the north, where living conditions are condensed, and political representation is low. What is more, if I select the layers showing where most immigrants and workers live today, a lack of green spaces is visible (@fig-5) (@fig-6) (@fig-7).\
+
+A particularly compelling aspect of GIS is their ability to visually represent power relations (@fig-4). This feature bridges the gap between historical analysis and contemporary urban planning, making it an invaluable tool in understanding the evolution of urban spaces. The visualization of Marseille reveals that the majority of parks are located towards the center and south of the city and does not necessarily correspond to the population density. The south of Marseille is where villas abound and thus the upper and upper-middle class live. The majority of the HLM (housing at moderate rent) are located towards the north, where living conditions are condensed, and political representation is low. What is more, if I select the layers showing where most immigrants and workers live today, a lack of green spaces is visible (@fig-5, @fig-6, @fig-7).\
+
 Connecting this once more to close reading of the sources: when Mille Points Verts was launched, planners scavenged locations for green space creation. The HLM neighborhoods were marked as unsuitable for participation in this program: People living in social housing would “misuse” the parks by playing soccer on them or walking across the grass [@noauthor_amenagement_1970]. This shows complexity of space perception and power imbalance [@van_ruymbeke_modeliser_2021, pp.7].
 
 ::: {#fig-3}
@@ -74,10 +92,12 @@ Connecting this once more to close reading of the sources: when Mille Points Ver
 ## Threats
 
 Yet all these opportunities are ambiguous and “entrusting machines with the memory of human activity can be frightening”.  The last element of the SWOT analysis, threats, rounds off these reflections. Although it is crucial to encourage critical thinking through the mapping of, for example, political representation and wealth distribution of a city it also shows my personal convictions. I wish to demonstrate which voices where not heard in the planning of these spaces, which people were not considered when decisions were made. I am biased when I start with the premise that there is inequality. The map, objective as it may seem, never is. The book *How to Lie with Maps* provocatively shows the power of maps to create a strong, and perhaps deceiving, narrative:\
+
 *"Map users generally are a trusting lot: they understand the need to distort geometry and suppress features, and they believe the cartographer really does know where to draw the line, figuratively as well as literally. […] Yet cartographers are not licensed, and many mapmakers competent in commercial art or the use of computer workstations have never studied cartography. Map users seldom, if ever, question these authorities, and they often fail to appreciate the map's power as a tool of deliberate falsification or subtle propaganda"* [@monmonier_how_1996, pp.1].\
 
 People working with GIS can have all kinds of skill levels and interests. I, for example, am not a GIS specialist and relatively new to using the tool. Still, I can easily manipulate my model to paint various pictures, if  I wish to do so. I can turn on different layers and focus on the number of immigrants per neighborhood, I can change the classification for the choropleth map and create entirely different impressions, or I can simply change the basemap and take away the context of terrain, transportation systems, etc. (cf. @fig-4). The quote speaks of an almost blind trust in maps, which shows once more that we must always be critical observers of the things we consume and historians should always want to be curios fact checkers.\
-A map is a series of decisions and it reflects the biography of both the maker and the observer. It is the responsibility of the historian working with GIS to be as transparent as possible regarding the choices made to display a historical development or state. It is the responsibility of the observer to use the map as a starting point for close reading, interpretation and analysis rather than the end point and a fact. We must remember “80% of GIS is about transforming, manipulating and managing spatial data”[@jones_lesson_2022].  
+
+A map is a series of decisions and it reflects the biography of both the maker and the observer. It is the responsibility of the historian working with GIS to be as transparent as possible regarding the choices made to display a historical development or state. It is the responsibility of the observer to use the map as a starting point for close reading, interpretation and analysis rather than the end point and a fact. We must remember “80% of GIS is about transforming, manipulating and managing spatial data” [@jones_lesson_2022].  
 
 ## Conclusion
 

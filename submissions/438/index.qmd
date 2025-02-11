@@ -22,10 +22,22 @@ key-points:
   - The study of video game graphics integrates narrative and aesthetic aspects with interactive and functional elements, differing significantly from classical visual media.
   - The Framework for the Analysis of Visual Representation in Video Games (FAVR) provides a structured approach to analyze video game images through annotation, focusing on their formal, material, and functional aspects.
   - The initial implementation of the FAVR framework as a linked open ontology for tools like Tropy has proven valuable in formally analyzing video game images and comparing aspects such as dynamic versus static image space, facilitating further digital and computational research.
-date: 07-19-2024
-date-modified: last-modified
+date: 09-12-2024
+date-modified: 10-10-2024
+doi: 10.5281/zenodo.13904453
 bibliography: references.bib
+other-links:
+  - text: Presentation Slides (PDF)
+    href: https://doi.org/10.5281/zenodo.13904453
+  - text: Transcript
+    href: transcript.html
 ---
+
+::: {.callout-note appearance="simple" icon=false}
+
+For this paper, slides are available [on Zenodo (PDF)](https://zenodo.org/records/13904453/files/438_DigiHistCH24_VideoGameGraphics_Slides.pdf).
+
+:::
 
 The 1980s marked the arrival of the home computer. Computing systems became affordable and were marketed to private consumers through state-supported programs and new economic opportunities [@haddonHomeComputerMaking1988; @williamsEarlyComputersEurope1976]. Early models, such as the ZX Spectrum[^1], Texas Instrument TI-99/4A[^2], or the Atari[^3], quickly became popular in Europe and opened the door for digital technology to enter the home. This period also marks the advent of homebrew video game culture and newly emerging creative programming practices [@swalwellHomebrewGamingBeginnings2021; @albertsHackingEuropeComputer2014]. As part of this process, these early programmers not only had to figure out how to develop video games but also were among the first to incorporate graphics into video games. This created fertile grounds for a new array of video game genres and helped popularize video games as a mainstream media.
 
