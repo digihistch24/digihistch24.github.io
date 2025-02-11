@@ -26,16 +26,16 @@ key-points:
   - Key point 3 The user test survey of the portal with 19th-century letter metadata showed that building a committed test group is challenging and that 'traditional' humanists have difficulties in studying mass data.
 date: 09-12-2024
 date-modified: 11-15-2024
-doi: 10.5281/zenodo.14171306
+doi: 10.5281/zenodo.14851507
 other-links:
   - text: Presentation Slides (PDF)
-    href: https://doi.org/10.5281/zenodo.14171306
+    href: https://doi.org/10.5281/zenodo.14851507
 bibliography: references.bib
 ---
 
 ::: {.callout-note appearance="simple" icon=false}
 
-For this paper, slides are available [on Zenodo (PDF)](https://zenodo.org/records/14171306/files/444_DigiHistCH24_LetterMetadata_Slides.pdf).
+For this paper, slides are available [on Zenodo (PDF)](https://zenodo.org/records/14851507/files/444_DigiHistCH24_LetterMetadata_Slides.pdf).
 
 :::
 
