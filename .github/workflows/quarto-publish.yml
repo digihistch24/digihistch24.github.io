@@ -85,6 +85,28 @@ jobs:
           path: .
           to: html
 
+      - name: Check for broken links (404 errors)
+        run: |
+          # Start a simple HTTP server in the background
+          python -m http.server 8080 --directory _site &
+          SERVER_PID=$!
+          sleep 3  # Give the server time to start
+
+          # Spider the site and check for 404 errors
+          wget --spider --recursive --no-verbose --output-file=wget-log.txt http://localhost:8080/ || true
+
+          # Stop the server
+          kill $SERVER_PID || true
+
+          # Check for 404 errors in the log
+          if grep -q "404" wget-log.txt; then
+            echo "::error::404 errors found in the following URLs:"
+            grep "404" wget-log.txt
+            exit 1
+          else
+            echo "No 404 errors found."
+          fi
+
       - name: JamPack
         if: github.event_name != 'pull_request'
         run: |

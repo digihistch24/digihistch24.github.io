@@ -24,16 +24,16 @@ key-points:
   - Working with historical documents today often takes place at the intersection between tried and tested analog methods and new digital approaches, which is why our teaching module takes these intersections into account.
 date: 09-12-2024
 date-modified: 11-15-2024
-doi: 10.5281/zenodo.14851523
+doi: 10.5281/zenodo.14171285
 other-links:
   - text: Presentation Slides (PDF)
-    href: https://doi.org/10.5281/zenodo.14851523
+    href: https://doi.org/10.5281/zenodo.14171285
 bibliography: references.bib
 ---
 
 ::: {.callout-note appearance="simple" icon=false}
 
-For this paper, slides are available [on Zenodo (PDF)](https://zenodo.org/records/14851523/files/445_DigiHistCH24_AdFontes_Slides.pdf).
+For this paper, slides are available [on Zenodo (PDF)](https://zenodo.org/records/14171285/files/445_DigiHistCH24_AdFontes_Slides.pdf).
 
 :::
 
@@ -63,7 +63,7 @@ We use a spider diagram model to communicate the various influences on the benef
 
 ![Our model showing identified factors for the use of ATR in historical projects](images/SpiderDiagrammATR.png)
 
-A high heterogeneity of handwriting could affect the accuracy of ATR as the recognition software might have difficulties to recognize the text consistently. A higher degree of heterogeneity requires a broader model based on larger amount of training data.[@hodel_general_2021]  Large amounts of text often mean that ATR needs to be able to work efficiently and scalable to process large amounts of data. For small amounts of text, the focus could be on the level of detail of the recognition or more manual correction. A close reading would require a more precise and detailed analysis of the texts, which means that the ATR models must be accurate and able to recognize fine details, while distant reading focuses more on the recognition of patterns and trends. A broad research question might require a general analysis of many texts, which means that the ATR models should be versatile and robust [e.g. based on TrOCR models](@li_trocr_2022). A specific research question might mean the ATR must focus on specific details and accurate detections. In summary, working with ATR requires a careful balance between the quantity and type of texts, the desired accuracy and detail of the analysis, and the heterogeneity of the manuscripts to be analysed. The diagram helps to organise these factors visually and to understand their interactions.
+A high heterogeneity of handwriting could affect the accuracy of ATR as the recognition software might have difficulties to recognize the text consistently. A higher degree of heterogeneity requires a broader model based on larger amount of training data.[@hodel_general_2021]  Large amounts of text often mean that ATR needs to be able to work efficiently and scalable to process large amounts of data. For small amounts of text, the focus could be on the level of detail of the recognition or more manual correction. A close reading would require a more precise and detailed analysis of the texts, which means that the ATR models must be accurate and able to recognize fine details, while distant reading focuses more on the recognition of patterns and trends. A broad research question might require a general analysis of many texts, which means that the ATR models should be versatile and robust [e.g. based on TrOCR models @li_trocr_2022]. A specific research question might mean the ATR must focus on specific details and accurate detections. In summary, working with ATR requires a careful balance between the quantity and type of texts, the desired accuracy and detail of the analysis, and the heterogeneity of the manuscripts to be analysed. The diagram helps to organise these factors visually and to understand their interactions.
 
 ## Our difficulties
 
