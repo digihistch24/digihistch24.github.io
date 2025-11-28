@@ -103,9 +103,11 @@ jobs:
             exit 1
           fi
 
-          # Spider the site and capture exit code
-          # Only check links within localhost to avoid external URL issues
-          wget --spider --recursive --no-verbose --domains=localhost --output-file=wget-log.txt http://localhost:8080/
+          # Spider the site and check both internal and external links
+          # --span-hosts: allow checking external URLs
+          # --timeout: prevent hanging on slow external servers
+          # --tries: limit retries for failed requests
+          wget --spider --recursive --no-verbose --span-hosts --timeout=30 --tries=3 --output-file=wget-log.txt http://localhost:8080/
           WGET_EXIT=$?
 
           # Check for 404 errors in the log
