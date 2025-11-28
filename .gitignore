@@ -3,6 +3,9 @@
 _site/
 _freeze/
 
+# npm lock file (using pnpm)
+package-lock.json
+
 # Exclude example.env
 !example.env
 
