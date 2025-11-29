@@ -87,14 +87,28 @@ jobs:
 
       - name: Check for broken links (404 errors)
         run: |
-          # Start a simple HTTP server in the background
+          # Find all HTML files and extract unique links
+          echo "Indexing all HTML files..."
+          find _site -name "*.html" -type f > html-files.txt
+          echo "Found $(wc -l < html-files.txt) HTML files"
+
+          # Extract all href and src attributes from HTML files
+          echo "Extracting links..."
+          grep -ohE '(href|src)="[^"#]+"' $(cat html-files.txt) 2>/dev/null | \
+            sed -E 's/(href|src)="([^"]+)"/\2/' | \
+            sort -u > all-links.txt
+
+          # Separate internal and external links
+          grep -E '^https?://' all-links.txt > external-links.txt || true
+          grep -vE '^https?://' all-links.txt | grep -v '^mailto:' | grep -v '^javascript:' > internal-links.txt || true
+
+          echo "Found $(wc -l < external-links.txt) external links"
+          echo "Found $(wc -l < internal-links.txt) internal links"
+
+          # Start a simple HTTP server for internal link checking
           python -m http.server 8080 --directory _site &
           SERVER_PID=$!
-
-          # Ensure server is stopped on exit
           trap "kill $SERVER_PID 2>/dev/null" EXIT
-
-          # Wait for server to start
           sleep 3
 
           # Verify server is running
@@ -103,24 +117,41 @@ jobs:
             exit 1
           fi
 
-          # Spider the site and check both internal and external links
-          # --span-hosts: allow checking external URLs
-          # --timeout: prevent hanging on slow external servers
-          # --tries: limit retries for failed requests
-          wget --spider --recursive --no-verbose --span-hosts --timeout=30 --tries=3 --output-file=wget-log.txt http://localhost:8080/
-          WGET_EXIT=$?
+          FOUND_ERRORS=0
 
-          # Check for 404 errors in the log
-          if grep -q "404" wget-log.txt; then
-            echo "::error::404 errors found in the following URLs:"
-            grep "404" wget-log.txt
-            exit 1
-          elif [ $WGET_EXIT -ne 0 ]; then
-            echo "::error::wget failed with exit code: $WGET_EXIT"
-            cat wget-log.txt
+          # Check internal links (convert relative paths to localhost URLs)
+          echo "Checking internal links..."
+          while IFS= read -r link; do
+            # Skip empty lines
+            [ -z "$link" ] && continue
+            # Handle relative links
+            if [[ "$link" == /* ]]; then
+              url="http://localhost:8080$link"
+            else
+              url="http://localhost:8080/$link"
+            fi
+            if ! wget --spider --quiet --timeout=10 --tries=2 "$url" 2>/dev/null; then
+              echo "::error::Broken internal link: $link"
+              FOUND_ERRORS=1
+            fi
+          done < internal-links.txt
+
+          # Check external links (including DOIs and redirects)
+          echo "Checking external links..."
+          while IFS= read -r url; do
+            # Skip empty lines
+            [ -z "$url" ] && continue
+            if ! wget --spider --quiet --timeout=30 --tries=3 "$url" 2>/dev/null; then
+              echo "::error::Broken external link: $url"
+              FOUND_ERRORS=1
+            fi
+          done < external-links.txt
+
+          if [ $FOUND_ERRORS -eq 1 ]; then
+            echo "::error::Broken links found. See errors above."
             exit 1
           else
-            echo "No 404 errors found."
+            echo "All links are valid."
           fi
 
       - name: JamPack
