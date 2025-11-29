@@ -86,6 +86,7 @@ jobs:
           to: html
 
       - name: Check for broken links (404 errors)
+        timeout-minutes: 10
         run: |
           # Find all HTML files and extract unique links
           echo "Indexing all HTML files..."
@@ -98,21 +99,30 @@ jobs:
             sed -E 's/href="([^"]+)"/\1/' | \
             sort -u > external-links.txt || true
 
-          echo "Found $(wc -l < external-links.txt) external links to check"
+          LINK_COUNT=$(wc -l < external-links.txt)
+          echo "Found $LINK_COUNT external links to check"
 
           FOUND_ERRORS=0
+          CHECKED=0
 
           # Check external links (including DOIs and redirects)
           echo "Checking external links..."
           while IFS= read -r url; do
             # Skip empty lines
             [ -z "$url" ] && continue
-            if ! wget --spider --quiet --timeout=30 --tries=3 "$url" 2>/dev/null; then
+            CHECKED=$((CHECKED + 1))
+            # Use timeout to prevent hanging on slow/unresponsive servers
+            if ! timeout 15 wget --spider --quiet --timeout=10 --tries=2 "$url" 2>/dev/null; then
               echo "::warning::Broken external link: $url"
               FOUND_ERRORS=1
             fi
+            # Progress indicator every 10 links
+            if [ $((CHECKED % 10)) -eq 0 ]; then
+              echo "Checked $CHECKED/$LINK_COUNT links..."
+            fi
           done < external-links.txt
 
+          echo "Finished checking $CHECKED external links."
           if [ $FOUND_ERRORS -eq 1 ]; then
             echo "::warning::Some broken links were found. See warnings above."
           else
