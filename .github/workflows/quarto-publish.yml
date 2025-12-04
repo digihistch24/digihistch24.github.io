@@ -86,48 +86,28 @@ jobs:
           to: html
 
       - name: Check for broken links (404 errors)
-        timeout-minutes: 10
-        run: |
-          # Find all HTML files and extract unique links
-          echo "Indexing all HTML files..."
-          find _site -name "*.html" -type f > html-files.txt
-          echo "Found $(wc -l < html-files.txt) HTML files"
-
-          # Extract all href attributes from HTML files (only external URLs)
-          echo "Extracting external links..."
-          grep -ohE 'href="https?://[^"#]+"' $(cat html-files.txt) 2>/dev/null | \
-            sed -E 's/href="([^"]+)"/\1/' | \
-            sort -u > external-links.txt || true
-
-          LINK_COUNT=$(wc -l < external-links.txt)
-          echo "Found $LINK_COUNT external links to check"
-
-          FOUND_ERRORS=0
-          CHECKED=0
-
-          # Check external links (including DOIs and redirects)
-          echo "Checking external links..."
-          while IFS= read -r url; do
-            # Skip empty lines
-            [ -z "$url" ] && continue
-            CHECKED=$((CHECKED + 1))
-            # Use timeout to prevent hanging on slow/unresponsive servers
-            if ! timeout 15 wget --spider --quiet --timeout=10 --tries=2 "$url" 2>/dev/null; then
-              echo "::warning::Broken external link: $url"
-              FOUND_ERRORS=1
-            fi
-            # Progress indicator every 10 links
-            if [ $((CHECKED % 10)) -eq 0 ]; then
-              echo "Checked $CHECKED/$LINK_COUNT links..."
-            fi
-          done < external-links.txt
-
-          echo "Finished checking $CHECKED external links."
-          if [ $FOUND_ERRORS -eq 1 ]; then
-            echo "::warning::Some broken links were found. See warnings above."
-          else
-            echo "All external links are valid."
-          fi
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Check the rendered site
+          args: >-
+            --verbose
+            --no-progress
+            --accept 100..=103,200..=299,403,429
+            --timeout 30
+            --max-retries 3
+            --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+            --exclude-path "_site/site_libs"
+            --exclude "linkedin.com"
+            --exclude "x.com"
+            --exclude "twitter.com"
+            "_site/**/*.html"
+          # Don't fail the build on broken links, just warn
+          fail: false
+          # Output format
+          format: markdown
+          # Write output to summary
+          output: ${{ runner.temp }}/lychee-report.md
+          jobSummary: true
 
       - name: JamPack
         if: github.event_name != 'pull_request'
