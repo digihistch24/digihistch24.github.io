@@ -86,28 +86,25 @@ jobs:
           to: html
 
       - name: Check for broken links (404 errors)
-        uses: lycheeverse/lychee-action@v2
-        with:
-          # Check the rendered site
-          args: >-
-            --verbose
-            --no-progress
-            --accept 100..=103,200..=299,403,429
-            --timeout 30
-            --max-retries 3
-            --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-            --exclude-path "_site/site_libs"
-            --exclude "linkedin.com"
-            --exclude "x.com"
-            --exclude "twitter.com"
-            "_site/**/*.html"
-          # Don't fail the build on broken links, just warn
-          fail: false
-          # Output format
-          format: markdown
-          # Write output to summary
-          output: ${{ runner.temp }}/lychee-report.md
-          jobSummary: true
+        run: |
+          # Install lychee via Homebrew (supports macOS ARM)
+          brew install lychee
+
+          # Run lychee with browser-like settings to avoid false positives
+          lychee \
+            --verbose \
+            --no-progress \
+            --accept 100..=103,200..=299,403,429 \
+            --timeout 30 \
+            --max-retries 3 \
+            --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
+            --exclude-path "_site/site_libs" \
+            --exclude "linkedin.com" \
+            --exclude "x.com" \
+            --exclude "twitter.com" \
+            "_site/**/*.html" || true
+
+          echo "Link check complete. Any broken links are shown above as warnings."
 
       - name: JamPack
         if: github.event_name != 'pull_request'
