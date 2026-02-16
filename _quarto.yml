@@ -3,7 +3,6 @@ lang: en
 project:
   type: website
   resources:
-    - robots.txt
     - llms.txt
 
 website:
