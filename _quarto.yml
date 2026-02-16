@@ -1,5 +1,10 @@
+lang: en
+
 project:
   type: website
+  resources:
+    - robots.txt
+    - llms.txt
 
 website:
   title: DigiHistCH24
@@ -7,6 +12,7 @@ website:
   open-graph: true
   twitter-card: true
   site-url: https://digihistch24.github.io/
+  sitemap: true
   repo-url: https://github.com/digihistch24/digihistch24.github.io/
   issue-url: https://github.com/digihistch24/digihistch24.github.io/issues/new/choose
   repo-actions: [edit, issue]
