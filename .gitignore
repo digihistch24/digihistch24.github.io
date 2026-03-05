@@ -2,6 +2,7 @@
 /.quarto/
 _site/
 _freeze/
+llms.txt
 
 # Exclude example.env
 !example.env
