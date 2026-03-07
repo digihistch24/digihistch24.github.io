@@ -1,5 +1,10 @@
+lang: en
+
 project:
   type: website
+  pre-render: scripts/generate-llms-txt.py
+  resources:
+    - llms.txt
 
 website:
   title: DigiHistCH24
