@@ -78,10 +78,7 @@ jobs:
       # See more at https://github.com/quarto-dev/quarto-actions/blob/main/examples/example-03-dependencies.md
 
       - name: Render Quarto Project
-        uses: quarto-dev/quarto-actions/render@v2
-        with:
-          path: .
-          to: html
+        run: uv run quarto render --to html
 
       - name: Check for broken links (404 errors)
         run: |
