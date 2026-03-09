@@ -3,6 +3,7 @@
 _site/
 _freeze/
 llms.txt
+**/*.quarto_ipynb
 
 # Exclude example.env
 !example.env

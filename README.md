@@ -12,12 +12,15 @@ This repository contains the Book of Abstracts for the Digital History Switzerla
 
 ## Installation
 
-Install [Quarto](https://quarto.org/) and [Node.js](https://nodejs.org/) and run the following commands in the root directory of the repository:
+Install [uv](https://docs.astral.sh/uv/), [Quarto](https://quarto.org/), and [Node.js](https://nodejs.org/), then run the following commands in the root directory of the repository:
 
 ```bash
+uv sync --group dev
 npm install
 npm run prepare
 ```
+
+The `llms.txt` file is generated automatically by Quarto via the pre-render hook in `_quarto.yml`.
 
 ## Usage
 
@@ -45,7 +48,7 @@ npm run format
 This command starts a local development server with hot-reloading to allow you to preview the website.
 
 ```bash
-quarto preview blog
+npm run preview
 ```
 
 Expected output: A local preview accessible at `http://localhost:4000`.
@@ -56,10 +59,16 @@ Expected output: A local preview accessible at `http://localhost:4000`.
 This command compiles the website for deployment, generating static files in the `_site` directory.
 
 ```bash
-quarto render blog
+npm run render
 ```
 
 Expected output: A fully built static website in the `_site` directory, ready for deployment.
+
+To regenerate `llms.txt` without running a full Quarto build, run:
+
+```bash
+npm run generate:llms
+```
 
 ### 4. Version Control
 
