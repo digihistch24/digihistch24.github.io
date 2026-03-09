@@ -120,6 +120,7 @@ build/Release
 
 # Dependency directories
 node_modules/
+.venv/
 package-lock.json
 jspm_packages/
 
