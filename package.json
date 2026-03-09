@@ -5,10 +5,10 @@
 	"url": "https://github.com/digihistch24/digihistch24.github.io/issues",
 	"license": "AGPL-3.0",
 	"scripts": {
-		"check": "prettier --ignore-path .gitignore  --check . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBYSA.md,fonts/LICENSE-OFL.md,package-lock.json,pnpm-lock.yaml,yarn.lock}'",
+		"check": "prettier --ignore-path .gitignore  --check . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBYSA.md,fonts/LICENSE-OFL.md,package-lock.json,yarn.lock}'",
 		"commit": "cz",
 		"generate:llms": "uv run python scripts/generate-llms-txt.py",
-		"format": "prettier --ignore-path .gitignore --write . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBYSA.md,fonts/LICENSE-OFL.md,package-lock.json,pnpm-lock.yaml,yarn.lock}'",
+		"format": "prettier --ignore-path .gitignore --write . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBYSA.md,fonts/LICENSE-OFL.md,package-lock.json,yarn.lock}'",
 		"preview": "uv run quarto preview",
 		"preview:rendered": "uv run python3 -m http.server 8000 --directory _site",
 		"prepare": "husky",

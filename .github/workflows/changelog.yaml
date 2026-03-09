@@ -2,6 +2,9 @@ name: Create changelog
 
 on: [push]
 
+permissions:
+  contents: read
+
 jobs:
   changelog:
     name: Generate changelog

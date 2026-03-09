@@ -9,15 +9,15 @@ on:
 
 name: Render and Publish
 
-# you need these permissions to publish to GitHub pages
 permissions:
-  contents: write
-  pages: write
+  contents: read
 
 jobs:
   lint:
     name: Lint with Prettier
     runs-on: macos-latest
+    permissions:
+      contents: read
 
     steps:
       - name: Check out repository
@@ -36,6 +36,9 @@ jobs:
 
   build-deploy:
     runs-on: macos-latest
+    permissions:
+      contents: write
+      pages: write
 
     steps:
       - name: Check out repository
