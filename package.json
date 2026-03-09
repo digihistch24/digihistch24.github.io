@@ -7,17 +7,26 @@
 	"scripts": {
 		"check": "prettier --ignore-path .gitignore  --check . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBYSA.md,fonts/LICENSE-OFL.md,package-lock.json,pnpm-lock.yaml,yarn.lock}'",
 		"commit": "cz",
+		"generate:llms": "uv run python scripts/generate-llms-txt.py",
 		"format": "prettier --ignore-path .gitignore --write . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBYSA.md,fonts/LICENSE-OFL.md,package-lock.json,pnpm-lock.yaml,yarn.lock}'",
+		"preview": "uv run quarto preview",
+		"preview:rendered": "uv run python3 -m http.server 8000 --directory _site",
 		"prepare": "husky",
+		"render": "uv run quarto render",
+		"setup": "uv sync --group dev && npm install",
 		"changelog": "npm exec git-cliff -- --config cliff.toml"
 	},
 	"devDependencies": {
-		"commitizen": "^4.3.0",
+		"commitizen": "^4.3.1",
 		"cz": "^1.8.2",
 		"cz-conventional-changelog": "^3.3.0",
-		"git-cliff": "^2.4.0",
-		"husky": "^9.1.5",
-		"prettier": "^3.3.3"
+		"git-cliff": "^2.12.0",
+		"husky": "^9.1.7",
+		"prettier": "^3.8.1"
+	},
+	"overrides": {
+		"lodash": "4.17.23",
+		"tmp": "0.2.5"
 	},
 	"type": "module",
 	"config": {

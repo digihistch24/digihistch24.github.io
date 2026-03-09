@@ -2,7 +2,7 @@ lang: en
 
 project:
   type: website
-  pre-render: scripts/generate-llms-txt.py
+  pre-render: uv run python scripts/generate-llms-txt.py
   resources:
     - llms.txt
 
