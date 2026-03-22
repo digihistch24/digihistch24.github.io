@@ -1,7 +1,7 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><meta charset="utf-8"><style>:where(img[jampack-sized]){max-width:100%;height:auto}</style>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><meta charset="utf-8"><style>@layer __jampack__{:where(img[jampack-sized]){max-width:100%;height:auto}}</style>
 
 
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
 
@@ -10,7 +10,7 @@
 <meta name="keywords" content="GIS, Public Urban Green Spaces, Hamburg, Marseille, History of Urban Planning">
 
 <title>Using GIS to Analyze the Development of Public Urban Green Spaces in Hamburg and Marseille (1945 - 1973) – DigiHistCH24</title>
-<style>code{white-space:pre-wrap}span.smallcaps{font-variant:small-caps}div.columns{gap:min(4vw,1.5em);display:flex}div.column{flex:auto;overflow-x:auto}div.hanging-indent{text-indent:-1.5em;margin-left:1.5em}ul.task-list{list-style:none}ul.task-list li input[type=checkbox]{vertical-align:middle;width:.8em;margin:0 .8em .2em -1em}.display.math{text-align:center;margin:.5rem auto;display:block}html{-webkit-text-size-adjust:100%}pre>code.sourceCode{white-space:pre;position:relative}pre>code.sourceCode>span{line-height:1.25;display:inline-block}pre>code.sourceCode>span:empty{height:1.2em}.sourceCode{overflow:visible}code.sourceCode>span{color:inherit;-webkit-text-decoration:inherit;text-decoration:inherit}div.sourceCode{margin:1em 0}pre.sourceCode{margin:0}@media screen{div.sourceCode{overflow:auto}}@media print{pre>code.sourceCode{white-space:pre-wrap}pre>code.sourceCode>span{text-indent:-5em;padding-left:5em}}pre.numberSource code{counter-reset:source-line 0}pre.numberSource code>span{counter-increment:source-line;position:relative;left:-4em}pre.numberSource code>span>a:first-child:before{content:counter(source-line);text-align:right;vertical-align:baseline;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;-khtml-user-select:none;border:none;width:4em;padding:0 4px;display:inline-block;position:relative;left:-1em}pre.numberSource{margin-left:3em;padding-left:4px}@media screen{pre>code.sourceCode>span>a:first-child:before{text-decoration:underline}}div.csl-entry{clear:both;margin-bottom:0}.hanging-indent div.csl-entry{text-indent:-2em;margin-left:2em}div.csl-left-margin{float:left;min-width:2em}div.csl-right-inline{margin-left:2em;padding-left:1em}div.csl-indent{margin-left:2em}</style>
+<style>code{white-space:pre-wrap}span.smallcaps{font-variant:small-caps}div.columns{gap:min(4vw,1.5em);display:flex}div.column{flex:auto;overflow-x:auto}div.hanging-indent{text-indent:-1.5em;margin-left:1.5em}ul.task-list{list-style:none}ul.task-list li input[type=checkbox]{vertical-align:middle;width:.8em;margin:0 .8em .2em -1em}.display.math{text-align:center;margin:.5rem auto;display:block}html{-webkit-text-size-adjust:100%}pre>code.sourceCode{white-space:pre;position:relative}pre>code.sourceCode>span{line-height:1.25;display:inline-block}pre>code.sourceCode>span:empty{height:1.2em}.sourceCode{overflow:visible}code.sourceCode>span{color:inherit;-webkit-text-decoration:inherit;text-decoration:inherit}div.sourceCode{margin:1em 0}pre.sourceCode{margin:0}@media screen{div.sourceCode{overflow:auto}}@media print{pre>code.sourceCode{white-space:pre-wrap}pre>code.sourceCode>span{text-indent:-5em;padding-left:5em}}pre.numberSource code{counter-reset:source-line 0}pre.numberSource code>span{counter-increment:source-line;position:relative;left:-4em}pre.numberSource code>span>a:first-child:before{content:counter(source-line);text-align:right;vertical-align:baseline;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;-khtml-user-select:none;border:none;width:4em;padding:0 4px;display:inline-block;position:relative;left:-1em}pre.numberSource{margin-left:3em;padding-left:4px}@media screen{pre>code.sourceCode>span>a:first-child:before{text-decoration:underline}}div.csl-entry{clear:both}.hanging-indent div.csl-entry{text-indent:-2em;margin-left:2em}div.csl-left-margin{float:left;min-width:2em}div.csl-right-inline{margin-left:2em;padding-left:1em}div.csl-indent{margin-left:2em}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -25,19 +25,18 @@
 <link href="../../logo.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-1e940c2aee93852aa4997d3316081b82.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-91527baf10d327f335c9fd684f3e14c5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-1e940c2aee93852aa4997d3316081b82.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-c24741c7e7503662b0e650618aa76866.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-a67b6a09abc14ebca2d15a9b768d1bc7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-c24741c7e7503662b0e650618aa76866.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,7 +65,6 @@
   }
 }</script>
 <meta name="google-site-verification" content="KXUC3maPVqC6zmAsoXiSNI45IR4zrQSF019BYYacfgQ">
-<script defer="" data-domain="digihistch24.github.io" src="https://plausible.io/js/script.outbound-links.js"></script>
 
 
 <meta property="og:title" content="Using GIS to Analyze the Development of Public Urban Green Spaces in Hamburg and Marseille (1945 - 1973) – DigiHistCH24">
@@ -520,7 +518,7 @@
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">March 9, 2026</p>
+      <p class="date-modified">March 22, 2026</p>
     </div>
   </div>
     
@@ -569,7 +567,7 @@
 <h2 class="anchored" data-anchor-id="strengths">Strengths</h2>
 <p>GIS are composed of layers of data sets and are mainly used for mapping, georeferencing, and data analysis (e.g.&nbsp;spatial analysis). The data can be varied in what it represents but must be linked to spatial parameters for it to be positioned in a visualization for analysis of spatial information <span class="citation" data-cites="wheatley_spatial_2005">(<a href="#ref-wheatley_spatial_2005" role="doc-biblioref">Wheatley and Gillings 2005, 1, 8</a>)</span>. GIS layers for historical studies can be viewed as models of data sets. They represent specific topics in time and space simplistically, and spark reflection <span class="citation" data-cites="van_ruymbeke_modeliser_2021">(<a href="#ref-van_ruymbeke_modeliser_2021" role="doc-biblioref">Van Ruymbeke 2021, 8</a>)</span>. The screen shot of my QGIS workspace (<a href="#fig-1" class="quarto-xref">Figure&nbsp;1</a>) shows the city of Marseille with parks marked in various stages of planning in the early 1970s. This was the time when longstanding Mayor Gaston Defferre launched the large-scale greening initiative Mille Points Verts pour Marseille <span class="citation" data-cites="g_envoi_1971">(<a href="#ref-g_envoi_1971" role="doc-biblioref">Gassier 1971</a>)</span>. Defferre and his team’s goal was to react to a growing ecological awareness and increase the number of green spaces for a more livable city <span class="citation" data-cites="prof_j_no_1971">(<a href="#ref-prof_j_no_1971" role="doc-biblioref">Chelini 1971</a>)</span>. They also organized events to include and educate citizens and to garner their support for the upcoming elections <span class="citation" data-cites="noauthor_semaine_1971">(<a href="#ref-noauthor_semaine_1971" role="doc-biblioref">Anonymous 1971</a>)</span>. The majority of parks created within Mille Points Verts remain until today, with only a handful of additional parks added after the mid-1970s. This is visible when the layer with parks and gardens from a 2018 dataset provided by the government of Marseille is selected (<a href="#fig-2" class="quarto-xref">Figure&nbsp;2</a>). The strength of GIS layering is evident when we apply distant reading techniques: skimming over the model we see a display of spatial relations of park distribution and location as well as their connection to time.<br>
 </p>
-<p>In order for this visualization to take shape, I produced and assembled data. Specifically, I selected data and went through the process of closely reading my historical sources, learning to understand them and to think through their meaning. In this way maps are social documents. By themselves, they do not reveal anything yet. But by superimposing visualizations, GIS can reveal thinking processes of the data curators and map creators <span class="citation" data-cites="jones_mapping_2021">(cf.&nbsp;for example <a href="#ref-jones_mapping_2021" role="doc-biblioref">C. Jones 2021</a>)</span>.</p>
+<p>In order for this visualization to take shape, I produced and assembled data. Specifically, I selected data and went through the process of closely reading my historical sources, learning to understand them and to think through their meaning. In this way maps are social documents. By themselves, they do not reveal anything yet. But by superimposing visualizations, GIS can reveal thinking processes of the data curators and map creators <span class="citation" data-cites="jones_mapping_2021">(cf.&nbsp;for example <a href="#ref-jones_mapping_2021" role="doc-biblioref">Jones 2021</a>)</span>.</p>
 <div id="fig-1" class="anchored quarto-figure quarto-figure-center quarto-float">
 <figure class="figure quarto-float quarto-float-fig">
 <div aria-describedby="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -705,7 +703,7 @@ Figure&nbsp;7
 </p>
 <p>People working with GIS can have all kinds of skill levels and interests. I, for example, am not a GIS specialist and relatively new to using the tool. Still, I can easily manipulate my model to paint various pictures, if I wish to do so. I can turn on different layers and focus on the number of immigrants per neighborhood, I can change the classification for the choropleth map and create entirely different impressions, or I can simply change the basemap and take away the context of terrain, transportation systems, etc. (cf. <a href="#fig-4" class="quarto-xref">Figure&nbsp;4</a>). The quote speaks of an almost blind trust in maps, which shows once more that we must always be critical observers of the things we consume and historians should always want to be curios fact checkers.<br>
 </p>
-<p>A map is a series of decisions and it reflects the biography of both the maker and the observer. It is the responsibility of the historian working with GIS to be as transparent as possible regarding the choices made to display a historical development or state. It is the responsibility of the observer to use the map as a starting point for close reading, interpretation and analysis rather than the end point and a fact. We must remember “80% of GIS is about transforming, manipulating and managing spatial data” <span class="citation" data-cites="jones_lesson_2022">(<a href="#ref-jones_lesson_2022" role="doc-biblioref">C. E. Jones and Schiel 2022</a>)</span>.</p>
+<p>A map is a series of decisions and it reflects the biography of both the maker and the observer. It is the responsibility of the historian working with GIS to be as transparent as possible regarding the choices made to display a historical development or state. It is the responsibility of the observer to use the map as a starting point for close reading, interpretation and analysis rather than the end point and a fact. We must remember “80% of GIS is about transforming, manipulating and managing spatial data” <span class="citation" data-cites="jones_lesson_2022">(<a href="#ref-jones_lesson_2022" role="doc-biblioref">Jones and Schiel 2022</a>)</span>.</p>
 </section>
 <section id="conclusion" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
@@ -713,48 +711,48 @@ Figure&nbsp;7
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<div id="refs" class="csl-bib-body hanging-indent references" data-entry-spacing="0" role="list">
+<div id="refs" class="csl-bib-body hanging-indent references" role="list">
 <div id="ref-noauthor_amenagement_1970" class="csl-entry" role="listitem">
-Anonymous. 1970. <span>“Aménagement d’une Bande de Terrain Longeant l’avenue <span>Jean</span> <span>Compadieu</span> à <span>BOIS</span> <span>LEMAITRE</span>. <span>COMPTE</span> <span>RENDU</span> <span>DE</span> <span>VISITE</span> Suite à La Demande de <span>M</span>. <span>P</span>. <span>CERMOLACCE</span>.”</span> 554W6, Archives de la Ville de Marseille.
+Anonymous. 1970. <em>Aménagement d’une Bande de Terrain Longeant l’avenue <span>Jean</span> <span>Compadieu</span> à <span>BOIS</span> <span>LEMAITRE</span>. <span>COMPTE</span> <span>RENDU</span> <span>DE</span> <span>VISITE</span> Suite à La Demande de <span>M</span>. <span>P</span>. <span>CERMOLACCE</span></em>. 554W6, Archives de la Ville de Marseille.
 </div>
 <div id="ref-noauthor_semaine_1971" class="csl-entry" role="listitem">
-———. 1971. <span>“La <span>Semaine</span> <span>Verte</span>.”</span> 483W278, Archives de la Ville de Marseille.
+Anonymous. 1971. <em>La <span>Semaine</span> <span>Verte</span></em>. 483W278, Archives de la Ville de Marseille.
 </div>
 <div id="ref-brewer_basic_2006" class="csl-entry" role="listitem">
 Brewer, Cynthia A. 2006. <span>“Basic <span>Mapping</span> <span>Principles</span> for <span>Visualizing</span> <span>Cancer</span> <span>Data</span> <span>Using</span> <span>Geographic</span> <span>Information</span> <span>Systems</span> (<span>GIS</span>).”</span> <em>American Journal of Preventive Medicine</em> 30 (2): S25–36. <a href="https://doi.org/10.1016/j.amepre.2005.09.007">https://doi.org/10.1016/j.amepre.2005.09.007</a>.
 </div>
 <div id="ref-prof_j_no_1971" class="csl-entry" role="listitem">
-Chelini, Prof. J. 1971. <span>“<span>Letter</span> to <span>Monsieur</span> <span>Jacques</span> <span>Mazel</span>.”</span> 483W278, Archives de la Ville de Marseille.
+Chelini, Prof. J. 1971. <em><span>Letter</span> to <span>Monsieur</span> <span>Jacques</span> <span>Mazel</span></em>. 483W278, Archives de la Ville de Marseille.
 </div>
 <div id="ref-g_envoi_1971" class="csl-entry" role="listitem">
-Gassier, G. 1971. <span>“Envoi de Circulaires Sur Les ’<span>Espaces</span> <span>Verts</span>’.”</span> 554W6, Archives de la Ville de Marseille.
+Gassier, G. 1971. <em>Envoi de Circulaires Sur Les ’<span>Espaces</span> <span>Verts</span>’</em>. 554W6, Archives de la Ville de Marseille.
 </div>
 <div id="ref-gregory_historical_2007" class="csl-entry" role="listitem">
-Gregory, Ian, and Paul S. Ell. 2007. <em>Historical <span>GIS</span>: Technologies, Methodologies, and Scholarship</em>. Cambridge Studies in Historical Geography 39. Cambridge ; New York: Cambridge University Press.
+Gregory, Ian, and Paul S. Ell. 2007. <em>Historical <span>GIS</span>: Technologies, Methodologies, and Scholarship</em>. Cambridge Studies in Historical Geography 39. Cambridge University Press.
 </div>
 <div id="ref-jones_mapping_2021" class="csl-entry" role="listitem">
-Jones, Catherine. 2021. <span>“Mapping Citizens’ Reflections and Perceptions of Place-Based Experiences in the Time of <span>COVID</span>-19.”</span> In. 29th GISRUK Conference 2021. <a href="https://doi.org/10.5281/ZENODO.4664529">https://doi.org/10.5281/ZENODO.4664529</a>.
+Jones, Catherine. 2021. <span>“Mapping Citizens’ Reflections and Perceptions of Place-Based Experiences in the Time of <span>COVID</span>-19.”</span> April. <a href="https://doi.org/10.5281/ZENODO.4664529">https://doi.org/10.5281/ZENODO.4664529</a>.
 </div>
 <div id="ref-jones_lesson_2022" class="csl-entry" role="listitem">
-Jones, Catherine E., and Kerry Schiel. 2022. <span>“Introduction to GIS, Lesson 1 <span>‘<span>Mapping</span> <span>Elements</span> and <span>My</span> <span>First</span> <span>Map</span>’</span>.”</span> Université du Luxembourg.
+Jones, Catherine E., and Kerry Schiel. 2022. <em>Introduction to GIS, Lesson 1 <span>“<span>Mapping</span> <span>Elements</span> and <span>My</span> <span>First</span> <span>Map</span>”</span></em>. Université du Luxembourg.
 </div>
 <div id="ref-kemp_what_2009" class="csl-entry" role="listitem">
 Kemp, Karen K. 2009. <span>“What Can <span>GIS</span> Offer History?”</span> <em>International Journal of Humanities and Arts Computing</em> 3 (1-2): 15–19. <a href="https://doi.org/10.3366/ijhac.2009.0006">https://doi.org/10.3366/ijhac.2009.0006</a>.
 </div>
 <div id="ref-massey_for_2005" class="csl-entry" role="listitem">
-Massey, Doreen B. 2005. <em>For <span>Space</span></em>. ProQuest Ebook Central: SAGE Publications.
+Massey, Doreen B. 2005. <em>For <span>Space</span></em>. SAGE Publications.
 </div>
 <div id="ref-minsky_are_2021" class="csl-entry" role="listitem">
 Minsky, Laurence, and David Aron. 2021. <span>“Are <span>You</span> <span>Doing</span> the <span>SWOT</span> <span>Analysis</span> <span>Backwards</span>?”</span> <em>Harvard Business Review</em>, February. <a href="https://hbr.org/2021/02/are-you-doing-the-swot-analysis-backwards">https://hbr.org/2021/02/are-you-doing-the-swot-analysis-backwards</a>.
 </div>
 <div id="ref-monmonier_how_1996" class="csl-entry" role="listitem">
-Monmonier, Mark. 1996. <em>How to Lie with Maps</em>. 2nd ed. Chicago: University of Chicago Press.
+Monmonier, Mark. 1996. <em>How to Lie with Maps</em>. 2nd ed. University of Chicago Press.
 </div>
 <div id="ref-van_ruymbeke_modeliser_2021" class="csl-entry" role="listitem">
-Van Ruymbeke, Muriel. 2021. <span>“Modéliser l’information Archéologique à l’ère Du Web Sémantique. <span>Relecture</span> 2.0 Des Données Archéologiques Antiques Et Alto-Médiévales de La Commune de <span>Theux</span> (<span>B</span>.).”</span> Thèse de Doctorat, Liège: Université de Liège.
+Van Ruymbeke, Muriel. 2021. <span>“Modéliser l’information Archéologique à l’ère Du Web Sémantique. <span>Relecture</span> 2.0 Des Données Archéologiques Antiques Et Alto-Médiévales de La Commune de <span>Theux</span> (<span>B</span>.).”</span> Thèse de Doctorat, Université de Liège.
 </div>
 <div id="ref-wheatley_spatial_2005" class="csl-entry" role="listitem">
-Wheatley, David, and Mark Gillings. 2005. <em>Spatial Technology and Archaeology: The Archeaological Applications of <span>GIS</span></em>. London: Taylor &amp; Francis.
+Wheatley, David, and Mark Gillings. 2005. <em>Spatial Technology and Archaeology: The Archeaological Applications of <span>GIS</span></em>. Taylor &amp; Francis.
 </div>
 </div>
 
@@ -799,10 +797,9 @@ Wheatley, David, and Mark Gillings. 2005. <em>Spatial Technology and Archaeology
 </code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-schmid2024" class="csl-entry quarto-appendix-citeas" role="listitem">
 Schmid, Eliane. 2024. <span>“Using GIS to Analyze the Development of
 Public Urban Green Spaces in Hamburg and Marseille (1945 -
-1973).”</span> Edited by Jérôme Baudry, Lucas Burkart, Béatrice
-Joyeux-Prunel, Eliane Kurmann, Moritz Mähr, Enrico Natale, Christiane
-Sibille, and Moritz Twente. <em>Digital History Switzerland 2024: Book
-of Abstracts</em>. <a href="https://doi.org/10.5281/zenodo.13903914">https://doi.org/10.5281/zenodo.13903914</a>.
+1973).”</span> In <em>Digital History Switzerland 2024: Book of
+Abstracts</em>, edited by Jérôme Baudry, Lucas Burkart, Béatrice
+Joyeux-Prunel, et al. September 12. <a href="https://doi.org/10.5281/zenodo.13903914">https://doi.org/10.5281/zenodo.13903914</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">window.document.addEventListener("DOMContentLoaded",function(z){if(window.document.querySelector(".quarto-color-scheme-toggle")===null){const t=window.document.createElement("a");t.classList.add("top-right"),t.classList.add("quarto-color-scheme-toggle"),t.href="",t.onclick=function(){try{window.quartoToggleColorScheme()}catch{}return!1};const e=window.document.createElement("i");e.classList.add("bi"),t.appendChild(e),window.document.body.appendChild(t)}setColorSchemeToggle(hasAlternateSentinel());const k="\uE9CB",b=new window.AnchorJS;b.options={placement:"right",icon:k},b.add(".anchored");const B=t=>{for(const e of t.classList)if(e.startsWith("code-annotation-"))return!0;return!1},y=function(t){const e=t.trigger;e.blur(),e.classList.add("code-copy-button-checked");var n=e.getAttribute("title");e.setAttribute("title","Copied!");let o;window.bootstrap&&(e.setAttribute("data-bs-toggle","tooltip"),e.setAttribute("data-bs-placement","left"),e.setAttribute("data-bs-title","Copied!"),o=new bootstrap.Tooltip(e,{trigger:"manual",customClass:"code-copy-button-tooltip",offset:[0,-8]}),o.show()),setTimeout(function(){o&&(o.hide(),e.removeAttribute("data-bs-title"),e.removeAttribute("data-bs-toggle"),e.removeAttribute("data-bs-placement")),e.setAttribute("title",n),e.classList.remove("code-copy-button-checked")},1e3),t.clearSelection()},v=function(t){const n=t.parentElement.cloneNode(!0).querySelector("code");for(const o of n.children)B(o)&&o.remove();return n.innerText};new window.ClipboardJS(".code-copy-button:not([data-in-quarto-modal])",{text:v}).on("success",y),window.document.getElementById("quarto-embedded-source-code-modal")&&new window.ClipboardJS(".code-copy-button[data-in-quarto-modal]",{text:v,container:window.document.getElementById("quarto-embedded-source-code-modal")}).on("success",y);const w=window.document.getElementById("quarto-view-source")||window.document.getElementById("quarto-code-tools-source");if(w){const t=w.getAttribute("data-quarto-source-url");w.addEventListener("click",function(e){return t?/\bcapabilities=\b/.test(window.location)?window.open(t):window.location.href=t:new bootstrap.Modal(document.getElementById("quarto-embedded-source-code-modal")).show(),!1})}function E(t){return function(e){const n=window.document.querySelectorAll(".cell > details > .sourceCode");for(let r=0;r<n.length;r++){const c=n[r].parentElement;t?c.open=!0:c.removeAttribute("open")}const o=window.document.querySelectorAll(".cell > .sourceCode"),i=t?"hidden":"unhidden",l=t?"unhidden":"hidden";for(let r=0;r<o.length;r++){const c=o[r];c.classList.contains(i)&&(c.classList.remove(i),c.classList.add(l))}return!1}}const A=window.document.getElementById("quarto-hide-all-code");A&&A.addEventListener("click",E(!1));const L=window.document.getElementById("quarto-show-all-code");L&&L.addEventListener("click",E(!0));for(var H=new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//),D=new RegExp(/^mailto:/),R=new RegExp("https://digihistch24.github.io/"),N=t=>R.test(t)||H.test(t)||D.test(t),C=window.document.querySelectorAll("a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)"),d=0;d<C.length;d++){const t=C[d];N(t.href)||(t.dataset.originalHref!==void 0&&(t.href=t.dataset.originalHref),t.setAttribute("target","_blank"),t.getAttribute("rel")===null&&t.setAttribute("rel","noopener"),t.classList.add("external"))}function g(t,e,n,o){const i={allowHTML:!0,maxWidth:500,delay:100,arrow:!1,appendTo:function(l){return l.parentElement},interactive:!0,interactiveBorder:10,theme:"quarto",placement:"bottom-start"};e&&(i.content=e),n&&(i.onTrigger=n),o&&(i.onUntrigger=o),window.tippy(t,i)}const S=window.document.querySelectorAll('a[role="doc-noteref"]');for(var d=0;d<S.length;d++){const e=S[d];g(e,function(){let n=e.getAttribute("data-footnote-href")||e.getAttribute("href");try{n=new URL(n).hash}catch{}const o=n.replace(/^#\/?/,""),i=window.document.getElementById(o);return i?i.innerHTML:""})}const q=window.document.querySelectorAll("a.quarto-xref"),p=(t,e)=>{const n=o=>{if(o.classList.remove("page-full","page-columns"),o.children)for(const i of o.children)n(i)};if(n(e),t===null||t.startsWith("sec-")){const o=document.createElement("div");if(e.children&&e.children.length>2){o.appendChild(e.children[0].cloneNode(!0));for(let i=1;i<e.children.length;i++){const l=e.children[i];if(!(l.tagName==="P"&&l.innerText==="")){o.appendChild(l.cloneNode(!0));break}}return window.Quarto?.typesetMath&&window.Quarto.typesetMath(o),o.innerHTML}else return window.Quarto?.typesetMath&&window.Quarto.typesetMath(e),e.innerHTML}else{const o=e.querySelector("a.anchorjs-link");return o&&o.remove(),window.Quarto?.typesetMath&&window.Quarto.typesetMath(e),e.classList.contains("callout")?e.outerHTML:e.innerHTML}};for(var d=0;d<q.length;d++){const e=q[d];g(e,void 0,function(n){n.disable();let o=e.getAttribute("href"),i;if(o.startsWith("#"))i=o;else try{i=new URL(o).hash}catch{}if(i){const l=i.replace(/^#\/?/,""),r=window.document.getElementById(l);if(r!==null)try{const c=p(l,r.cloneNode(!0));n.setContent(c)}finally{n.enable(),n.show()}else fetch(o.split("#")[0]).then(c=>c.text()).then(c=>{const u=new DOMParser().parseFromString(c,"text/html").getElementById(l);if(u!==null){const a=p(l,u);n.setContent(a)}}).finally(()=>{n.enable(),n.show()})}else fetch(o).then(l=>l.text()).then(l=>{const s=new DOMParser().parseFromString(l,"text/html").querySelector("main.content");if(s!==null){s.children.length>0&&s.children[0].tagName==="HEADER"&&s.children[0].remove();const h=p(null,s);n.setContent(h)}}).finally(()=>{n.enable(),n.show()})},function(n){})}let m;const Q=(t,e)=>{let n='data-code-cell="'+t+'"',o='data-code-annotation="'+e+'"';return"span["+n+"]["+o+"]"},x=t=>{const e=window.document,n=t.getAttribute("data-target-cell"),o=t.getAttribute("data-target-annotation"),r=window.document.querySelector(Q(n,o)).getAttribute("data-code-lines").split(",").map(u=>n+"-"+u);let c=null,s=null,h=null;if(r.length>0){const u=window.document.getElementById(r[0]);if(c=u.offsetTop,s=u.offsetHeight,h=u.parentElement.parentElement,r.length>1){const a=window.document.getElementById(r[r.length-1]);s=a.offsetTop+a.offsetHeight-c}if(c!==null&&s!==null&&h!==null){let a=window.document.getElementById("code-annotation-line-highlight");a===null&&(a=window.document.createElement("div"),a.setAttribute("id","code-annotation-line-highlight"),a.style.position="absolute",h.appendChild(a)),a.style.top=c-2+"px",a.style.height=s+4+"px",a.style.left=0;let f=window.document.getElementById("code-annotation-line-highlight-gutter");f===null&&(f=window.document.createElement("div"),f.setAttribute("id","code-annotation-line-highlight-gutter"),f.style.position="absolute",window.document.getElementById(n).querySelector(".code-annotation-gutter").appendChild(f)),f.style.top=c-2+"px",f.style.height=s+4+"px"}m=t}},T=()=>{["code-annotation-line-highlight","code-annotation-line-highlight-gutter"].forEach(e=>{const n=window.document.getElementById(e);n&&n.remove()}),m=void 0};window.addEventListener("resize",J(()=>{elRect=void 0,m&&x(m)},10));function J(t,e){let n=!1,o;return(...i)=>{n?(o&&clearTimeout(o),o=setTimeout(()=>{t.apply(this,i),o=n=!1},e)):(t.apply(this,i),n=!0)}}const W=window.document.querySelectorAll("dt[data-target-cell]");for(const t of W)t.addEventListener("click",e=>{const n=e.target;if(n!==m){T();const o=window.document.querySelector("dt[data-target-cell].code-annotation-active");o&&o.classList.remove("code-annotation-active"),x(n),n.classList.add("code-annotation-active")}else T(),n.classList.remove("code-annotation-active")});const I=t=>{const e=t.parentElement;if(e){const n=e.dataset.cites;return n?{el:t,cites:n.split(" ")}:I(t.parentElement)}else return};for(var M=window.document.querySelectorAll('a[role="doc-biblioref"]'),d=0;d<M.length;d++){const e=M[d],n=I(e);n&&g(n.el,function(){var o=window.document.createElement("div");return n.cites.forEach(function(i){var l=window.document.createElement("div");l.classList.add("hanging-indent"),l.classList.add("csl-entry");var r=window.document.getElementById("ref-"+i);r&&(l.innerHTML=r.innerHTML),o.appendChild(l)}),o.innerHTML})}});
 </script>
